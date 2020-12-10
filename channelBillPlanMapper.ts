@@ -1,41 +1,41 @@
 
-// const entityJson = {
-//   additionalDetails : "additionalDetails?",
-// channelBillPlanDetails : "channelBillPlanDetails?",
-// planStartDate : "planStartDate?",
-// planEndDate : "planEndDate?",
-// channelId : "channelId?",
-// planId : "planId?"
-// };
+const entityJson = {
+  additionalDetails : "additionalDetails?",
+channelBillPlanDetails : "channelBillPlanDetails?",
+planStartDate : "planStartDate?",
+planEndDate : "planEndDate?",
+channelId : "channelId?",
+planId : "planId?"
+};
 
-// const dtoJson = {
-//   additionalDetailsDto : "additionalDetailsDto?",
-// channelBillPlanDetailsDto : "channelBillPlanDetailsDto?",
-// planStartDateDto : "planStartDateDto?",
-// planEndDateDto : "planEndDateDto?",
-// channelIdDto : "channelIdDto?",
-// planIdDto : "planIdDto?"
-// };
+const dtoJson = {
+  additionalDetails : "additionalDetails?",
+channelBillPlanDetails : "channelBillPlanDetails?",
+planStartDate : "planStartDate?",
+planEndDate : "planEndDate?",
+channelId : "channelId?",
+planId : "planId?"
+};
 
-// const entityToDtoJson = {
-//   additionalDetailsDto : "additionalDetails?",
-// channelBillPlanDetailsDto : "channelBillPlanDetails?",
-// planStartDateDto : "planStartDate?",
-// planEndDateDto : "planEndDate?",
-// channelIdDto : "channelId?",
-// planIdDto : "planId?"
-// };
+const entityToDtoJson = {
+  additionalDetails : "additionalDetails?",
+channelBillPlanDetails : "channelBillPlanDetails?",
+planStartDate : "planStartDate?",
+planEndDate : "planEndDate?",
+channelId : "channelId?",
+planId : "planId?"
+};
 
-// const dtoToEntityJson= {
-//   additionalDetails : "additionalDetailsDto?",
-// channelBillPlanDetails : "channelBillPlanDetailsDto?",
-// planStartDate : "planStartDateDto?",
-// planEndDate : "planEndDateDto?",
-// channelId : "channelIdDto?",
-// planId : "planIdDto?"
-// };
+const dtoToEntityJson= {
+  additionalDetails : "additionalDetails?",
+channelBillPlanDetails : "channelBillPlanDetails?",
+planStartDate : "planStartDate?",
+planEndDate : "planEndDate?",
+channelId : "channelId?",
+planId : "planId?"
+};
 
-// module.exports.entityJson = entityJson;
-// module.exports.dtoJson = dtoJson;
-// module.exports.entityToDtoJson = entityToDtoJson;
-// module.exports.dtoToEntityJson = dtoToEntityJson;
+module.exports.entityJson = entityJson;
+module.exports.dtoJson = dtoJson;
+module.exports.entityToDtoJson = entityToDtoJson;
+module.exports.dtoToEntityJson = dtoToEntityJson;
