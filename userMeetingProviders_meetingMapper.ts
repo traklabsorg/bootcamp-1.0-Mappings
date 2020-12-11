@@ -20,8 +20,7 @@ const userMeetingProvider_MeetingentityToDtoJson = {
   userMeetingProviderId : "userMeetingProviderId?",
   meetingDetail : "meetingDetail?",
   meetingStartDateTime : "meetingStartDateTime?",
-  meetingEndDateTime : "meetingEndDateTime?",
-  user_meeting_providers_meeting_id : "user_meeting_providers_meeting_id?
+  meetingEndDateTime : "meetingEndDateTime?"
 };
 
 const userMeetingProvider_MeetingdtoToEntityJson= {
