@@ -1,33 +1,33 @@
 
-const entityJson = {
+const groupUserentityJson = {
   group_user_id : "group_user_id?",
   groupUserDetails : "groupUserDetails?",
   groupId : "groupId?",
   userId : "userId?"
 };
 
-const dtoJson = {
+const groupUserdtoJson = {
   group_user_id : "group_user_id?",
 groupUserDetails : "groupUserDetails?",
 groupId : "groupId?",
 userId : "userId?"
 };
 
-const entityToDtoJson = {
+const groupUserentityToDtoJson = {
   group_user_id : "group_user_id?",
 groupUserDetails : "groupUserDetails?",
 groupId : "groupId?",
 userId : "userId?"
 };
 
-const dtoToEntityJson= {
+const groupUserdtoToEntityJson= {
   group_user_id : "group_user_id?",
 groupUserDetails : "groupUserDetails?",
 groupId : "groupId?",
 userId : "userId?"
 };
 
-module.exports.entityJson = entityJson;
-module.exports.dtoJson = dtoJson;
-module.exports.entityToDtoJson = entityToDtoJson;
-module.exports.dtoToEntityJson = dtoToEntityJson;
+module.exports.groupUserentityJson = groupUserentityJson;
+module.exports.groupUserdtoJson = groupUserdtoJson;
+module.exports.groupUserentityToDtoJson = groupUserentityToDtoJson;
+module.exports.groupUserdtoToEntityJson = groupUserdtoToEntityJson;

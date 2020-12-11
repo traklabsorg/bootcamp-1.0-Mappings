@@ -41,7 +41,7 @@
 //   module.exports.dtoToEntityJson = dtoToEntityJson;
 
 
-const entityJson = {
+const paymentCouponentityJson = {
   eventName : "eventName?",
   eventDetails : "eventDetails?",
   operationName : "operationName?",
@@ -50,7 +50,7 @@ const entityJson = {
   businessEventSubscriber : "businessEventSubscriber?"
 };
 
-const dtoJson = {
+const paymentCoupondtoJson = {
   eventName : "eventName?",
   eventDetails : "eventDetails?",
   operationName : "operationName?",
@@ -59,7 +59,7 @@ const dtoJson = {
   businessEventSubscriber : "businessEventSubscriber?"
 };
 
-const entityToDtoJson = {
+const paymentCouponentityToDtoJson = {
   eventName : "eventName?",
   eventDetails : "eventDetails?",
   operationName : "operationName?",
@@ -68,7 +68,7 @@ const entityToDtoJson = {
   businessEventSubscriber : "businessEventSubscriber?"
 };
 
-const dtoToEntityJson= {
+const paymentCoupondtoToEntityJson= {
   eventName : "eventName?",
   eventDetails : "eventDetails?",
   operationName : "operationName?",
@@ -77,7 +77,7 @@ const dtoToEntityJson= {
   businessEventSubscriber : "businessEventSubscriber?",
 };
 
-module.exports.entityJson = entityJson;
-module.exports.dtoJson = dtoJson;
-module.exports.entityToDtoJson = entityToDtoJson;
-module.exports.dtoToEntityJson = dtoToEntityJson;
+module.exports.paymentCouponentityJson = paymentCouponentityJson;
+module.exports.paymentCoupondtoJson = paymentCoupondtoJson;
+module.exports.paymentCouponentityToDtoJson = paymentCouponentityToDtoJson;
+module.exports.paymentCoupondtoToEntityJson = paymentCoupondtoToEntityJson;

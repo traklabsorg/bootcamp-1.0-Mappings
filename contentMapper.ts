@@ -1,5 +1,5 @@
 
-const entityJson = {
+const contententityJson = {
     eventName : "eventName?",
     eventDetails : "eventDetails?",
     operationName : "operationName?",
@@ -8,7 +8,7 @@ const entityJson = {
     businessEventSubscriber : "businessEventSubscriber?"
   };
   
-  const dtoJson = {
+  const contentdtoJson = {
     eventName : "eventName?",
     eventDetails : "eventDetails?",
     operationName : "operationName?",
@@ -17,7 +17,7 @@ const entityJson = {
     businessEventSubscriber : "businessEventSubscriber?"
   };
   
-  const entityToDtoJson = {
+  const contententityToDtoJson = {
     eventName : "eventName?",
     eventDetails : "eventDetails?",
     operationName : "operationName?",
@@ -26,7 +26,7 @@ const entityJson = {
     businessEventSubscriber : "businessEventSubscriber?"
   };
   
-  const dtoToEntityJson= {
+  const contentdtoToEntityJson= {
     eventName : "eventName?",
     eventDetails : "eventDetails?",
     operationName : "operationName?",
@@ -35,7 +35,7 @@ const entityJson = {
     businessEventSubscriber : "businessEventSubscriber?",
   };
   
-  module.exports.entityJson = entityJson;
-  module.exports.dtoJson = dtoJson;
-  module.exports.entityToDtoJson = entityToDtoJson;
-  module.exports.dtoToEntityJson = dtoToEntityJson;
+  module.exports.contententityJson = contententityJson;
+  module.exports.contentdtoJson = contentdtoJson;
+  module.exports.contententityToDtoJson = contententityToDtoJson;
+  module.exports.contentdtoToEntityJson = contentdtoToEntityJson;

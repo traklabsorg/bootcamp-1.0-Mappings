@@ -1,5 +1,5 @@
 
-const entityJson = {
+const tenantentityJson = {
   tenant_id : "tenant_id?",
   communityName : "communityName?",
   address : "address?",
@@ -9,7 +9,7 @@ const entityJson = {
   subsciptionEndDate : "subsciptionEndDate?"
 };
 
-const dtoJson = {
+const tenantdtoJson = {
   tenant_id : "tenant_id?",
   communityName : "communityName?",
   address : "address?",
@@ -19,7 +19,7 @@ const dtoJson = {
   subsciptionEndDate : "subsciptionEndDate?"
 };
 
-const entityToDtoJson = {
+const tenantentityToDtoJson = {
   tenant_id : "tenant_id?",
   communityName : "communityName?",
   address : "address?",
@@ -29,7 +29,7 @@ const entityToDtoJson = {
   subsciptionEndDate : "subsciptionEndDate?"
 };
 
-const dtoToEntityJson= {
+const tenantdtoToEntityJson= {
   tenant_id : "tenant_id?",
   communityName : "communityName?",
   address : "address?",
@@ -39,10 +39,10 @@ const dtoToEntityJson= {
   subsciptionEndDate : "subsciptionEndDate?"
 };
 
-module.exports.entityJson = entityJson;
-module.exports.dtoJson = dtoJson;
-module.exports.entityToDtoJson = entityToDtoJson;
-module.exports.dtoToEntityJson = dtoToEntityJson;
+module.exports.tenantentityJson = tenantentityJson;
+module.exports.tenantdtoJson = tenantdtoJson;
+module.exports.tenantentityToDtoJson = tenantentityToDtoJson;
+module.exports.tenantdtoToEntityJson = tenantdtoToEntityJson;
 // export const Maps {
   
   

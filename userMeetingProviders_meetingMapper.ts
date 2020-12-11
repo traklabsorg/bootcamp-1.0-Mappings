@@ -1,5 +1,5 @@
 
-const entityJson = {
+const userMeetingProvider_MeetingentityJson = {
   user_meeting_providers_meeting_id : "user_meeting_providers_meeting_id?",
   userMeetingProviderId : "userMeetingProviderId?",
   meetingDetail : "meetingDetail?",
@@ -7,7 +7,7 @@ const entityJson = {
   meetingEndDateTime : "meetingEndDateTime?"
 };
 
-const dtoJson = {
+const userMeetingProvider_MeetingdtoJson = {
   user_meeting_providers_meeting_id : "user_meeting_providers_meeting_id?",
   userMeetingProviderId : "userMeetingProviderId?",
   meetingDetail : "meetingDetail?",
@@ -15,7 +15,7 @@ const dtoJson = {
   meetingEndDateTime : "meetingEndDateTime?",
 };
 
-const entityToDtoJson = {
+const userMeetingProvider_MeetingentityToDtoJson = {
   user_meeting_providers_meeting_id : "user_meeting_providers_meeting_id?",
   userMeetingProviderId : "userMeetingProviderId?",
   meetingDetail : "meetingDetail?",
@@ -24,14 +24,14 @@ const entityToDtoJson = {
   user_meeting_providers_meeting_id : "user_meeting_providers_meeting_id?
 };
 
-const dtoToEntityJson= {
+const userMeetingProvider_MeetingdtoToEntityJson= {
   userMeetingProviderId : "userMeetingProviderId?",
   meetingDetail : "meetingDetail?",
   meetingStartDateTime : "meetingStartDateTime?",
   meetingEndDateTime : "meetingEndDateTime?"
 };
 
-module.exports.entityJson = entityJson;
-module.exports.dtoJson = dtoJson;
-module.exports.entityToDtoJson = entityToDtoJson;
-module.exports.dtoToEntityJson = dtoToEntityJson;
+module.exports.userMeetingProvider_MeetingentityJson = userMeetingProvider_MeetingentityJson;
+module.exports.userMeetingProvider_MeetingdtoJson = userMeetingProvider_MeetingdtoJson;
+module.exports.userMeetingProvider_MeetingentityToDtoJson = userMeetingProvider_MeetingentityToDtoJson;
+module.exports.userMeetingProvider_MeetingdtoToEntityJson = userMeetingProvider_MeetingdtoToEntityJson;

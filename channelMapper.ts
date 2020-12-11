@@ -1,5 +1,5 @@
 
-const entityJson = {
+const channelentityJson = {
   channel_id : "channel_id?",
   title : "title?",
   channelType : "channelType?",
@@ -7,7 +7,7 @@ const entityJson = {
   groupId : "groupId?"
 };
 
-const dtoJson = {
+const channeldtoJson = {
   channel_id : "channel_id?",
 title : "title?",
 channelType : "channelType?",
@@ -15,7 +15,7 @@ channelDetails : "channelDetails?",
 groupId : "groupId?"
 };
 
-const entityToDtoJson = {
+const channelentityToDtoJson = {
   channel_id : "channel_id?",
 title : "title?",
 channelType : "channelType?",
@@ -23,7 +23,7 @@ channelDetails : "channelDetails?",
 groupId : "groupId?"
 };
 
-const dtoToEntityJson= {
+const channeldtoToEntityJson= {
   channel_id : "channel_id?",
 title : "title?",
 channelType : "channelType?",
@@ -31,7 +31,7 @@ channelDetails : "channelDetails?",
 groupId : "groupId?"
 };
 
-module.exports.entityJson = entityJson;
-module.exports.dtoJson = dtoJson;
-module.exports.entityToDtoJson = entityToDtoJson;
-module.exports.dtoToEntityJson = dtoToEntityJson;
+module.exports.channelentityJson = channelentityJson;
+module.exports.channeldtoJson = channeldtoJson;
+module.exports.channelentityToDtoJson = channelentityToDtoJson;
+module.exports.channeldtoToEntityJson = channeldtoToEntityJson;

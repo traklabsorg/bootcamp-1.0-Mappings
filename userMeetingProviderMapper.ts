@@ -1,31 +1,31 @@
 
 
-const entityJson = {
+const userMeetingProviderentityJson = {
   user_meeting_provider_id : "user_meeting_provider_id?",
   userId : "userId?",
   meetingProviderId : "meetingProviderId?"
 
 };
 
-const dtoJson = {
+const userMeetingProviderdtoJson = {
   user_meeting_provider_id : "user_meeting_provider_id?",
   userId : "userId?",
   meetingProviderId : "meetingProviderId?"
 };
 
-const entityToDtoJson = {
+const userMeetingProviderentityToDtoJson = {
   user_meeting_provider_id : "user_meeting_provider_id?",
   userId : "userId?",
   meetingProviderId : "meetingProviderId?"
 };
 
-const dtoToEntityJson= {
+const userMeetingProviderdtoToEntityJson= {
   user_meeting_provider_id : "user_meeting_provider_id?",
   userId : "userId?",
   meetingProviderId : "meetingProviderId?"
 };
 
-module.exports.entityJson = entityJson;
-module.exports.dtoJson = dtoJson;
-module.exports.entityToDtoJson = entityToDtoJson;
-module.exports.dtoToEntityJson = dtoToEntityJson;
+module.exports.userMeetingProviderentityJson = userMeetingProviderentityJson;
+module.exports.userMeetingProviderdtoJson = userMeetingProviderdtoJson;
+module.exports.userMeetingProviderentityToDtoJson = userMeetingProviderentityToDtoJson;
+module.exports.userMeetingProviderdtoToEntityJson = userMeetingProviderdtoToEntityJson;

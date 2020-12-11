@@ -1,5 +1,5 @@
 
-const entityJson = {
+const groupentityJson = {
   group_id : "group_id?",
   groupName : "groupName?",
   groupType : "groupType?",
@@ -7,7 +7,7 @@ const entityJson = {
   tenantId : "tenantId?"
 };
 
-const dtoJson = {
+const groupdtoJson = {
   group_id : "group_id?",
 groupName : "groupName?",
 groupType : "groupType?",
@@ -15,7 +15,7 @@ groupDetails : "groupDetails?",
 tenantId : "tenantId"
 };
 
-const entityToDtoJson = {
+const groupentityToDtoJson = {
   group_id : "group_id?",
 groupName : "groupName?",
 groupType : "groupType?",
@@ -23,7 +23,7 @@ groupDetails : "groupDetails?",
 tenantId : "tenantId?"
 };
 
-const dtoToEntityJson= {
+const groupdtoToEntityJson= {
   group_id : "group_id?",
 groupName : "groupName?",
 groupType : "groupType?",
@@ -31,7 +31,7 @@ groupDetails : "groupDetails?",
 tenantId : "tenantId?",
 };
 
-module.exports.entityJson = entityJson;
-module.exports.dtoJson = dtoJson;
-module.exports.entityToDtoJson = entityToDtoJson;
-module.exports.dtoToEntityJson = dtoToEntityJson;
+module.exports.groupentityJson = groupentityJson;
+module.exports.groupdtoJson = groupdtoJson;
+module.exports.groupentityToDtoJson = groupentityToDtoJson;
+module.exports.groupdtoToEntityJson = groupdtoToEntityJson;
