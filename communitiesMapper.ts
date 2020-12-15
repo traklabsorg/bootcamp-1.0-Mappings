@@ -1,41 +1,46 @@
 
-const communityentityJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+const communityEntityJson = {
+    communityName : "communityName?",
+    address : "address?",
+    paymentInfo : "paymentInfo?",
+    subscriptionStartDate : " subscriptionStartDate?",
+    subscriptionEndDate : "subscriptionEndDate?",
+    users : "users?",
+    groups : "groups?",
   };
   
-  const communitydtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+  const communityDtoJson = {
+    communityName : "communityName?",
+    address : "address?",
+    paymentInfo : "paymentInfo?",
+    subscriptionStartDate : " subscriptionStartDate?",
+    subscriptionEndDate : "subscriptionEndDate?",
+    users : "users?",
+    groups : "groups?",
   };
   
-  const communityentityToDtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+  const communityEntityToJson = {
+    communityName : "communityName?",
+    address : "address?",
+    paymentInfo : "paymentInfo?",
+    subscriptionStartDate : " subscriptionStartDate?",
+    subscriptionEndDate : "subscriptionEndDate?",
+    users : "users?",
+    groups : "groups?",
   };
   
-  const communitydtoToEntityJson= {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
+  const communityDtoToEntityJson= {
+    communityName : "communityName?",
+    address : "address?",
+    paymentInfo : "paymentInfo?",
+    subscriptionStartDate : " subscriptionStartDate?",
+    subscriptionEndDate : "subscriptionEndDate?",
+    users : "users?",
+    groups : "groups?",
+
   };
   
-  module.exports.communityentityJson = communityentityJson;
-  module.exports.communitydtoJson = communitydtoJson;
-  module.exports.communityentityToDtoJson = communityentityToDtoJson;
-  module.exports.communitydtoToEntityJson = communitydtoToEntityJson;
+  module.exports.communityEntityJson = communityEntityJson;
+  module.exports.communityDtoJson = communityDtoJson;
+  module.exports.communityEntityToJson = communityEntityToJson;
+  module.exports.communityDtoToEntityJson = communityDtoToEntityJson;

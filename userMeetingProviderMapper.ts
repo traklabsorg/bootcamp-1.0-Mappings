@@ -1,31 +1,44 @@
-
-
-const userMeetingProviderentityJson = {
-  user_meeting_provider_id : "user_meeting_provider_id?",
+const userMeetingProviderEntityJson = {
+  Details : "Details?",
   userId : "userId?",
-  meetingProviderId : "meetingProviderId?"
-
-};
-
-const userMeetingProviderdtoJson = {
-  user_meeting_provider_id : "user_meeting_provider_id?",
-  userId : "userId?",
-  meetingProviderId : "meetingProviderId?"
-};
-
-const userMeetingProviderentityToDtoJson = {
-  user_meeting_provider_id : "user_meeting_provider_id?",
-  userId : "userId?",
-  meetingProviderId : "meetingProviderId?"
-};
-
-const userMeetingProviderdtoToEntityJson= {
-  user_meeting_provider_id : "user_meeting_provider_id?",
-  userId : "userId?",
-  meetingProviderId : "meetingProviderId?"
-};
-
-module.exports.userMeetingProviderentityJson = userMeetingProviderentityJson;
-module.exports.userMeetingProviderdtoJson = userMeetingProviderdtoJson;
-module.exports.userMeetingProviderentityToDtoJson = userMeetingProviderentityToDtoJson;
-module.exports.userMeetingProviderdtoToEntityJson = userMeetingProviderdtoToEntityJson;
+  meetingProviderId : "meetingProviderId?",
+  userMeetingProvider_meetings : "userMeetingProvider_meetings?",
+  user : "user?",
+  meetingProvider : "meetingProvider?",
+  liveContents : "liveContents?",
+  };
+  
+  const userMeetingProviderDtoJson = {
+    DetailsDto : "Details?",
+    userIdDto : "userId?",
+    meetingProviderIdDto : "meetingProviderId?",
+    userMeetingProvider_meetingsDto : "userMeetingProvider_meetings?",
+    userDto : "user?",
+    meetingProviderDto : "meetingProvider?",
+    liveContentsDto : "liveContents?",
+  };
+  
+  const userMeetingProviderEntityToDtoJson = {
+    DetailsDto : "Details?",
+    userIdDto : "userId?",
+    meetingProviderIdDto : "meetingProviderId?",
+    userMeetingProvider_meetingsDto : "userMeetingProvider_meetings?",
+    userDto : "user?",
+    meetingProviderDto : "meetingProvider?",
+    liveContentsDto : "liveContents?",
+  };
+  
+  const userMeetingProviderDtoToEntityJson= {
+    Details : "Details?",
+    userId : "userId?",
+    meetingProviderId : "meetingProviderId?",
+    userMeetingProvider_meetings : "userMeetingProvider_meetings?",
+    user : "user?",
+    meetingProvider : "meetingProvider?",
+    liveContents : "liveContents?",
+    };
+  
+module.exports.userMeetingProviderEntityJson = userMeetingProviderEntityJson;
+module.exports.userMeetingProviderDtoJson = userMeetingProviderDtoJson;
+module.exports.userMeetingProviderEntityToDtoJson = userMeetingProviderEntityToDtoJson;
+module.exports.userMeetingProviderDtoToEntityJson = userMeetingProviderDtoToEntityJson;

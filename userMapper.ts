@@ -1,5 +1,5 @@
 
-const userentityJson = {
+const userEntityJson = {
   user_id : "user_id?",
   groupName : "groupName?",
   groupType : "groupType?",
@@ -7,7 +7,7 @@ const userentityJson = {
   tenantId : "tenantId?"
 };
 
-const userdtoJson = {
+const userDtoJson = {
   user_id : "user_id?",
 groupName : "groupName?",
 groupType : "groupType?",
@@ -15,7 +15,7 @@ groupDetails : "groupDetails?",
 tenantId : "tenantId?"
 };
 
-const userentityToDtoJson = {
+const userEntityToDtoJson = {
   user_id : "user_id?",
 groupName : "groupName?",
 groupType : "groupType?",
@@ -23,7 +23,7 @@ groupDetails : "groupDetails?",
 tenantId : "tenantId?"
 };
 
-const userdtoToEntityJson= {
+const userDtoToEntityJson= {
   user_id : "user_id?",
 groupName : "groupName?",
 groupType : "groupType?",
@@ -31,7 +31,7 @@ groupDetails : "groupDetails?",
 tenantId : "tenantId?"
 };
 
-module.exports.userentityJson = userentityJson;
-module.exports.userdtoJson = userdtoJson;
-module.exports.userentityToDtoJson = userentityToDtoJson;
-module.exports.userdtoToEntityJson = userdtoToEntityJson;
+module.exports.userEntityJson = userEntityJson;
+module.exports.userDtoJson = userDtoJson;
+module.exports.userEntityToDtoJson = userEntityToDtoJson;
+module.exports.userDtoToEntityJson = userDtoToEntityJson;

@@ -1,41 +1,32 @@
-
-const serviceConsumerentityJson = {
+const serviceConsumerEntityJson = {
     eventName : "eventName?",
     eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
-  };
-  
-  const serviceConsumerdtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
-  };
-  
-  const serviceConsumerentityToDtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
-  };
-  
-  const serviceConsumerdtoToEntityJson= {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
+    serviceConsumerDetails : "serviceConsumerDetails?",
     businessEventSubscriber : "businessEventSubscriber?",
   };
   
-  module.exports.serviceConsumerentityJson = serviceConsumerentityJson;
-  module.exports.serviceConsumerdtoJson = serviceConsumerdtoJson;
-  module.exports.serviceConsumerentityToDtoJson = serviceConsumerentityToDtoJson;
-  module.exports.serviceConsumerdtoToEntityJson = serviceConsumerdtoToEntityJson;
+  const serviceConsumerDtoJson = {
+    eventNameDto : "eventName?",
+    eventDetailsDto : "eventDetails?",
+    serviceConsumerDetailsDto : "serviceConsumerDetails?",
+    businessEventSubscriberDto : "businessEventSubscriber?",
+  };
+  
+  const serviceConsumerEntityToDtoJson = {
+    eventNameDto : "eventName?",
+    eventDetailsDto : "eventDetails?",
+    serviceConsumerDetailsDto : "serviceConsumerDetails?",
+    businessEventSubscriberDto : "businessEventSubscriber?",    
+  };
+  
+  const serviceConsumerDtoToEntityJson= {
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    serviceConsumerDetails : "serviceConsumerDetails?",
+    businessEventSubscriber : "businessEventSubscriber?",    
+  };
+  
+  module.exports.serviceConsumerEntityJson = serviceConsumerEntityJson;
+  module.exports.serviceConsumerDtoJson = serviceConsumerDtoJson;
+  module.exports.serviceConsumerEntityToDtoJson = serviceConsumerEntityToDtoJson;
+  module.exports.serviceConsumerDtoToEntityJson = serviceConsumerDtoToEntityJson;

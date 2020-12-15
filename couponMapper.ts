@@ -1,41 +1,52 @@
-
-const couponentityJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+const couponEntityJson = {
+  couponCode : "couponCode?",
+  validTill : "validTill?",
+  usageCount : "usageCount?",
+  description : "description?",
+  usageLimit : "usageLimit?",
+  couponType : "couponType?",
+  isActive : "isActive?",
+  couponDetails : "couponDetails?",
+  paymentCoupons : "paymentCoupons?",  
   };
   
-  const coupondtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+  const couponDtoJson = {
+    couponCodeDto : "couponCode?",
+    validTillDto : "validTill?",
+    usageCountDto : "usageCount?",
+    descriptionDto : "description?",
+    usageLimitDto : "usageLimit?",
+    couponTypeDto : "couponType?",
+    isActiveDto : "isActive?",
+    couponDetailsDto : "couponDetails?",
+    paymentCouponsDto : "paymentCoupons?",
   };
   
-  const couponentityToDtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+  const couponEntityToDtoJson = {
+    couponCodeDto : "couponCode?",
+    validTillDto : "validTill?",
+    usageCountDto : "usageCount?",
+    descriptionDto : "description?",
+    usageLimitDto : "usageLimit?",
+    couponTypeDto : "couponType?",
+    isActiveDto : "isActive?",
+    couponDetailsDto : "couponDetails?",
+    paymentCouponsDto : "paymentCoupons?",
   };
   
-  const coupondtoToEntityJson= {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-  };
+  const couponDtoToEntityJson= {
+    couponCode : "couponCode?",
+    validTill : "validTill?",
+    usageCount : "usageCount?",
+    description : "description?",
+    usageLimit : "usageLimit?",
+    couponType : "couponType?",
+    isActive : "isActive?",
+    couponDetails : "couponDetails?",
+    paymentCoupons : "paymentCoupons?",
+    };
   
-  module.exports.couponentityJson = couponentityJson;
-  module.exports.coupondtoJson = coupondtoJson;
-  module.exports.couponentityToDtoJson = couponentityToDtoJson;
-  module.exports.coupondtoToEntityJson = coupondtoToEntityJson;
+module.exports.couponEntityJson = couponEntityJson;
+module.exports.couponDtoJson = couponDtoJson;
+module.exports.couponEntityToDtoJson = couponEntityToDtoJson;
+module.exports.couponDtoToEntityJson = couponDtoToEntityJson;

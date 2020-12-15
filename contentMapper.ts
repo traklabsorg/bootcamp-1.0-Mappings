@@ -1,41 +1,32 @@
-
-const contententityJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+const contentEntityJson = {
+    contentType : "contentType?",
+    contentTemplateId : "contentTemplateId?",
+    contentDetails : "contentDetails?",
+    sectionId : "sectionId?",
   };
   
-  const contentdtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+  const contentDtoJson = {
+    contentTypeDto : "contentType?",
+    contentTemplateIdDto : "contentTemplateId?",
+    contentDetailsDto : "contentDetails?",
+    sectionIdDto : "sectionId?",
   };
   
-  const contententityToDtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+  const contentEntityToDtoJson = {
+    contentTypeDto : "contentType?",
+    contentTemplateIdDto : "contentTemplateId?",
+    contentDetailsDto : "contentDetails?",
+    sectionIdDto : "sectionId?",    
   };
   
-  const contentdtoToEntityJson= {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
+  const contentDtoToEntityJson= {
+    contentType : "contentType?",
+    contentTemplateId : "contentTemplateId?",
+    contentDetails : "contentDetails?",
+    sectionId : "sectionId?",
   };
   
-  module.exports.contententityJson = contententityJson;
-  module.exports.contentdtoJson = contentdtoJson;
-  module.exports.contententityToDtoJson = contententityToDtoJson;
-  module.exports.contentdtoToEntityJson = contentdtoToEntityJson;
+  module.exports.contentEntityJson = contentEntityJson;
+  module.exports.contentDtoJson = contentDtoJson;
+  module.exports.contentEntityToDtoJson = contentEntityToDtoJson;
+  module.exports.contentDtoToEntityJson = contentDtoToEntityJson;

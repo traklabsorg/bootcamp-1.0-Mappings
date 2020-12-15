@@ -1,41 +1,24 @@
-
-const notificationentityJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+const EntityJson = {
+    notificationType : "notificationType?",
+    notificationData : "notificationData?",
   };
-
-  const notificationdtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+  
+  const DtoJson = {
+    notificationTypeDto : "notificationType?",
+    notificationDataDto : "notificationData?",
   };
-
-  const notificationentityToDtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+  
+  const EntityToDtoJson = {
+    notificationTypeDto : "notificationType?",
+    notificationDataDto : "notificationData?",
   };
-
-  const notificationdtoToEntityJson= {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
+  
+  const DtoToEntityJson= {
+    notificationType : "notificationType?",
+    notificationData : "notificationData?",
   };
-
-  module.exports.notificationentityJson = notificationentityJson;
-  module.exports.notificationdtoJson = notificationdtoJson;
-  module.exports.notificationentityToDtoJson = notificationentityToDtoJson;
-  module.exports.notificationdtoToEntityJson = notificationdtoToEntityJson;
+  
+  module.exports.EntityJson = EntityJson;
+  module.exports.DtoJson = DtoJson;
+  module.exports.EntityToDtoJson = EntityToDtoJson;
+  module.exports.DtoToEntityJson = DtoToEntityJson;

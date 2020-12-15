@@ -1,5 +1,14 @@
 
-const channelBillPlanentityJson = {
+const channelBillPlanEntityJson = {
+additionalDetails : "additionalDetails?",
+channelBillPlanDetails : "channelBillPlanDetails?",
+planStartDate : "planStartDate?",
+planEndDate : "planEndDate?",
+channelId : "channelId?",
+planId : "planId?"
+};
+
+const channelBillPlanDtoJson = {
   additionalDetails : "additionalDetails?",
 channelBillPlanDetails : "channelBillPlanDetails?",
 planStartDate : "planStartDate?",
@@ -8,7 +17,7 @@ channelId : "channelId?",
 planId : "planId?"
 };
 
-const channelBillPlandtoJson = {
+const channelBillPlanEntityToDtoJson = {
   additionalDetails : "additionalDetails?",
 channelBillPlanDetails : "channelBillPlanDetails?",
 planStartDate : "planStartDate?",
@@ -17,7 +26,7 @@ channelId : "channelId?",
 planId : "planId?"
 };
 
-const channelBillPlanentityToDtoJson = {
+const channelBillPlanDtoToEntityJson= {
   additionalDetails : "additionalDetails?",
 channelBillPlanDetails : "channelBillPlanDetails?",
 planStartDate : "planStartDate?",
@@ -26,16 +35,7 @@ channelId : "channelId?",
 planId : "planId?"
 };
 
-const channelBillPlandtoToEntityJson= {
-  additionalDetails : "additionalDetails?",
-channelBillPlanDetails : "channelBillPlanDetails?",
-planStartDate : "planStartDate?",
-planEndDate : "planEndDate?",
-channelId : "channelId?",
-planId : "planId?"
-};
-
-module.exports.channelBillPlanentityJson = channelBillPlanentityJson;
-module.exports.channelBillPlandtoJson = channelBillPlandtoJson;
-module.exports.channelBillPlanentityToDtoJson = channelBillPlanentityToDtoJson;
-module.exports.channelBillPlandtoToEntityJson = channelBillPlandtoToEntityJson;
+module.exports.channelBillPlanEntityJson = channelBillPlanEntityJson;
+module.exports.channelBillPlanDtoJson = channelBillPlanDtoJson;
+module.exports.channelBillPlanEntityToDtoJson = channelBillPlanEntityToDtoJson;
+module.exports.channelBillPlanDtoToEntityJson = channelBillPlanDtoToEntityJson;

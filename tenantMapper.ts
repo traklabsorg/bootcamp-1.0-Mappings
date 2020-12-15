@@ -1,5 +1,5 @@
 
-const tenantentityJson = {
+const tenantEntityJson = {
   tenant_id : "tenant_id?",
   communityName : "communityName?",
   address : "address?",
@@ -9,7 +9,7 @@ const tenantentityJson = {
   subsciptionEndDate : "subsciptionEndDate?"
 };
 
-const tenantdtoJson = {
+const tenantDtoJson = {
   tenant_id : "tenant_id?",
   communityName : "communityName?",
   address : "address?",
@@ -19,7 +19,7 @@ const tenantdtoJson = {
   subsciptionEndDate : "subsciptionEndDate?"
 };
 
-const tenantentityToDtoJson = {
+const tenantEntityToDtoJson = {
   tenant_id : "tenant_id?",
   communityName : "communityName?",
   address : "address?",
@@ -29,7 +29,7 @@ const tenantentityToDtoJson = {
   subsciptionEndDate : "subsciptionEndDate?"
 };
 
-const tenantdtoToEntityJson= {
+const tenantDtoToEntityJson= {
   tenant_id : "tenant_id?",
   communityName : "communityName?",
   address : "address?",
@@ -39,22 +39,7 @@ const tenantdtoToEntityJson= {
   subsciptionEndDate : "subsciptionEndDate?"
 };
 
-module.exports.tenantentityJson = tenantentityJson;
-module.exports.tenantdtoJson = tenantdtoJson;
-module.exports.tenantentityToDtoJson = tenantentityToDtoJson;
-module.exports.tenantdtoToEntityJson = tenantdtoToEntityJson;
-// export const Maps {
-  
-  
-  
-  
-
-  // constructor() {
-  //   this.entityJson = 
-  //   this.dtoJson = 
-  //   this.entityToJson = 
-  //   this.dtoToEntityJson = 
-
-  // }
-
-// }
+module.exports.tenantEntityJson = tenantEntityJson;
+module.exports.tenantDtoJson = tenantDtoJson;
+module.exports.tenantEntityToDtoJson = tenantEntityToDtoJson;
+module.exports.tenantDtoToEntityJson = tenantDtoToEntityJson;

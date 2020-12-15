@@ -1,5 +1,5 @@
 
-const subscriptionOrderentityJson = {
+const subscriptionOrderEntityJson = {
     title : "title?",
     channelType : "channelType?",
     channelDetails : "channelDetails?",
@@ -7,7 +7,7 @@ const subscriptionOrderentityJson = {
     channelBillPlans : "channelBillPlans?",
   };
   
-  const subscriptionOrderdtoJson = {
+  const subscriptionOrderDtoJson = {
     title : "title?",
     channelType : "channelType?",
     channelDetails : "channelDetails?",
@@ -15,7 +15,7 @@ const subscriptionOrderentityJson = {
     channelBillPlans : "channelBillPlans?",
   };
   
-  const subscriptionOrderentityToDtoJson = {
+  const subscriptionOrderEntityToDtoJson = {
     title : "title?",
     channelType : "channelType?",
     channelDetails : "channelDetails?",
@@ -23,7 +23,7 @@ const subscriptionOrderentityJson = {
     channelBillPlans : "channelBillPlans?",
   };
   
-  const subscriptionOrderdtoToEntityJson= {
+  const subscriptionOrderDtoToEntityJson= {
     title : "title?",
     channelType : "channelType?",
     channelDetails : "channelDetails?",
@@ -32,7 +32,7 @@ const subscriptionOrderentityJson = {
 
   };
   
-  module.exports.subscriptionOrderentityJson = subscriptionOrderentityJson;
-  module.exports.subscriptionOrderdtoJson = subscriptionOrderdtoJson;
-  module.exports.subscriptionOrderentityToDtoJson = subscriptionOrderentityToDtoJson;
-  module.exports.subscriptionOrderdtoToEntityJson = subscriptionOrderdtoToEntityJson;
+  module.exports.subscriptionOrderEntityJson = subscriptionOrderEntityJson;
+  module.exports.subscriptionOrderDtoJson = subscriptionOrderDtoJson;
+  module.exports.subscriptionOrderEntityToDtoJson = subscriptionOrderEntityToDtoJson;
+  module.exports.subscriptionOrderDtoToEntityJson = subscriptionOrderDtoToEntityJson;

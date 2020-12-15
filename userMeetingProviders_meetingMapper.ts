@@ -1,5 +1,5 @@
 
-const userMeetingProvider_MeetingentityJson = {
+const userMeetingProvider_MeetingEntityJson = {
   user_meeting_providers_meeting_id : "user_meeting_providers_meeting_id?",
   userMeetingProviderId : "userMeetingProviderId?",
   meetingDetail : "meetingDetail?",
@@ -7,7 +7,7 @@ const userMeetingProvider_MeetingentityJson = {
   meetingEndDateTime : "meetingEndDateTime?"
 };
 
-const userMeetingProvider_MeetingdtoJson = {
+const userMeetingProvider_MeetingDtoJson = {
   user_meeting_providers_meeting_id : "user_meeting_providers_meeting_id?",
   userMeetingProviderId : "userMeetingProviderId?",
   meetingDetail : "meetingDetail?",
@@ -15,7 +15,7 @@ const userMeetingProvider_MeetingdtoJson = {
   meetingEndDateTime : "meetingEndDateTime?",
 };
 
-const userMeetingProvider_MeetingentityToDtoJson = {
+const userMeetingProvider_MeetingEntityToDtoJson = {
   user_meeting_providers_meeting_id : "user_meeting_providers_meeting_id?",
   userMeetingProviderId : "userMeetingProviderId?",
   meetingDetail : "meetingDetail?",
@@ -23,14 +23,14 @@ const userMeetingProvider_MeetingentityToDtoJson = {
   meetingEndDateTime : "meetingEndDateTime?"
 };
 
-const userMeetingProvider_MeetingdtoToEntityJson= {
+const userMeetingProvider_MeetingDtoToEntityJson= {
   userMeetingProviderId : "userMeetingProviderId?",
   meetingDetail : "meetingDetail?",
   meetingStartDateTime : "meetingStartDateTime?",
   meetingEndDateTime : "meetingEndDateTime?"
 };
 
-module.exports.userMeetingProvider_MeetingentityJson = userMeetingProvider_MeetingentityJson;
-module.exports.userMeetingProvider_MeetingdtoJson = userMeetingProvider_MeetingdtoJson;
-module.exports.userMeetingProvider_MeetingentityToDtoJson = userMeetingProvider_MeetingentityToDtoJson;
-module.exports.userMeetingProvider_MeetingdtoToEntityJson = userMeetingProvider_MeetingdtoToEntityJson;
+module.exports.userMeetingProvider_MeetingEntityJson = userMeetingProvider_MeetingEntityJson;
+module.exports.userMeetingProvider_MeetingDtoJson = userMeetingProvider_MeetingDtoJson;
+module.exports.userMeetingProvider_MeetingEntityToDtoJson = userMeetingProvider_MeetingEntityToDtoJson;
+module.exports.userMeetingProvider_MeetingDtoToEntityJson = userMeetingProvider_MeetingDtoToEntityJson;

@@ -1,41 +1,37 @@
 
-const businessEventSubscriberentityJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
+const businessEventSubscriberEntityJson = {
     operationName : "operationName?",
-    publicDetails : "publicDetails?",
+    subscriptionDetails : "subscriptionDetails?",
+    eventId : "eventId?",
     ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+    serviceConsumerId : "serviceConsumerId?",
   };
   
-  const businessEventSubscriberdtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
+  const businessEventSubscriberDtoJson = {
     operationName : "operationName?",
-    publicDetails : "publicDetails?",
+    subscriptionDetails : "subscriptionDetails?",
+    eventId : "eventId?",
     ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+    serviceConsumerId : "serviceConsumerId?",
   };
   
-  const businessEventSubscriberentityToDtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
+  const businessEventSubscriberEntityToDtoJson = {
     operationName : "operationName?",
-    publicDetails : "publicDetails?",
+    subscriptionDetails : "subscriptionDetails?",
+    eventId : "eventId?",
     ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+    serviceConsumerId : "serviceConsumerId?",
   };
   
-  const businessEventSubscriberdtoToEntityJson= {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
+  const businessEventSubscriberDtoToEntityJson= {
     operationName : "operationName?",
-    publicDetails : "publicDetails?",
+    subscriptionDetails : "subscriptionDetails?",
+    eventId : "eventId?",
     ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
+    serviceConsumerId : "serviceConsumerId?",
   };
   
-  module.exports.businessEvententityJson = businessEvententityJson;
-  module.exports.businessEventdtoJson = businessEventdtoJson;
-  module.exports.businessEvententityToDtoJson = businessEvententityToDtoJson;
-  module.exports.businessEventdtoToEntityJson = businessEventdtoToEntityJson;
+  module.exports.businessEventSubscriberEntityJson = businessEventSubscriberEntityJson;
+  module.exports.businessEventSubscriberDtoJson = businessEventSubscriberDtoJson;
+  module.exports.businessEventSubscriberEntityToDtoJson = businessEventSubscriberEntityToDtoJson;
+  module.exports.businessEventSubscriberDtoToEntityJson = businessEventSubscriberDtoToEntityJson;

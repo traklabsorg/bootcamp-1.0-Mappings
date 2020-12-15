@@ -1,29 +1,29 @@
 
-const planentityJson = {
+const planEntityJson = {
   plan_id : "plan_id?",
   planName : "planName?",
   planDetails : "planDetails?"
 };
 
-const plandtoJson = {
+const planDtoJson = {
   plan_id : "plan_id?",
 planName : "planName?",
 planDetails : "planDetails?"
 };
 
-const planentityToDtoJson = {
+const planEntityToDtoJson = {
   plan_id : "plan_id?",
 planName : "planName?",
 planDetails : "planDetails?"
 };
 
-const plandtoToEntityJson= {
+const planDtoToEntityJson= {
   plan_id : "plan_id?",
 planName : "planName?",
 planDetails : "planDetails?"
 };
 
-module.exports.planentityJson = planentityJson;
-module.exports.plandtoJson = plandtoJson;
-module.exports.planentityToDtoJson = planentityToDtoJson;
-module.exports.plandtoToEntityJson = plandtoToEntityJson;
+module.exports.planEntityJson = planEntityJson;
+module.exports.planDtoJson = planDtoJson;
+module.exports.planEntityToDtoJson = planEntityToDtoJson;
+module.exports.planDtoToEntityJson = planDtoToEntityJson;

@@ -1,4 +1,4 @@
-const businessEvententityJson = {
+const businessEventEntityJson = {
     eventName : "eventName?",
     eventDetails : "eventDetails?",
     operationName : "operationName?",
@@ -7,7 +7,7 @@ const businessEvententityJson = {
     businessEventSubscriber : "businessEventSubscriber?"
   };
   
-  const businessEventdtoJson = {
+  const businessEventDtoJson = {
     eventName : "eventName?",
     eventDetails : "eventDetails?",
     operationName : "operationName?",
@@ -16,7 +16,7 @@ const businessEvententityJson = {
     businessEventSubscriber : "businessEventSubscriber?"
   };
   
-  const businessEvententityToDtoJson = {
+  const businessEventEntityToDtoJson = {
     eventName : "eventName?",
     eventDetails : "eventDetails?",
     operationName : "operationName?",
@@ -25,7 +25,7 @@ const businessEvententityJson = {
     businessEventSubscriber : "businessEventSubscriber?"
   };
   
-  const businessEventdtoToEntityJson= {
+  const businessEventDtoToEntityJson= {
     eventName : "eventName?",
     eventDetails : "eventDetails?",
     operationName : "operationName?",
@@ -34,7 +34,7 @@ const businessEvententityJson = {
     businessEventSubscriber : "businessEventSubscriber?",
   };
   
-  module.exports.businessEvententityJson = businessEvententityJson;
-  module.exports.businessEventdtoJson = businessEventdtoJson;
-  module.exports.businessEvententityToDtoJson = businessEvententityToDtoJson;
-  module.exports.businessEventdtoToEntityJson = businessEventdtoToEntityJson;
+  module.exports.businessEventEntityJson = businessEventEntityJson;
+  module.exports.businessEventDtoJson = businessEventDtoJson;
+  module.exports.businessEventEntityToDtoJson = businessEventEntityToDtoJson;
+  module.exports.businessEventDtoToEntityJson = businessEventDtoToEntityJson;

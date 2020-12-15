@@ -1,40 +1,44 @@
-const liveContententityJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+const liveContentEntityJson = {
+  url : "url?",
+  contentDetails : "contentDetails?",
+  startDate : "startDate?",
+  endDate : "endDate?",
+  communit : "communit?",
+  userMeetingProviderId : "userMeetingProviderId?",
+  liveContentUsers : "liveContentUsers?",
   };
   
-  const liveContentdtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+  const liveContentDtoJson = {
+    urlDto : "url?",
+    contentDetailsDto : "contentDetails?",
+    startDateDto : "startDate?",
+    endDateDto : "endDate?",
+    communitDto : "communit?",
+    userMeetingProviderIdDto : "userMeetingProviderId?",
+    liveContentUsersDto : "liveContentUsers?",
   };
   
-  const liveContententityToDtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+  const liveContentEntityToDtoJson = {
+    urlDto : "url?",
+    contentDetailsDto : "contentDetails?",
+    startDateDto : "startDate?",
+    endDateDto : "endDate?",
+    communitDto : "communit?",
+    userMeetingProviderIdDto : "userMeetingProviderId?",
+    liveContentUsersDto : "liveContentUsers?",
   };
   
-  const liveContentdtoToEntityJson= {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-  };
+  const liveContentDtoToEntityJson= {
+    url : "url?",
+    contentDetails : "contentDetails?",
+    startDate : "startDate?",
+    endDate : "endDate?",
+    communit : "communit?",
+    userMeetingProviderId : "userMeetingProviderId?",
+    liveContentUsers : "liveContentUsers?",
+    };
   
-  module.exports.liveContententityJson = liveContententityJson;
-  module.exports.liveContentdtoJson = liveContentdtoJson;
-  module.exports.liveContententityToDtoJson = liveContententityToDtoJson;
-  module.exports.liveContentdtoToEntityJson = liveContentdtoToEntityJson;
+module.exports.liveContentEntityJson = liveContentEntityJson;
+module.exports.liveContentDtoJson = liveContentDtoJson;
+module.exports.liveContentEntityToDtoJson = liveContentEntityToDtoJson;
+module.exports.liveContentDtoToEntityJson = liveContentDtoToEntityJson;
