@@ -1,37 +1,69 @@
 
-const userEntityJson = {
+const userentityJson = {
+  Id:"Id?",
   user_id : "user_id?",
-  groupName : "groupName?",
-  groupType : "groupType?",
-  groupDetails : "groupDetails?",
-  tenantId : "tenantId?"
+  userName : "userName?",
+  userType : "userType?",
+  userDetails: "userDetails?",
+  userEmail: "userEmail?",
+  userImage: "userImage?",
+  isActive: "isActive?",
+  lastLogonDateTime: "lastLogonDateTime?",
+  userAdditionalDetails : "userAdditionalDetails?",
+  communityId : "communityId?",
+  SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
 };
 
-const userDtoJson = {
+const userdtoJson = {
+  Id:"Id?",
   user_id : "user_id?",
-groupName : "groupName?",
-groupType : "groupType?",
-groupDetails : "groupDetails?",
-tenantId : "tenantId?"
+userName : "userName?",
+userType : "userType?",
+  userDetails: "userDetails?",
+  userEmail: "userEmail?",
+  userImage: "userImage?",
+  isActive: "isActive?",
+  lastLogonDateTime: "lastLogonDateTime?",
+  userAdditionalDetails : "userAdditionalDetails?",
+communityId : "communityId?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
 };
 
-const userEntityToDtoJson = {
+const userentityToDtoJson = {
+  Id:"Id?",
   user_id : "user_id?",
-groupName : "groupName?",
-groupType : "groupType?",
-groupDetails : "groupDetails?",
-tenantId : "tenantId?"
+userName : "userName?",
+userType : "userType?",
+  userDetails: "userDetails?",
+  userEmail: "userEmail?",
+  userImage: "userImage?",
+  isActive: "isActive?",
+  lastLogonDateTime: "lastLogonDateTime?",
+  userAdditionalDetails : "userAdditionalDetails?",
+communityId : "communityId?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
 };
 
-const userDtoToEntityJson= {
+const userdtoToEntityJson = {
+  Id:"Id?",
   user_id : "user_id?",
-groupName : "groupName?",
-groupType : "groupType?",
-groupDetails : "groupDetails?",
-tenantId : "tenantId?"
+userName : "userName?",
+userType : "userType?",
+  userDetails: "userDetails?",
+  userEmail: "userEmail?",
+  userImage: "userImage?",
+  isActive: "isActive?",
+  lastLogonDateTime: "lastLogonDateTime?",
+  userAdditionalDetails : "userAdditionalDetails?",
+communityId : "communityId?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
 };
 
-module.exports.userEntityJson = userEntityJson;
-module.exports.userDtoJson = userDtoJson;
-module.exports.userEntityToDtoJson = userEntityToDtoJson;
-module.exports.userDtoToEntityJson = userDtoToEntityJson;
+module.exports.userentityJson = userentityJson;
+module.exports.userdtoJson = userdtoJson;
+module.exports.userentityToDtoJson = userentityToDtoJson;
+module.exports.userdtoToEntityJson = userdtoToEntityJson;

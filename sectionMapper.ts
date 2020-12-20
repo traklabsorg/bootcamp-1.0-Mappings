@@ -1,32 +1,53 @@
-const sectionEntityJson = {
-  title : "title?",
-  channelId : "channelId?",
-  channel : "channel?",
-  lessons : "lessons?",
+
+const sectionentityJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const sectionDtoJson = {
-    titleDto : "title?",
-    channelIdDto : "channelId?",
-    channelDto : "channel?",
-    lessonsDto : "lessons?",
+const sectiondtoJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const sectionEntityToDtoJson = {
-    titleDto : "title?",
-    channelIdDto : "channelId?",
-    channelDto : "channel?",
-    lessonsDto : "lessons?",
+const sectionentityToDtoJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const sectionDtoToEntityJson= {
-    title : "title?",
-    channelId : "channelId?",
-    channel : "channel?",
-    lessons : "lessons?",
-    };
+  const sectiondtoToEntityJson= {
+    Id:"Id?",
+    eventName: "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
+  };
   
-module.exports.sectionEntityJson = sectionEntityJson;
-module.exports.sectionDtoJson = sectionDtoJson;
-module.exports.sectionEntityToDtoJson = sectionEntityToDtoJson;
-module.exports.sectionDtoToEntityJson = sectionDtoToEntityJson;
+  module.exports.sectionentityJson = sectionentityJson;
+  module.exports.sectiondtoJson = sectiondtoJson;
+  module.exports.sectionentityToDtoJson = sectionentityToDtoJson;
+  module.exports.sectiondtoToEntityJson = sectiondtoToEntityJson;

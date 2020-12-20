@@ -1,32 +1,53 @@
-const ddEntityEntityJson = {
-    title : "title?",
-    entityDetails : "entityDetails?",
-    businessEventId : "businessEventId?",
+
+const ddEntityentityJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
     businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const ddEntityDtoJson = {
-    titleDto : "title?",
-    entityDetailsDto : "entityDetails?",
-    businessEventIdDto : "businessEventId?",
-    businessEventSubscriberDto : "businessEventSubscriber?",
-  };
-  
-  const ddEntityEntityToDtoJson = {
-    titleDto : "title?",
-    entityDetailsDto : "entityDetails?",
-    businessEventIdDto : "businessEventId?",
-    businessEventSubscriberDto : "businessEventSubscriber?",
-  };
-  
-  const ddEntityDtoToEntityJson= {
-    title : "title?",
-    entityDetails : "entityDetails?",
-    businessEventId : "businessEventId?",
+const ddEntitydtoJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
     businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  module.exports.ddEntityEntityJson = ddEntityEntityJson;
-  module.exports.ddEntityDtoJson = ddEntityDtoJson;
-  module.exports.ddEntityEntityToDtoJson = ddEntityEntityToDtoJson;
-  module.exports.ddEntityDtoToEntityJson = ddEntityDtoToEntityJson;
+const ddEntityentityToDtoJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
+  };
+  
+const ddEntitydtoToEntityJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
+  };
+  
+  module.exports.ddEntityentityJson = ddEntityentityJson;
+  module.exports.ddEntitydtoJson = ddEntitydtoJson;
+  module.exports.ddEntityentityToDtoJson = ddEntityentityToDtoJson;
+  module.exports.ddEntitydtoToEntityJson = ddEntitydtoToEntityJson;

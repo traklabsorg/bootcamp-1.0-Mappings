@@ -1,32 +1,53 @@
-const contentEntityJson = {
-    contentType : "contentType?",
-    contentTemplateId : "contentTemplateId?",
-    contentDetails : "contentDetails?",
-    sectionId : "sectionId?",
+
+const contententityJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const contentDtoJson = {
-    contentTypeDto : "contentType?",
-    contentTemplateIdDto : "contentTemplateId?",
-    contentDetailsDto : "contentDetails?",
-    sectionIdDto : "sectionId?",
+const contentdtoJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const contentEntityToDtoJson = {
-    contentTypeDto : "contentType?",
-    contentTemplateIdDto : "contentTemplateId?",
-    contentDetailsDto : "contentDetails?",
-    sectionIdDto : "sectionId?",    
+const contententityToDtoJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const contentDtoToEntityJson= {
-    contentType : "contentType?",
-    contentTemplateId : "contentTemplateId?",
-    contentDetails : "contentDetails?",
-    sectionId : "sectionId?",
+const contentdtoToEntityJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  module.exports.contentEntityJson = contentEntityJson;
-  module.exports.contentDtoJson = contentDtoJson;
-  module.exports.contentEntityToDtoJson = contentEntityToDtoJson;
-  module.exports.contentDtoToEntityJson = contentDtoToEntityJson;
+  module.exports.contententityJson = contententityJson;
+  module.exports.contentdtoJson = contentdtoJson;
+  module.exports.contententityToDtoJson = contententityToDtoJson;
+  module.exports.contentdtoToEntityJson = contentdtoToEntityJson;

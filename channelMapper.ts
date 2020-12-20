@@ -1,37 +1,45 @@
 
-const channelEntityJson = {
-  channel_id : "channel_id?",
+const channelentityJson = {
+  id : "id?",
   title : "title?",
   channelType : "channelType?",
   channelDetails : "channelDetails?",
-  groupId : "groupId?"
+  groupId : "groupId?",
+  SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
 };
 
-const channelDtoJson = {
-  channel_id : "channel_id?",
+const channeldtoJson = {
+  id : "id?",
 title : "title?",
 channelType : "channelType?",
 channelDetails : "channelDetails?",
-groupId : "groupId?"
+groupId : "groupId?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
 };
 
-const channelEntityToDtoJson = {
-  channel_id : "channel_id?",
+const channelentityToDtoJson = {
+  id : "id?",
 title : "title?",
 channelType : "channelType?",
 channelDetails : "channelDetails?",
-groupId : "groupId?"
+groupId : "groupId?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
 };
 
-const channelDtoToEntityJson= {
-  channel_id : "channel_id?",
+const channeldtoToEntityJson= {
+  id : "id?",
 title : "title?",
 channelType : "channelType?",
 channelDetails : "channelDetails?",
-groupId : "groupId?"
+groupId : "groupId?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
 };
 
-module.exports.channelEntityJson = channelEntityJson;
-module.exports.channelDtoJson = channelDtoJson;
-module.exports.channelEntityToDtoJson = channelEntityToDtoJson;
-module.exports.channelDtoToEntityJson = channelDtoToEntityJson;
+module.exports.channelentityJson = channelentityJson;
+module.exports.channeldtoJson = channeldtoJson;
+module.exports.channelentityToDtoJson = channelentityToDtoJson;
+module.exports.channeldtoToEntityJson = channeldtoToEntityJson;

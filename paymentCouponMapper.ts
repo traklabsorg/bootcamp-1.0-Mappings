@@ -1,36 +1,95 @@
-const PaymentCouponEntityJson = {
-    paymentCouponDetails : "paymentCouponDetails?",
-    paymentId : "paymentId?",
-    couponId : "couponId?",
-    coupon : "coupon?",
-    payment : "payment?",
-  };
-  
-  const PaymentCouponDtoJson = {
-    paymentCouponDetailsDto : "paymentCouponDetails?",
-    paymentIdDto : "paymentId?",
-    couponIdDto : "couponId?",
-    couponDto : "coupon?",
-    paymentDto : "payment?",  
-  };
-  
-  const PaymentCouponEntityToDtoJson = {
-    paymentCouponDetailsDto : "paymentCouponDetails?",
-    paymentIdDto : "paymentId?",
-    couponIdDto : "couponId?",
-    couponDto : "coupon?",
-    paymentDto : "payment?",
-  };
-  
-  const PaymentCouponDtoToEntityJson= {
-    paymentCouponDetails : "paymentCouponDetails?",
-    paymentId : "paymentId?",
-    couponId : "couponId?",
-    coupon : "coupon?",
-    payment : "payment?",
-    };
-  
-  module.exports.PaymentCouponEntityJson = PaymentCouponEntityJson;
-  module.exports.PaymentCouponDtoJson = PaymentCouponDtoJson;
-  module.exports.PaymentCouponEntityToDtoJson = PaymentCouponEntityToDtoJson;
-  module.exports.PaymentCouponDtoToEntityJson = PaymentCouponDtoToEntityJson;
+
+// const entityJson = {
+//     eventName : "eventName?",
+//     eventDetails : "eventDetails?",
+//     operationName : "operationName?",
+//     publicDetails : "publicDetails?",
+//     ddEntityId : "ddEntityId?",
+//     businessEventSubscriber : "businessEventSubscriber?"
+//   };
+
+//   const dtoJson = {
+//     eventName : "eventName?",
+//     eventDetails : "eventDetails?",
+//     operationName : "operationName?",
+//     publicDetails : "publicDetails?",
+//     ddEntityId : "ddEntityId?",
+//     businessEventSubscriber : "businessEventSubscriber?"
+//   };
+
+//   const entityToJson = {
+//     eventName : "eventName?",
+//     eventDetails : "eventDetails?",
+//     operationName : "operationName?",
+//     publicDetails : "publicDetails?",
+//     ddEntityId : "ddEntityId?",
+//     businessEventSubscriber : "businessEventSubscriber?"
+//   };
+
+//   const dtoToEntityJson= {
+//     eventName : "eventName?",
+//     eventDetails : "eventDetails?",
+//     operationName : "operationName?",
+//     publicDetails : "publicDetails?",
+//     ddEntityId : "ddEntityId?",
+//     businessEventSubscriber : "businessEventSubscriber?",
+//   };
+
+//   module.exports.entityJson = entityJson;
+//   module.exports.dtoJson = dtoJson;
+//   module.exports.entityToJson = entityToJson;
+//   module.exports.dtoToEntityJson = dtoToEntityJson;
+
+
+const paymentCouponentityJson = {
+  Id:"Id?",
+  eventName : "eventName?",
+  eventDetails : "eventDetails?",
+  operationName : "operationName?",
+  publicDetails : "publicDetails?",
+  ddEntityId : "ddEntityId?",
+  businessEventSubscriber : "businessEventSubscriber?",
+  SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
+};
+
+const paymentCoupondtoJson = {
+  Id:"Id?",
+  eventName : "eventName?",
+  eventDetails : "eventDetails?",
+  operationName : "operationName?",
+  publicDetails : "publicDetails?",
+  ddEntityId : "ddEntityId?",
+  businessEventSubscriber : "businessEventSubscriber?",
+  SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
+};
+
+const paymentCouponentityToDtoJson = {
+  Id:"Id?",
+  eventName : "eventName?",
+  eventDetails : "eventDetails?",
+  operationName : "operationName?",
+  publicDetails : "publicDetails?",
+  ddEntityId : "ddEntityId?",
+  businessEventSubscriber : "businessEventSubscriber?",
+  SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
+};
+
+const paymentCoupondtoToEntityJson = {
+  Id:"Id?",
+  eventName : "eventName?",
+  eventDetails : "eventDetails?",
+  operationName : "operationName?",
+  publicDetails : "publicDetails?",
+  ddEntityId : "ddEntityId?",
+  businessEventSubscriber : "businessEventSubscriber?",
+  SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
+};
+
+module.exports.paymentCouponentityJson = paymentCouponentityJson;
+module.exports.paymentCoupondtoJson = paymentCoupondtoJson;
+module.exports.paymentCouponentityToDtoJson = paymentCouponentityToDtoJson;
+module.exports.paymentCoupondtoToEntityJson = paymentCoupondtoToEntityJson;

@@ -1,52 +1,53 @@
-const paymentEntityJson = {
-  paymentStatus : "paymentStatus?",
-  paymentMethod : "paymentMethod?",
-  paymentCurrency : "paymentCurrency?",
-  paymentAmount : "paymentAmount?",
-  transactionDateTime : "transactionDateTime?",
-  paymentDetails : "paymentDetails?",
-  subscriptionOrderId : "subscriptionOrderId?",
-  subscriptionOrder : "subscriptionOrder?",
-  paymentCoupons : "paymentCoupons?",
+
+const paymententityJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const paymentDtoJson = {
-    paymentStatusDto : "paymentStatus?",
-    paymentMethodDto : "paymentMethod?",
-    paymentCurrencyDto : "paymentCurrency?",
-    paymentAmountDto : "paymentAmount?",
-    transactionDateTimeDto : "transactionDateTime?",
-    paymentDetailsDto : "paymentDetails?",
-    subscriptionOrderIdDto : "subscriptionOrderId?",
-    subscriptionOrderDto : "subscriptionOrder?",
-    paymentCouponsDto : "paymentCoupons?",
+const paymentdtoJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const paymentEntityToDtoJson = {
-    paymentStatusDto : "paymentStatus?",
-    paymentMethodDto : "paymentMethod?",
-    paymentCurrencyDto : "paymentCurrency?",
-    paymentAmountDto : "paymentAmount?",
-    transactionDateTimeDto : "transactionDateTime?",
-    paymentDetailsDto : "paymentDetails?",
-    subscriptionOrderIdDto : "subscriptionOrderId?",
-    subscriptionOrderDto : "subscriptionOrder?",
-    paymentCouponsDto : "paymentCoupons?",
+const paymententityToDtoJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const paymentDtoToEntityJson= {
-    paymentStatus : "paymentStatus?",
-    paymentMethod : "paymentMethod?",
-    paymentCurrency : "paymentCurrency?",
-    paymentAmount : "paymentAmount?",
-    transactionDateTime : "transactionDateTime?",
-    paymentDetails : "paymentDetails?",
-    subscriptionOrderId : "subscriptionOrderId?",
-    subscriptionOrder : "subscriptionOrder?",
-    paymentCoupons : "paymentCoupons?",
-    };
+const paymentdtoToEntityJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
+  };
   
-module.exports.paymentEntityJson = paymentEntityJson;
-module.exports.paymentDtoJson = paymentDtoJson;
-module.exports.paymentEntityToDtoJson = paymentEntityToDtoJson;
-module.exports.paymentDtoToEntityJson = paymentDtoToEntityJson;
+  module.exports.paymententityJson = paymententityJson;
+  module.exports.paymentdtoJson = paymentdtoJson;
+  module.exports.paymententityToDtoJson = paymententityToDtoJson;
+  module.exports.paymentdtoToEntityJson = paymentdtoToEntityJson;

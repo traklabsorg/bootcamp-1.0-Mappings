@@ -1,33 +1,45 @@
 
-const groupUserEntityJson = {
+const groupUserentityJson = {
+  Id:"Id?",
   group_user_id : "group_user_id?",
   groupUserDetails : "groupUserDetails?",
-  groupId : "groupId?",
-  userId : "userId?"
+  groupId : "groupId",
+  userId : "userId?",
+  SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
 };
 
-const groupUserDtoJson = {
+const groupUserdtoJson = {
+  Id:"Id?",
   group_user_id : "group_user_id?",
-  groupUserDetails : "groupUserDetails?",
-  groupId : "groupId?",
-  userId : "userId?"
+groupUserDetails : "groupUserDetails?",
+groupId : "groupId",
+userId : "userId?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
 };
 
-const groupUserEntityToDtoJson = {
+const groupUserentityToDtoJson = {
+  Id:"Id?",
   group_user_id : "group_user_id?",
-  groupUserDetails : "groupUserDetails?",
-  groupId : "groupId?",
-  userId : "userId?"
+groupUserDetails : "groupUserDetails?",
+groupId : "groupId",
+userId : "userId?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
 };
 
-const groupUserDtoToEntityJson= {
+const groupUserdtoToEntityJson = {
+  Id:"Id?",
   group_user_id : "group_user_id?",
-  groupUserDetails : "groupUserDetails?",
-  groupId : "groupId?",
-  userId : "userId?"
+groupUserDetails : "groupUserDetails?",
+groupId : "groupId",
+userId : "userId?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
 };
 
-module.exports.groupUserEntityJson = groupUserEntityJson;
-module.exports.groupUserDtoJson = groupUserDtoJson;
-module.exports.groupUserEntityToDtoJson = groupUserEntityToDtoJson;
-module.exports.groupUserDtoToEntityJson = groupUserDtoToEntityJson;
+module.exports.groupUserentityJson = groupUserentityJson;
+module.exports.groupUserdtoJson = groupUserdtoJson;
+module.exports.groupUserentityToDtoJson = groupUserentityToDtoJson;
+module.exports.groupUserdtoToEntityJson = groupUserdtoToEntityJson;

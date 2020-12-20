@@ -1,29 +1,41 @@
 
-const planEntityJson = {
+const planentityJson = {
+  Id:"Id?",
   plan_id : "plan_id?",
   planName : "planName?",
-  planDetails : "planDetails?"
+  planDetails : "planDetails?",
+  SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
 };
 
-const planDtoJson = {
+const plandtoJson = {
+  Id:"Id?",
   plan_id : "plan_id?",
 planName : "planName?",
-planDetails : "planDetails?"
+planDetails : "planDetails?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
 };
 
-const planEntityToDtoJson = {
+const planentityToDtoJson = {
+  Id:"Id?",
   plan_id : "plan_id?",
 planName : "planName?",
-planDetails : "planDetails?"
+planDetails : "planDetails?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
 };
 
-const planDtoToEntityJson= {
+const plandtoToEntityJson = {
+  Id:"Id?",
   plan_id : "plan_id?",
 planName : "planName?",
-planDetails : "planDetails?"
+planDetails : "planDetails?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
 };
 
-module.exports.planEntityJson = planEntityJson;
-module.exports.planDtoJson = planDtoJson;
-module.exports.planEntityToDtoJson = planEntityToDtoJson;
-module.exports.planDtoToEntityJson = planDtoToEntityJson;
+module.exports.planentityJson = planentityJson;
+module.exports.plandtoJson = plandtoJson;
+module.exports.planentityToDtoJson = planentityToDtoJson;
+module.exports.plandtoToEntityJson = plandtoToEntityJson;

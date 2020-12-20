@@ -1,41 +1,53 @@
 
-const channelBillPlanEntityJson = {
-additionalDetails : "additionalDetails?",
-channelBillPlanDetails : "channelBillPlanDetails?",
-planStartDate : "planStartDate?",
-planEndDate : "planEndDate?",
-channelId : "channelId?",
-planId : "planId?"
-};
-
-const channelBillPlanDtoJson = {
+const channelBillPlanentityJson = {
+  Id:"Id?",
   additionalDetails : "additionalDetails?",
 channelBillPlanDetails : "channelBillPlanDetails?",
 planStartDate : "planStartDate?",
 planEndDate : "planEndDate?",
 channelId : "channelId?",
-planId : "planId?"
+planId : "planId?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
 };
 
-const channelBillPlanEntityToDtoJson = {
+const channelBillPlandtoJson = {
+  Id:"Id?",
   additionalDetails : "additionalDetails?",
 channelBillPlanDetails : "channelBillPlanDetails?",
 planStartDate : "planStartDate?",
 planEndDate : "planEndDate?",
 channelId : "channelId?",
-planId : "planId?"
+planId : "planId?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
 };
 
-const channelBillPlanDtoToEntityJson= {
+const channelBillPlanentityToDtoJson = {
+  Id:"Id?",
   additionalDetails : "additionalDetails?",
 channelBillPlanDetails : "channelBillPlanDetails?",
 planStartDate : "planStartDate?",
 planEndDate : "planEndDate?",
 channelId : "channelId?",
-planId : "planId?"
+planId : "planId?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
 };
 
-module.exports.channelBillPlanEntityJson = channelBillPlanEntityJson;
-module.exports.channelBillPlanDtoJson = channelBillPlanDtoJson;
-module.exports.channelBillPlanEntityToDtoJson = channelBillPlanEntityToDtoJson;
-module.exports.channelBillPlanDtoToEntityJson = channelBillPlanDtoToEntityJson;
+const channelBillPlandtoToEntityJson = {
+  Id:"Id?",
+  additionalDetails : "additionalDetails?",
+channelBillPlanDetails : "channelBillPlanDetails?",
+planStartDate : "planStartDate?",
+planEndDate : "planEndDate?",
+channelId : "channelId?",
+planId : "planId?",
+SocketId: "SocketId?",
+  CommunityUrl:"CommunityUrl?"
+};
+
+module.exports.channelBillPlanentityJson = channelBillPlanentityJson;
+module.exports.channelBillPlandtoJson = channelBillPlandtoJson;
+module.exports.channelBillPlanentityToDtoJson = channelBillPlanentityToDtoJson;
+module.exports.channelBillPlandtoToEntityJson = channelBillPlandtoToEntityJson;

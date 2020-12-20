@@ -1,38 +1,50 @@
 
-const subscriptionOrderEntityJson = {
-    title : "title?",
+const subscriptionOrderentityJson = {
+  Id:"Id?",
+  title: "title?",
     channelType : "channelType?",
     channelDetails : "channelDetails?",
     subscriptionId : "subscriptionId?",
     channelBillPlans : "channelBillPlans?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const subscriptionOrderDtoJson = {
+const subscriptionOrderdtoJson = {
+  Id:"Id?",
     title : "title?",
     channelType : "channelType?",
     channelDetails : "channelDetails?",
     subscriptionId : "subscriptionId?",
     channelBillPlans : "channelBillPlans?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const subscriptionOrderEntityToDtoJson = {
+const subscriptionOrderentityToDtoJson = {
+  Id:"Id?",
     title : "title?",
     channelType : "channelType?",
     channelDetails : "channelDetails?",
     subscriptionId : "subscriptionId?",
     channelBillPlans : "channelBillPlans?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const subscriptionOrderDtoToEntityJson= {
+const subscriptionOrderdtoToEntityJson = {
+  Id:"Id?",
     title : "title?",
     channelType : "channelType?",
     channelDetails : "channelDetails?",
     subscriptionId : "subscriptionId?",
     channelBillPlans : "channelBillPlans?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
 
   };
   
-  module.exports.subscriptionOrderEntityJson = subscriptionOrderEntityJson;
-  module.exports.subscriptionOrderDtoJson = subscriptionOrderDtoJson;
-  module.exports.subscriptionOrderEntityToDtoJson = subscriptionOrderEntityToDtoJson;
-  module.exports.subscriptionOrderDtoToEntityJson = subscriptionOrderDtoToEntityJson;
+  module.exports.subscriptionOrderentityJson = subscriptionOrderentityJson;
+  module.exports.subscriptionOrderdtoJson = subscriptionOrderdtoJson;
+  module.exports.subscriptionOrderentityToDtoJson = subscriptionOrderentityToDtoJson;
+  module.exports.subscriptionOrderdtoToEntityJson = subscriptionOrderdtoToEntityJson;

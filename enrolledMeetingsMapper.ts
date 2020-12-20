@@ -1,40 +1,53 @@
-const enrolledMeetingsEntityJson = {
-    enrolledOn : "enrolledOn?",
-    userId : "userId?",
-    hostUserId : "hostUserId?",
-    user : "user?",
-    hostUser : "hostUser?",
-    userMeetingProviderMeetingId : "userMeetingProviderMeetingId?",
-    };
-    
-    const enrolledMeetingsDtoJson = {
-      enrolledOnDto : "enrolledOn?",
-      userIdDto : "userId?",
-      hostUserIdDto : "hostUserId?",
-      userDto : "user?",
-      hostUserDto : "hostUser?",
-      userMeetingProviderMeetingIdDto : "userMeetingProviderMeetingId?",
-    };
-    
-    const enrolledMeetingsEntityToDtoJson = {
-      enrolledOnDto : "enrolledOn?",
-      userIdDto : "userId?",
-      hostUserIdDto : "hostUserId?",
-      userDto : "user?",
-      hostUserDto : "hostUser?",
-      userMeetingProviderMeetingIdDto : "userMeetingProviderMeetingId?",
-    };
-    
-    const enrolledMeetingsDtoToEntityJson= {
-      enrolledOn : "enrolledOn?",
-      userId : "userId?",
-      hostUserId : "hostUserId?",
-      user : "user?",
-      hostUser : "hostUser?",
-      userMeetingProviderMeetingId : "userMeetingProviderMeetingId?",
-      };
-    
-    module.exports.enrolledMeetingsEntityJson = enrolledMeetingsEntityJson;
-    module.exports.enrolledMeetingsDtoJson = enrolledMeetingsDtoJson;
-    module.exports.enrolledMeetingsEntityToDtoJson = enrolledMeetingsEntityToDtoJson;
-    module.exports.enrolledMeetingsDtoToEntityJson = enrolledMeetingsDtoToEntityJson;
+
+const enrolledMeetingentityJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
+  };
+  
+const enrolledMeetingdtoJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
+  };
+  
+const enrolledMeetingentityToDtoJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
+  };
+  
+const enrolledMeetingdtoToEntityJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
+  };
+  
+  module.exports.enrolledMeetingentityJson = enrolledMeetingentityJson;
+  module.exports.enrolledMeetingdtoJson = enrolledMeetingdtoJson;
+  module.exports.enrolledMeetingentityToDtoJson = enrolledMeetingentityToDtoJson;
+  module.exports.enrolledMeetingdtoToEntityJson = enrolledMeetingdtoToEntityJson;

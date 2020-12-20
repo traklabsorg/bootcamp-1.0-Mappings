@@ -1,37 +1,49 @@
 
-const groupEntityJson = {
+const groupentityJson = {
+  Id:"Id?",
   group_id : "group_id?",
   groupName : "groupName?",
   groupType : "groupType?",
   groupDetails : "groupDetails?",
-  tenantId : "tenantId?"
+  communityId:"communityId",
+  SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
 };
 
-const groupDtoJson = {
+const groupdtoJson = {
+  Id:"Id?",
   group_id : "group_id?",
 groupName : "groupName?",
 groupType : "groupType?",
 groupDetails : "groupDetails?",
-tenantId : "tenantId"
+  communityId:"communityId",
+  SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
 };
 
-const groupEntityToDtoJson = {
+const groupentityToDtoJson = {
+  Id:"Id?",
   group_id : "group_id?",
 groupName : "groupName?",
 groupType : "groupType?",
 groupDetails : "groupDetails?",
-tenantId : "tenantId?"
+  communityId:"communityId",
+  SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
 };
 
-const groupDtoToEntityJson= {
+const groupdtoToEntityJson = {
+  Id:"Id?",
   group_id : "group_id?",
 groupName : "groupName?",
 groupType : "groupType?",
 groupDetails : "groupDetails?",
-tenantId : "tenantId?",
+  communityId:"communityId",
+  SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
 };
 
-module.exports.groupEntityJson = groupEntityJson;
-module.exports.groupDtoJson = groupDtoJson;
-module.exports.groupEntityToDtoJson = groupEntityToDtoJson;
-module.exports.groupDtoToEntityJson = groupDtoToEntityJson;
+module.exports.groupentityJson = groupentityJson;
+module.exports.groupdtoJson = groupdtoJson;
+module.exports.groupentityToDtoJson = groupentityToDtoJson;
+module.exports.groupdtoToEntityJson = groupdtoToEntityJson;

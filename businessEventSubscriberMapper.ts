@@ -1,37 +1,53 @@
 
-const businessEventSubscriberEntityJson = {
+const businessEventSubscriberentityJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
     operationName : "operationName?",
-    subscriptionDetails : "subscriptionDetails?",
-    eventId : "eventId?",
+    publicDetails : "publicDetails?",
     ddEntityId : "ddEntityId?",
-    serviceConsumerId : "serviceConsumerId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const businessEventSubscriberDtoJson = {
+const businessEventSubscriberdtoJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
     operationName : "operationName?",
-    subscriptionDetails : "subscriptionDetails?",
-    eventId : "eventId?",
+    publicDetails : "publicDetails?",
     ddEntityId : "ddEntityId?",
-    serviceConsumerId : "serviceConsumerId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const businessEventSubscriberEntityToDtoJson = {
+const businessEventSubscriberentityToDtoJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
     operationName : "operationName?",
-    subscriptionDetails : "subscriptionDetails?",
-    eventId : "eventId?",
+    publicDetails : "publicDetails?",
     ddEntityId : "ddEntityId?",
-    serviceConsumerId : "serviceConsumerId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  const businessEventSubscriberDtoToEntityJson= {
+const businessEventSubscriberdtoToEntityJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
     operationName : "operationName?",
-    subscriptionDetails : "subscriptionDetails?",
-    eventId : "eventId?",
+    publicDetails : "publicDetails?",
     ddEntityId : "ddEntityId?",
-    serviceConsumerId : "serviceConsumerId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  module.exports.businessEventSubscriberEntityJson = businessEventSubscriberEntityJson;
-  module.exports.businessEventSubscriberDtoJson = businessEventSubscriberDtoJson;
-  module.exports.businessEventSubscriberEntityToDtoJson = businessEventSubscriberEntityToDtoJson;
-  module.exports.businessEventSubscriberDtoToEntityJson = businessEventSubscriberDtoToEntityJson;
+  module.exports.businessEvententityJson = businessEvententityJson;
+  module.exports.businessEventdtoJson = businessEventdtoJson;
+  module.exports.businessEvententityToDtoJson = businessEvententityToDtoJson;
+  module.exports.businessEventdtoToEntityJson = businessEventdtoToEntityJson;

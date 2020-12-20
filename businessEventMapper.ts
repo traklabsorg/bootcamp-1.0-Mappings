@@ -1,40 +1,52 @@
-const businessEventEntityJson = {
+const businessEvententityJson = {
+    Id:"Id?",
     eventName : "eventName?",
     eventDetails : "eventDetails?",
     operationName : "operationName?",
     publicDetails : "publicDetails?",
     ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
+  businessEventSubscriber: "businessEventSubscriber?",
+  SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
   };
   
-  const businessEventDtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
-  };
-  
-  const businessEventEntityToDtoJson = {
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?"
-  };
-  
-  const businessEventDtoToEntityJson= {
+const businessEventdtoJson = {
+  Id:"Id?",
     eventName : "eventName?",
     eventDetails : "eventDetails?",
     operationName : "operationName?",
     publicDetails : "publicDetails?",
     ddEntityId : "ddEntityId?",
     businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
-  module.exports.businessEventEntityJson = businessEventEntityJson;
-  module.exports.businessEventDtoJson = businessEventDtoJson;
-  module.exports.businessEventEntityToDtoJson = businessEventEntityToDtoJson;
-  module.exports.businessEventDtoToEntityJson = businessEventDtoToEntityJson;
+const businessEvententityToDtoJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
+  };
+  
+const businessEventdtoToEntityJson = {
+  Id:"Id?",
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    businessEventSubscriber : "businessEventSubscriber?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
+  };
+  
+  module.exports.businessEvententityJson = businessEvententityJson;
+  module.exports.businessEventdtoJson = businessEventdtoJson;
+  module.exports.businessEvententityToDtoJson = businessEvententityToDtoJson;
+  module.exports.businessEventdtoToEntityJson = businessEventdtoToEntityJson;
