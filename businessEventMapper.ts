@@ -5,7 +5,7 @@ const businessEvententityJson = {
     operationName : "operationName?",
     publicDetails : "publicDetails?",
     ddEntityId : "ddEntityId?",
-    ddEntity: "ddEntity?"
+    ddEntity: "ddEntity?",
   businessEventSubscriber: "businessEventSubscriber?",
   SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
@@ -18,7 +18,7 @@ const businessEventdtoJson = {
       operationName : "operationName?",
       publicDetails : "publicDetails?",
       ddEntityId : "ddEntityId?",
-      ddEntity: "ddEntity?"
+      ddEntity: "ddEntity?",
     businessEventSubscriber: "businessEventSubscriber?",
     SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
@@ -31,7 +31,7 @@ const businessEvententityToDtoJson = {
       operationName : "operationName?",
       publicDetails : "publicDetails?",
       ddEntityId : "ddEntityId?",
-      ddEntity: "ddEntity?"
+      ddEntity: "ddEntity?",
     businessEventSubscriber: "businessEventSubscriber?",
     SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
