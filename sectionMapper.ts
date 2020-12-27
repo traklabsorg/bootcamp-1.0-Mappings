@@ -1,50 +1,62 @@
 
 const sectionentityJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
+    title: "title?",
+    contents: "contents?",
+    liveContents: "liveContents?",
+    sectionDetails: "sectionDetails?",
+    sectionType: "sectionType?",
+    channelId: "channelId?",
+    lessons: "lessons?",
+    channel: "channel?",
+    lessonDataReview: "lessonDataReview?",
     SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
 const sectiondtoJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      title: "title?",
+      contents: "contents?",
+      liveContents: "liveContents?",
+      sectionDetails: "sectionDetails?",
+      sectionType: "sectionType?",
+      channelId: "channelId?",
+      lessons: "lessons?",
+      channel: "channel?",
+      lessonDataReview: "lessonDataReview?",
+      SocketId: "SocketId?",
+        CommunityUrl:"CommunityUrl?"
   };
   
 const sectionentityToDtoJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      title: "title?",
+      contents: "contents?",
+      liveContents: "liveContents?",
+      sectionDetails: "sectionDetails?",
+      sectionType: "sectionType?",
+      channelId: "channelId?",
+      lessons: "lessons?",
+      channel: "channel?",
+      lessonDataReview: "lessonDataReview?",
+      SocketId: "SocketId?",
+        CommunityUrl:"CommunityUrl?"
   };
   
   const sectiondtoToEntityJson= {
     Id:"Id?",
-    eventName: "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+        title: "title?",
+        contents: "contents?",
+        liveContents: "liveContents?",
+        sectionDetails: "sectionDetails?",
+        sectionType: "sectionType?",
+        channelId: "channelId?",
+        lessons: "lessons?",
+        channel: "channel?",
+        lessonDataReview: "lessonDataReview?",
+        SocketId: "SocketId?",
+          CommunityUrl:"CommunityUrl?"
   };
   
   module.exports.sectionentityJson = sectionentityJson;

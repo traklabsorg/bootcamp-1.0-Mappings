@@ -1,46 +1,62 @@
 
 const groupentityJson = {
   Id:"Id?",
-  group_id : "group_id?",
   groupName : "groupName?",
   groupType : "groupType?",
   groupDetails : "groupDetails?",
+  groupPayerType: "groupPayerType?",
   communityId:"communityId",
+  isActive: "isActive?",
+  channelGroups: "channelGroups?",
+  groupUsers : "groupUsers?",
+  community : "community?",
   SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 };
 
 const groupdtoJson = {
   Id:"Id?",
-  group_id : "group_id?",
-groupName : "groupName?",
-groupType : "groupType?",
-groupDetails : "groupDetails?",
-  communityId:"communityId",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    groupName : "groupName?",
+    groupType : "groupType?",
+    groupDetails : "groupDetails?",
+    groupPayerType: "groupPayerType?",
+    communityId:"communityId",
+    isActive: "isActive?",
+    channelGroups: "channelGroups?",
+    groupUsers : "groupUsers?",
+    community : "community?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
 };
 
 const groupentityToDtoJson = {
   Id:"Id?",
-  group_id : "group_id?",
-groupName : "groupName?",
-groupType : "groupType?",
-groupDetails : "groupDetails?",
-  communityId:"communityId",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    groupName : "groupName?",
+    groupType : "groupType?",
+    groupDetails : "groupDetails?",
+    groupPayerType: "groupPayerType?",
+    communityId:"communityId",
+    isActive: "isActive?",
+    channelGroups: "channelGroups?",
+    groupUsers : "groupUsers?",
+    community : "community?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
 };
 
 const groupdtoToEntityJson = {
-  Id:"Id?",
-  group_id : "group_id?",
-groupName : "groupName?",
-groupType : "groupType?",
-groupDetails : "groupDetails?",
-  communityId:"communityId",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+  IId:"Id?",
+     groupName : "groupName?",
+     groupType : "groupType?",
+     groupDetails : "groupDetails?",
+     groupPayerType: "groupPayerType?",
+     communityId:"communityId",
+     isActive: "isActive?",
+     channelGroups: "channelGroups?",
+     groupUsers : "groupUsers?",
+     community : "community?",
+     SocketId: "SocketId?",
+       CommunityUrl:"CommunityUrl?"
 };
 
 module.exports.groupentityJson = groupentityJson;

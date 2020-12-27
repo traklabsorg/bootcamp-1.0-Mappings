@@ -43,50 +43,46 @@
 
 const paymentCouponentityJson = {
   Id:"Id?",
-  eventName : "eventName?",
-  eventDetails : "eventDetails?",
-  operationName : "operationName?",
-  publicDetails : "publicDetails?",
-  ddEntityId : "ddEntityId?",
-  businessEventSubscriber : "businessEventSubscriber?",
+  paymentCouponDetails: "paymentCouponDetails?",
+  paymentId: "paymentId?",
+  couponId: "couponId?",
+  coupon: "coupon?",
+  payment: "payment?",
   SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 };
 
 const paymentCoupondtoJson = {
   Id:"Id?",
-  eventName : "eventName?",
-  eventDetails : "eventDetails?",
-  operationName : "operationName?",
-  publicDetails : "publicDetails?",
-  ddEntityId : "ddEntityId?",
-  businessEventSubscriber : "businessEventSubscriber?",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    paymentCouponDetails: "paymentCouponDetails?",
+    paymentId: "paymentId?",
+    couponId: "couponId?",
+    coupon: "coupon?",
+    payment: "payment?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
 };
 
 const paymentCouponentityToDtoJson = {
   Id:"Id?",
-  eventName : "eventName?",
-  eventDetails : "eventDetails?",
-  operationName : "operationName?",
-  publicDetails : "publicDetails?",
-  ddEntityId : "ddEntityId?",
-  businessEventSubscriber : "businessEventSubscriber?",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    paymentCouponDetails: "paymentCouponDetails?",
+    paymentId: "paymentId?",
+    couponId: "couponId?",
+    coupon: "coupon?",
+    payment: "payment?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
 };
 
 const paymentCoupondtoToEntityJson = {
   Id:"Id?",
-  eventName : "eventName?",
-  eventDetails : "eventDetails?",
-  operationName : "operationName?",
-  publicDetails : "publicDetails?",
-  ddEntityId : "ddEntityId?",
-  businessEventSubscriber : "businessEventSubscriber?",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    paymentCouponDetails: "paymentCouponDetails?",
+    paymentId: "paymentId?",
+    couponId: "couponId?",
+    coupon: "coupon?",
+    payment: "payment?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
 };
 
 module.exports.paymentCouponentityJson = paymentCouponentityJson;

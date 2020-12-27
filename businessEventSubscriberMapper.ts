@@ -1,50 +1,58 @@
 
 const businessEventSubscriberentityJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
     operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
+    subscriptionDetails: "subscriptionDetails?",
+    businessEventId: "businessEventId?",
+    subscriberDdEntityId: "subscriberDdEntityId?",
+    serviceConsumerId: "serviceConsumerId?",
+    businessEvent: "businessEvent?",
+    ddEntity: "ddEntity?",
+    serviceConsumer: "serviceConsumer?",
     SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
 const businessEventSubscriberdtoJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      operationName : "operationName?",
+      subscriptionDetails: "subscriptionDetails?",
+      businessEventId: "businessEventId?",
+      subscriberDdEntityId: "subscriberDdEntityId?",
+      serviceConsumerId: "serviceConsumerId?",
+      businessEvent: "businessEvent?",
+      ddEntity: "ddEntity?",
+      serviceConsumer: "serviceConsumer?",
+      SocketId: "SocketId?",
+        CommunityUrl:"CommunityUrl?"
   };
   
 const businessEventSubscriberentityToDtoJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      operationName : "operationName?",
+      subscriptionDetails: "subscriptionDetails?",
+      businessEventId: "businessEventId?",
+      subscriberDdEntityId: "subscriberDdEntityId?",
+      serviceConsumerId: "serviceConsumerId?",
+      businessEvent: "businessEvent?",
+      ddEntity: "ddEntity?",
+      serviceConsumer: "serviceConsumer?",
+      SocketId: "SocketId?",
+        CommunityUrl:"CommunityUrl?"
   };
   
 const businessEventSubscriberdtoToEntityJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      operationName : "operationName?",
+      subscriptionDetails: "subscriptionDetails?",
+      businessEventId: "businessEventId?",
+      subscriberDdEntityId: "subscriberDdEntityId?",
+      serviceConsumerId: "serviceConsumerId?",
+      businessEvent: "businessEvent?",
+      ddEntity: "ddEntity?",
+      serviceConsumer: "serviceConsumer?",
+      SocketId: "SocketId?",
+        CommunityUrl:"CommunityUrl?"
   };
   
   module.exports.businessEvententityJson = businessEvententityJson;

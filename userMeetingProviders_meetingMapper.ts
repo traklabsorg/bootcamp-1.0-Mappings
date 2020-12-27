@@ -1,45 +1,50 @@
 
 const userMeetingProvider_MeetingentityJson = {
   Id:"Id?",
-  user_meeting_providers_meeting_id : "user_meeting_providers_meeting_id?",
-  userMeetingProviderId : "userMeetingProviderId?",
   meetingDetail : "meetingDetail?",
   meetingStartDateTime : "meetingStartDateTime?",
   meetingEndDateTime : "meetingEndDateTime?",
+  meetingType: "meetingType?",
+  meetingProviderId : "meetingProviderId?",
+  userMeetingProvider: "userMeetingProvider?",
   SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 };
 
 const userMeetingProvider_MeetingdtoJson = {
   Id:"Id?",
-  user_meeting_providers_meeting_id : "user_meeting_providers_meeting_id?",
-  userMeetingProviderId : "userMeetingProviderId?",
-  meetingDetail : "meetingDetail?",
-  meetingStartDateTime : "meetingStartDateTime?",
-  meetingEndDateTime : "meetingEndDateTime?",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    meetingDetail : "meetingDetail?",
+    meetingStartDateTime : "meetingStartDateTime?",
+    meetingEndDateTime : "meetingEndDateTime?",
+    meetingType: "meetingType?",
+    meetingProviderId : "meetingProviderId?",
+    userMeetingProvider: "userMeetingProvider?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
 };
 
 const userMeetingProvider_MeetingentityToDtoJson = {
   Id:"Id?",
-  user_meeting_providers_meeting_id : "user_meeting_providers_meeting_id?",
-  userMeetingProviderId : "userMeetingProviderId?",
-  meetingDetail : "meetingDetail?",
-  meetingStartDateTime : "meetingStartDateTime?",
-  meetingEndDateTime : "meetingEndDateTime?",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    meetingDetail : "meetingDetail?",
+    meetingStartDateTime : "meetingStartDateTime?",
+    meetingEndDateTime : "meetingEndDateTime?",
+    meetingType: "meetingType?",
+    meetingProviderId : "meetingProviderId?",
+    userMeetingProvider: "userMeetingProvider?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
 };
 
 const userMeetingProvider_MeetingdtoToEntityJson = {
   Id:"Id?",
-  userMeetingProviderId : "userMeetingProviderId?",
-  meetingDetail : "meetingDetail?",
-  meetingStartDateTime : "meetingStartDateTime?",
-  meetingEndDateTime : "meetingEndDateTime?",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    meetingDetail : "meetingDetail?",
+    meetingStartDateTime : "meetingStartDateTime?",
+    meetingEndDateTime : "meetingEndDateTime?",
+    meetingType: "meetingType?",
+    meetingProviderId : "meetingProviderId?",
+    userMeetingProvider: "userMeetingProvider?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
 };
 
 module.exports.userMeetingProvider_MeetingentityJson = userMeetingProvider_MeetingentityJson;

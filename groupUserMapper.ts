@@ -1,42 +1,50 @@
 
 const groupUserentityJson = {
   Id:"Id?",
-  group_user_id : "group_user_id?",
   groupUserDetails : "groupUserDetails?",
   groupId : "groupId",
   userId : "userId?",
+  groupImage: "groupImage?",
+  group: "group?",
+  user: "user?",
   SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 };
 
 const groupUserdtoJson = {
   Id:"Id?",
-  group_user_id : "group_user_id?",
-groupUserDetails : "groupUserDetails?",
-groupId : "groupId",
-userId : "userId?",
-SocketId: "SocketId?",
-  CommunityUrl:"CommunityUrl?"
+    groupUserDetails : "groupUserDetails?",
+    groupId : "groupId",
+    userId : "userId?",
+    groupImage: "groupImage?",
+    group: "group?",
+    user: "user?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
 };
 
 const groupUserentityToDtoJson = {
   Id:"Id?",
-  group_user_id : "group_user_id?",
-groupUserDetails : "groupUserDetails?",
-groupId : "groupId",
-userId : "userId?",
-SocketId: "SocketId?",
-  CommunityUrl:"CommunityUrl?"
+    groupUserDetails : "groupUserDetails?",
+    groupId : "groupId",
+    userId : "userId?",
+    groupImage: "groupImage?",
+    group: "group?",
+    user: "user?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
 };
 
 const groupUserdtoToEntityJson = {
   Id:"Id?",
-  group_user_id : "group_user_id?",
-groupUserDetails : "groupUserDetails?",
-groupId : "groupId",
-userId : "userId?",
-SocketId: "SocketId?",
-  CommunityUrl:"CommunityUrl?"
+    groupUserDetails : "groupUserDetails?",
+    groupId : "groupId",
+    userId : "userId?",
+    groupImage: "groupImage?",
+    group: "group?",
+    user: "user?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
 };
 
 module.exports.groupUserentityJson = groupUserentityJson;

@@ -1,50 +1,50 @@
 
 const enrolledMeetingentityJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
+    enrolledOn: "enrolledOn?",
+    userId: "userId?",
+    hostUserId: "hostUserId?",
+    hostUsuserMeetingProviderMeetingerId: "hostUsuserMeetingProviderMeetingerId?",
+    user: "user?",
+    userMeetingProviderMeeting: "userMeetingProviderMeeting?",
     SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
 const enrolledMeetingdtoJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      enrolledOn: "enrolledOn?",
+      userId: "userId?",
+      hostUserId: "hostUserId?",
+      hostUsuserMeetingProviderMeetingerId: "hostUsuserMeetingProviderMeetingerId?",
+      user: "user?",
+      userMeetingProviderMeeting: "userMeetingProviderMeeting?",
+      SocketId: "SocketId?",
+        CommunityUrl:"CommunityUrl?"
   };
   
 const enrolledMeetingentityToDtoJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      enrolledOn: "enrolledOn?",
+      userId: "userId?",
+      hostUserId: "hostUserId?",
+      hostUsuserMeetingProviderMeetingerId: "hostUsuserMeetingProviderMeetingerId?",
+      user: "user?",
+      userMeetingProviderMeeting: "userMeetingProviderMeeting?",
+      SocketId: "SocketId?",
+        CommunityUrl:"CommunityUrl?"
   };
   
 const enrolledMeetingdtoToEntityJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      enrolledOn: "enrolledOn?",
+      userId: "userId?",
+      hostUserId: "hostUserId?",
+      hostUsuserMeetingProviderMeetingerId: "hostUsuserMeetingProviderMeetingerId?",
+      user: "user?",
+      userMeetingProviderMeeting: "userMeetingProviderMeeting?",
+      SocketId: "SocketId?",
+        CommunityUrl:"CommunityUrl?"
   };
   
   module.exports.enrolledMeetingentityJson = enrolledMeetingentityJson;

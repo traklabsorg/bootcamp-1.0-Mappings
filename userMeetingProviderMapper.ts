@@ -2,9 +2,12 @@
 
 const userMeetingProviderentityJson = {
   Id:"Id?",
-  user_meeting_provider_id : "user_meeting_provider_id?",
+  Details: "Details?",
   userId : "userId?",
   meetingProviderId : "meetingProviderId?",
+  userMeetingProvider_meetings: "userMeetingProvider_meetings?",
+  user: "user?",
+  meetingProvider: "meetingProvider?",
   SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 
@@ -12,29 +15,38 @@ const userMeetingProviderentityJson = {
 
 const userMeetingProviderdtoJson = {
   Id:"Id?",
-  user_meeting_provider_id : "user_meeting_provider_id?",
-  userId : "userId?",
-  meetingProviderId : "meetingProviderId?",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    Details: "Details?",
+    userId : "userId?",
+    meetingProviderId : "meetingProviderId?",
+    userMeetingProvider_meetings: "userMeetingProvider_meetings?",
+    user: "user?",
+    meetingProvider: "meetingProvider?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
 };
 
 const userMeetingProviderentityToDtoJson = {
   Id:"Id?",
-  user_meeting_provider_id : "user_meeting_provider_id?",
-  userId : "userId?",
-  meetingProviderId : "meetingProviderId?",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    Details: "Details?",
+    userId : "userId?",
+    meetingProviderId : "meetingProviderId?",
+    userMeetingProvider_meetings: "userMeetingProvider_meetings?",
+    user: "user?",
+    meetingProvider: "meetingProvider?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
 };
 
 const userMeetingProviderdtoToEntityJson = {
   Id:"Id?",
-  user_meeting_provider_id : "user_meeting_provider_id?",
-  userId : "userId?",
-  meetingProviderId : "meetingProviderId?",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    Details: "Details?",
+    userId : "userId?",
+    meetingProviderId : "meetingProviderId?",
+    userMeetingProvider_meetings: "userMeetingProvider_meetings?",
+    user: "user?",
+    meetingProvider: "meetingProvider?",
+    SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
 };
 
 module.exports.userMeetingProviderentityJson = userMeetingProviderentityJson;

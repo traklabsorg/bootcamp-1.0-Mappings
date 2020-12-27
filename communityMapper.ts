@@ -1,70 +1,79 @@
-
+ 
 const communityentityJson = {
   Id:"Id?",
 
-  community_id : "community_id?",
   communityName : "communityName?",
-  address : "address?",
   communityAdminId : "communityAdminId?",
-  payment_info : "payment_info?",
-  subsciptionStartDate : "subsciptionStartDate?",
-  subsciptionEndDate: "subsciptionEndDate?",
+  address: "address?",
+  paymentInfo: "paymentInfo?",
+  subscriptionStartDate : "subscriptionStartDate?",
+  subscriptionEndDate: "subscriptionEndDate?",
   userQuotas: "userQuotas?",
   communityAdditionalData: "communityAdditionalData?",
   communityUrl: "communityUrl?",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+  users: "users?",
+  groups: "groups?",
+  channels: "channels?",
+  CommunityUrl: "CommunityUrl?",
+  SocketId: "SocketId?"
+
 };
 
 const communitydtoJson = {
   Id:"Id?",
 
-  community_id : "community_id?",
-  communityName : "communityName?",
-  address : "address?",
-  communityAdminId : "communityAdminId?",
-  payment_info : "payment_info?",
-  subsciptionStartDate : "subsciptionStartDate?",
-  subsciptionEndDate: "subsciptionEndDate?",
-  userQuotas: "userQuotas?",
-  communityAdditionalData: "communityAdditionalData?",
-  communityUrl : "communityUrl?",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    communityName : "communityName?",
+    communityAdminId : "communityAdminId?",
+    address: "address?",
+    paymentInfo: "paymentInfo?",
+    subscriptionStartDate : "subscriptionStartDate?",
+    subscriptionEndDate: "subscriptionEndDate?",
+    userQuotas: "userQuotas?",
+    communityAdditionalData: "communityAdditionalData?",
+    communityUrl: "communityUrl?",
+    users: "users?",
+    groups: "groups?",
+    channels: "channels?",
+    CommunityUrl: "CommunityUrl?",
+    SocketId: "SocketId?"
 };
 
 const communityentityToDtoJson = {
   Id:"Id?",
 
-  community_id : "community_id?",
-  communityName : "communityName?",
-  address : "address?",
-  communityAdminId : "communityAdminId?",
-  payment_info : "payment_info?",
-  subsciptionStartDate : "subsciptionStartDate?",
-  subsciptionEndDate: "subsciptionEndDate?",
-  userQuotas: "userQuotas?",
-  communityAdditionalData: "communityAdditionalData?",
-  communityUrl : "communityUrl?",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    communityName : "communityName?",
+    communityAdminId : "communityAdminId?",
+    address: "address?",
+    paymentInfo: "paymentInfo?",
+    subscriptionStartDate : "subscriptionStartDate?",
+    subscriptionEndDate: "subscriptionEndDate?",
+    userQuotas: "userQuotas?",
+    communityAdditionalData: "communityAdditionalData?",
+    communityUrl: "communityUrl?",
+    users: "users?",
+    groups: "groups?",
+    channels: "channels?",
+    CommunityUrl: "CommunityUrl?",
+    SocketId: "SocketId?"
 };
 
 const communitydtoToEntityJson = {
   Id:"Id?",
 
-  community_id : "community_id?",
-  communityName : "communityName?",
-  address : "address?",
-  communityAdminId : "communityAdminId?",
-  payment_info : "payment_info?",
-  subsciptionStartDate : "subsciptionStartDate?",
-  subsciptionEndDate: "subsciptionEndDate?",
-  userQuotas: "userQuotas?",
-  communityAdditionalData: "communityAdditionalData?",
-  communityUrl : "communityUrl?",
-  SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    communityName : "communityName?",
+    communityAdminId : "communityAdminId?",
+    address: "address?",
+    paymentInfo: "paymentInfo?",
+    subscriptionStartDate : "subscriptionStartDate?",
+    subscriptionEndDate: "subscriptionEndDate?",
+    userQuotas: "userQuotas?",
+    communityAdditionalData: "communityAdditionalData?",
+    communityUrl: "communityUrl?",
+    users: "users?",
+    groups: "groups?",
+    channels: "channels?",
+    CommunityUrl: "CommunityUrl?",
+    SocketId: "SocketId?"
 };
 
 module.exports.communityentityJson = communityentityJson;

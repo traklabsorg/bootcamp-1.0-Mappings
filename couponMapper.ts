@@ -1,50 +1,62 @@
 
 const couponentityJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
+    couponCode: "couponCode?",
+    validTill: "validTill?",
+    usageCount: "usageCount?",
+    description: "description?",
+    usageLimit: "usageLimit?",
+    couponType: "couponType?",
+    isActive: "isActive?",
+    couponDetails: "couponDetails?",
+    paymentCoupons: "paymentCoupons?",
     SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
 const coupondtoJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      couponCode: "couponCode?",
+      validTill: "validTill?",
+      usageCount: "usageCount?",
+      description: "description?",
+      usageLimit: "usageLimit?",
+      couponType: "couponType?",
+      isActive: "isActive?",
+      couponDetails: "couponDetails?",
+      paymentCoupons: "paymentCoupons?",
+      SocketId: "SocketId?",
+        CommunityUrl:"CommunityUrl?"
   };
   
 const couponentityToDtoJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      couponCode: "couponCode?",
+      validTill: "validTill?",
+      usageCount: "usageCount?",
+      description: "description?",
+      usageLimit: "usageLimit?",
+      couponType: "couponType?",
+      isActive: "isActive?",
+      couponDetails: "couponDetails?",
+      paymentCoupons: "paymentCoupons?",
+      SocketId: "SocketId?",
+        CommunityUrl:"CommunityUrl?"
   };
   
 const coupondtoToEntityJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      couponCode: "couponCode?",
+      validTill: "validTill?",
+      usageCount: "usageCount?",
+      description: "description?",
+      usageLimit: "usageLimit?",
+      couponType: "couponType?",
+      isActive: "isActive?",
+      couponDetails: "couponDetails?",
+      paymentCoupons: "paymentCoupons?",
+      SocketId: "SocketId?",
+        CommunityUrl:"CommunityUrl?"
   };
   
   module.exports.couponentityJson = couponentityJson;
