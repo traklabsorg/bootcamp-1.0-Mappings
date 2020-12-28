@@ -5,7 +5,7 @@ const serviceConsumerentityJson = {
     eventDetails: "eventDetails?",
     serviceConsumerDetails: "serviceConsumerDetails?",
     businessEventSubscribers: "businessEventSubscribers?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
@@ -15,7 +15,7 @@ const serviceConsumerdtoJson = {
       eventDetails: "eventDetails?",
       serviceConsumerDetails: "serviceConsumerDetails?",
       businessEventSubscribers: "businessEventSubscribers?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -25,7 +25,7 @@ const serviceConsumerentityToDtoJson = {
       eventDetails: "eventDetails?",
       serviceConsumerDetails: "serviceConsumerDetails?",
       businessEventSubscribers: "businessEventSubscribers?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -35,7 +35,7 @@ const serviceConsumerdtoToEntityJson = {
       eventDetails: "eventDetails?",
       serviceConsumerDetails: "serviceConsumerDetails?",
       businessEventSubscribers: "businessEventSubscribers?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   

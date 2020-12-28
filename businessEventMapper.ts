@@ -7,7 +7,7 @@ const businessEvententityJson = {
     ddEntityId : "ddEntityId?",
     ddEntity: "ddEntity?",
   businessEventSubscriber: "businessEventSubscriber?",
-  SocketId: "SocketId?",
+  //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
   };
   
@@ -20,7 +20,7 @@ const businessEventdtoJson = {
       ddEntityId : "ddEntityId?",
       ddEntity: "ddEntity?",
     businessEventSubscriber: "businessEventSubscriber?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
@@ -33,7 +33,7 @@ const businessEvententityToDtoJson = {
       ddEntityId : "ddEntityId?",
       ddEntity: "ddEntity?",
     businessEventSubscriber: "businessEventSubscriber?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
@@ -46,7 +46,7 @@ const businessEventdtoToEntityJson = {
       ddEntityId : "ddEntityId?",
       ddEntity: "ddEntity?",
     businessEventSubscriber: "businessEventSubscriber?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   

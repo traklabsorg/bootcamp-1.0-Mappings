@@ -7,7 +7,7 @@ const contententityJson = {
     publicDetails : "publicDetails?",
     ddEntityId : "ddEntityId?",
     businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
@@ -19,7 +19,7 @@ const contentdtoJson = {
     publicDetails : "publicDetails?",
     ddEntityId : "ddEntityId?",
     businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
@@ -31,7 +31,7 @@ const contententityToDtoJson = {
     publicDetails : "publicDetails?",
     ddEntityId : "ddEntityId?",
     businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
@@ -43,7 +43,7 @@ const contentdtoToEntityJson = {
     publicDetails : "publicDetails?",
     ddEntityId : "ddEntityId?",
     businessEventSubscriber : "businessEventSubscriber?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   

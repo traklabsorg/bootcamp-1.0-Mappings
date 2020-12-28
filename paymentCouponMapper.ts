@@ -48,7 +48,7 @@ const paymentCouponentityJson = {
   couponId: "couponId?",
   coupon: "coupon?",
   payment: "payment?",
-  SocketId: "SocketId?",
+  //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 };
 
@@ -59,7 +59,7 @@ const paymentCoupondtoJson = {
     couponId: "couponId?",
     coupon: "coupon?",
     payment: "payment?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -70,7 +70,7 @@ const paymentCouponentityToDtoJson = {
     couponId: "couponId?",
     coupon: "coupon?",
     payment: "payment?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -81,7 +81,7 @@ const paymentCoupondtoToEntityJson = {
     couponId: "couponId?",
     coupon: "coupon?",
     payment: "payment?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 

@@ -5,7 +5,7 @@ const ddEntityentityJson = {
     entityDetails: "entityDetails?",
     businessEvents: "businessEvents?",
     businessEventSubscribers: "businessEventSubscribers?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
@@ -15,7 +15,7 @@ const ddEntitydtoJson = {
       entityDetails: "entityDetails?",
       businessEvents: "businessEvents?",
       businessEventSubscribers: "businessEventSubscribers?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -25,7 +25,7 @@ const ddEntityentityToDtoJson = {
       entityDetails: "entityDetails?",
       businessEvents: "businessEvents?",
       businessEventSubscribers: "businessEventSubscribers?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -35,7 +35,7 @@ const ddEntitydtoToEntityJson = {
       entityDetails: "entityDetails?",
       businessEvents: "businessEvents?",
       businessEventSubscribers: "businessEventSubscribers?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   

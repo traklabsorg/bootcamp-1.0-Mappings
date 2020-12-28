@@ -18,7 +18,7 @@ const userentityJson = {
   lessonDataUsers: "lessonDataUsers?",
   community: "community?",
   liveContents: "liveContents?",
-  SocketId: "SocketId?",
+  //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 };
 
@@ -41,7 +41,7 @@ const userdtoJson = {
     lessonDataUsers: "lessonDataUsers?",
     community: "community?",
     liveContents: "liveContents?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -64,7 +64,7 @@ const userentityToDtoJson = {
     lessonDataUsers: "lessonDataUsers?",
     community: "community?",
     liveContents: "liveContents?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -87,7 +87,7 @@ const userdtoToEntityJson = {
     lessonDataUsers: "lessonDataUsers?",
     community: "community?",
     liveContents: "liveContents?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 

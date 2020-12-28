@@ -7,7 +7,7 @@ const groupUserentityJson = {
   groupImage: "groupImage?",
   group: "group?",
   user: "user?",
-  SocketId: "SocketId?",
+  //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 };
 
@@ -19,7 +19,7 @@ const groupUserdtoJson = {
     groupImage: "groupImage?",
     group: "group?",
     user: "user?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -31,7 +31,7 @@ const groupUserentityToDtoJson = {
     groupImage: "groupImage?",
     group: "group?",
     user: "user?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -43,7 +43,7 @@ const groupUserdtoToEntityJson = {
     groupImage: "groupImage?",
     group: "group?",
     user: "user?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 

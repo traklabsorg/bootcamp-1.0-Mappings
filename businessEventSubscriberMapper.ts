@@ -9,7 +9,7 @@ const businessEventSubscriberentityJson = {
     businessEvent: "businessEvent?",
     ddEntity: "ddEntity?",
     serviceConsumer: "serviceConsumer?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
@@ -23,7 +23,7 @@ const businessEventSubscriberdtoJson = {
       businessEvent: "businessEvent?",
       ddEntity: "ddEntity?",
       serviceConsumer: "serviceConsumer?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -37,7 +37,7 @@ const businessEventSubscriberentityToDtoJson = {
       businessEvent: "businessEvent?",
       ddEntity: "ddEntity?",
       serviceConsumer: "serviceConsumer?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -51,7 +51,7 @@ const businessEventSubscriberdtoToEntityJson = {
       businessEvent: "businessEvent?",
       ddEntity: "ddEntity?",
       serviceConsumer: "serviceConsumer?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   

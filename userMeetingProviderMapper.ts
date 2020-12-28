@@ -8,7 +8,7 @@ const userMeetingProviderentityJson = {
   userMeetingProvider_meetings: "userMeetingProvider_meetings?",
   user: "user?",
   meetingProvider: "meetingProvider?",
-  SocketId: "SocketId?",
+  //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 
 };
@@ -21,7 +21,7 @@ const userMeetingProviderdtoJson = {
     userMeetingProvider_meetings: "userMeetingProvider_meetings?",
     user: "user?",
     meetingProvider: "meetingProvider?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -33,7 +33,7 @@ const userMeetingProviderentityToDtoJson = {
     userMeetingProvider_meetings: "userMeetingProvider_meetings?",
     user: "user?",
     meetingProvider: "meetingProvider?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -45,7 +45,7 @@ const userMeetingProviderdtoToEntityJson = {
     userMeetingProvider_meetings: "userMeetingProvider_meetings?",
     user: "user?",
     meetingProvider: "meetingProvider?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 

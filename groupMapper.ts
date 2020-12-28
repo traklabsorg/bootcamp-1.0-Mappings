@@ -10,7 +10,7 @@ const groupentityJson = {
   channelGroups: "channelGroups?",
   groupUsers : "groupUsers?",
   community : "community?",
-  SocketId: "SocketId?",
+  //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 };
 
@@ -25,7 +25,7 @@ const groupdtoJson = {
     channelGroups: "channelGroups?",
     groupUsers : "groupUsers?",
     community : "community?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -40,7 +40,7 @@ const groupentityToDtoJson = {
     channelGroups: "channelGroups?",
     groupUsers : "groupUsers?",
     community : "community?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -55,7 +55,7 @@ const groupdtoToEntityJson = {
      channelGroups: "channelGroups?",
      groupUsers : "groupUsers?",
      community : "community?",
-     SocketId: "SocketId?",
+     //SocketId: "SocketId?",
        CommunityUrl:"CommunityUrl?"
 };
 

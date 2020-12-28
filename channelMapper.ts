@@ -11,7 +11,7 @@ const channelentityJson = {
   sections: "sections?",
   lessonDataUsers: "lessonDataUsers?",
   channelGroups: "channelGroups?",
-  SocketId: "SocketId?",
+  //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 };
 
@@ -27,7 +27,7 @@ const channeldtoJson = {
     sections: "sections?",
     lessonDataUsers: "lessonDataUsers?",
     channelGroups: "channelGroups?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -43,7 +43,7 @@ const channelentityToDtoJson = {
     sections: "sections?",
     lessonDataUsers: "lessonDataUsers?",
     channelGroups: "channelGroups?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -59,7 +59,7 @@ const channeldtoToEntityJson= {
     sections: "sections?",
     lessonDataUsers: "lessonDataUsers?",
     channelGroups: "channelGroups?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 

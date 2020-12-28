@@ -11,7 +11,7 @@ const subscriptionentityJson = {
     channelBillPlanId: "channelBillPlanId?",
     channelBillPlan: "channelBillPlan?",
     subscriptionOrders: "subscriptionOrders?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
@@ -27,7 +27,7 @@ const subscriptiondtoJson = {
       channelBillPlanId: "channelBillPlanId?",
       channelBillPlan: "channelBillPlan?",
       subscriptionOrders: "subscriptionOrders?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -43,7 +43,7 @@ const subscriptionentityToDtoJson = {
       channelBillPlanId: "channelBillPlanId?",
       channelBillPlan: "channelBillPlan?",
       subscriptionOrders: "subscriptionOrders?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -59,7 +59,7 @@ const subscriptiondtoToEntityJson = {
       channelBillPlanId: "channelBillPlanId?",
       channelBillPlan: "channelBillPlan?",
       subscriptionOrders: "subscriptionOrders?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   

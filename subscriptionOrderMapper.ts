@@ -7,7 +7,7 @@ const subscriptionOrderentityJson = {
   subscriptionId: "subscriptionId?",
   subscription: "subscription?",
   payments: "payments?",
-   SocketId: "SocketId?",
+   //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
@@ -19,7 +19,7 @@ const subscriptionOrderdtoJson = {
     subscriptionId: "subscriptionId?",
     subscription: "subscription?",
     payments: "payments?",
-     SocketId: "SocketId?",
+     //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -31,7 +31,7 @@ const subscriptionOrderentityToDtoJson = {
     subscriptionId: "subscriptionId?",
     subscription: "subscription?",
     payments: "payments?",
-     SocketId: "SocketId?",
+     //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -43,7 +43,7 @@ const subscriptionOrderdtoToEntityJson = {
     subscriptionId: "subscriptionId?",
     subscription: "subscription?",
     payments: "payments?",
-     SocketId: "SocketId?",
+     //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
 
   };

@@ -10,7 +10,7 @@ const sectionentityJson = {
     lessons: "lessons?",
     channel: "channel?",
     lessonDataReview: "lessonDataReview?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
@@ -25,7 +25,7 @@ const sectiondtoJson = {
       lessons: "lessons?",
       channel: "channel?",
       lessonDataReview: "lessonDataReview?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -40,7 +40,7 @@ const sectionentityToDtoJson = {
       lessons: "lessons?",
       channel: "channel?",
       lessonDataReview: "lessonDataReview?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -55,7 +55,7 @@ const sectionentityToDtoJson = {
         lessons: "lessons?",
         channel: "channel?",
         lessonDataReview: "lessonDataReview?",
-        SocketId: "SocketId?",
+        //SocketId: "SocketId?",
           CommunityUrl:"CommunityUrl?"
   };
   

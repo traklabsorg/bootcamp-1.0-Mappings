@@ -7,7 +7,7 @@ const enrolledMeetingentityJson = {
     hostUsuserMeetingProviderMeetingerId: "hostUsuserMeetingProviderMeetingerId?",
     user: "user?",
     userMeetingProviderMeeting: "userMeetingProviderMeeting?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
@@ -19,7 +19,7 @@ const enrolledMeetingdtoJson = {
       hostUsuserMeetingProviderMeetingerId: "hostUsuserMeetingProviderMeetingerId?",
       user: "user?",
       userMeetingProviderMeeting: "userMeetingProviderMeeting?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -31,7 +31,7 @@ const enrolledMeetingentityToDtoJson = {
       hostUsuserMeetingProviderMeetingerId: "hostUsuserMeetingProviderMeetingerId?",
       user: "user?",
       userMeetingProviderMeeting: "userMeetingProviderMeeting?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -43,7 +43,7 @@ const enrolledMeetingdtoToEntityJson = {
       hostUsuserMeetingProviderMeetingerId: "hostUsuserMeetingProviderMeetingerId?",
       user: "user?",
       userMeetingProviderMeeting: "userMeetingProviderMeeting?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   

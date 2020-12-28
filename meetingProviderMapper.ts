@@ -5,7 +5,7 @@ const meetingProviderentityJson = {
     providerDetails : "providerDetails?",
     userMeetingProviders: "userMeetingProviders?",
     liveContents: "liveContents?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 };
 
@@ -15,7 +15,7 @@ const meetingProviderdtoJson = {
       providerDetails : "providerDetails?",
       userMeetingProviders: "userMeetingProviders?",
       liveContents: "liveContents?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -25,7 +25,7 @@ const meetingProviderentityToDtoJson = {
       providerDetails : "providerDetails?",
       userMeetingProviders: "userMeetingProviders?",
       liveContents: "liveContents?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -35,7 +35,7 @@ const meetingProviderdtoToEntityJson = {
       providerDetails : "providerDetails?",
       userMeetingProviders: "userMeetingProviders?",
       liveContents: "liveContents?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 

@@ -7,7 +7,7 @@ const userMeetingProvider_MeetingentityJson = {
   meetingType: "meetingType?",
   meetingProviderId : "meetingProviderId?",
   userMeetingProvider: "userMeetingProvider?",
-  SocketId: "SocketId?",
+  //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 };
 
@@ -19,7 +19,7 @@ const userMeetingProvider_MeetingdtoJson = {
     meetingType: "meetingType?",
     meetingProviderId : "meetingProviderId?",
     userMeetingProvider: "userMeetingProvider?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -31,7 +31,7 @@ const userMeetingProvider_MeetingentityToDtoJson = {
     meetingType: "meetingType?",
     meetingProviderId : "meetingProviderId?",
     userMeetingProvider: "userMeetingProvider?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 
@@ -43,7 +43,7 @@ const userMeetingProvider_MeetingdtoToEntityJson = {
     meetingType: "meetingType?",
     meetingProviderId : "meetingProviderId?",
     userMeetingProvider: "userMeetingProvider?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
 };
 

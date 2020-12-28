@@ -10,7 +10,7 @@ planId : "planId?",
 channel: "channel?",
 plan: "plan?",
 subscriptions: "subscriptions?",
-SocketId: "SocketId?",
+//SocketId: "SocketId?",
   CommunityUrl:"CommunityUrl?"
 };
 
@@ -25,7 +25,7 @@ const channelBillPlandtoJson = {
   channel: "channel?",
   plan: "plan?",
   subscriptions: "subscriptions?",
-  SocketId: "SocketId?",
+  //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 };
 
@@ -40,7 +40,7 @@ const channelBillPlanentityToDtoJson = {
   channel: "channel?",
   plan: "plan?",
   subscriptions: "subscriptions?",
-  SocketId: "SocketId?",
+  //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 };
 
@@ -55,7 +55,7 @@ const channelBillPlandtoToEntityJson = {
   channel: "channel?",
   plan: "plan?",
   subscriptions: "subscriptions?",
-  SocketId: "SocketId?",
+  //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
 };
 

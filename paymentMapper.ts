@@ -10,7 +10,7 @@ const paymententityJson = {
     subscriptionOrderId: "subscriptionOrderId?",
     subscriptionOrder: "subscriptionOrder?",
     paymentCoupons: "paymentCoupons?",
-    SocketId: "SocketId?",
+    //SocketId: "SocketId?",
       CommunityUrl:"CommunityUrl?"
   };
   
@@ -25,7 +25,7 @@ const paymentdtoJson = {
       subscriptionOrderId: "subscriptionOrderId?",
       subscriptionOrder: "subscriptionOrder?",
       paymentCoupons: "paymentCoupons?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -40,7 +40,7 @@ const paymententityToDtoJson = {
       subscriptionOrderId: "subscriptionOrderId?",
       subscriptionOrder: "subscriptionOrder?",
       paymentCoupons: "paymentCoupons?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
@@ -55,7 +55,7 @@ const paymentdtoToEntityJson = {
       subscriptionOrderId: "subscriptionOrderId?",
       subscriptionOrder: "subscriptionOrder?",
       paymentCoupons: "paymentCoupons?",
-      SocketId: "SocketId?",
+      //SocketId: "SocketId?",
         CommunityUrl:"CommunityUrl?"
   };
   
