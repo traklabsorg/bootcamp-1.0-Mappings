@@ -19,7 +19,11 @@ const userentityJson = {
   community: "community?",
   liveContents: "liveContents?",
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+  CommunityUrl: "CommunityUrl?",
+  externalUserId: "externalUserId?",
+  externalTenantUserId: "externalTenantUserId?",
+  externalTenantUserAppId:"externalTenantUserAppId?"
+    
 };
 
 const userdtoJson = {
@@ -42,7 +46,10 @@ const userdtoJson = {
     community: "community?",
     liveContents: "liveContents?",
     //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      CommunityUrl:"CommunityUrl?",
+      externalUserId: "externalUserId?",
+      externalTenantUserId: "externalTenantUserId?",
+      externalTenantUserAppId:"externalTenantUserAppId?"
 };
 
 const userentityToDtoJson = {
@@ -65,7 +72,10 @@ const userentityToDtoJson = {
     community: "community?",
     liveContents: "liveContents?",
     //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      CommunityUrl:"CommunityUrl?",
+      externalUserId: "externalUserId?",
+      externalTenantUserId: "externalTenantUserId?",
+      externalTenantUserAppId:"externalTenantUserAppId?"
 };
 
 const userdtoToEntityJson = {
@@ -88,7 +98,10 @@ const userdtoToEntityJson = {
     community: "community?",
     liveContents: "liveContents?",
     //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      CommunityUrl:"CommunityUrl?",
+      externalUserId: "externalUserId?",
+      externalTenantUserId: "externalTenantUserId?",
+      externalTenantUserAppId:"externalTenantUserAppId?"
 };
 
 module.exports.userentityJson = userentityJson;

@@ -11,7 +11,8 @@ const groupentityJson = {
   groupUsers : "groupUsers?",
   community : "community?",
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    CommunityUrl:"CommunityUrl?",
+   roleIds:"roleIds?"
 };
 
 const groupdtoJson = {
@@ -26,7 +27,8 @@ const groupdtoJson = {
     groupUsers : "groupUsers?",
     community : "community?",
     //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      CommunityUrl:"CommunityUrl?",
+    roleIds:"roleIds?"
 };
 
 const groupentityToDtoJson = {
@@ -41,7 +43,8 @@ const groupentityToDtoJson = {
     groupUsers : "groupUsers?",
     community : "community?",
     //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      CommunityUrl:"CommunityUrl?",
+    roleIds:"roleIds?"
 };
 
 const groupdtoToEntityJson = {
@@ -56,7 +59,8 @@ const groupdtoToEntityJson = {
      groupUsers : "groupUsers?",
      community : "community?",
      //SocketId: "SocketId?",
-       CommunityUrl:"CommunityUrl?"
+       CommunityUrl:"CommunityUrl?",
+      roleIds:"roleIds?"
 };
 
 module.exports.groupentityJson = groupentityJson;

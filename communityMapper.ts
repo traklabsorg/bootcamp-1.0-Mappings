@@ -15,7 +15,8 @@ const communityentityJson = {
   groups: "groups?",
   channels: "channels?",
   CommunityUrl: "CommunityUrl?",
-  SocketId: "SocketId?"
+  SocketId: "SocketId?",
+  isActive:"isActive?"
 
 };
 
@@ -35,7 +36,8 @@ const communitydtoJson = {
     groups: "groups?",
     channels: "channels?",
     CommunityUrl: "CommunityUrl?",
-    SocketId: "SocketId?"
+    SocketId: "SocketId?",
+    isActive:"isActive?"
 };
 
 const communityentityToDtoJson = {
@@ -54,7 +56,8 @@ const communityentityToDtoJson = {
     groups: "groups?",
     channels: "channels?",
     CommunityUrl: "CommunityUrl?",
-    SocketId: "SocketId?"
+    SocketId: "SocketId?",
+    isActive:"isActive?"
 };
 
 const communitydtoToEntityJson = {
@@ -73,7 +76,8 @@ const communitydtoToEntityJson = {
     groups: "groups?",
     channels: "channels?",
     CommunityUrl: "CommunityUrl?",
-    SocketId: "SocketId?"
+    SocketId: "SocketId?",
+    isActive:"isActive?"
 };
 
 module.exports.communityentityJson = communityentityJson;
