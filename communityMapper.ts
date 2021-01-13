@@ -11,6 +11,8 @@ const communityentityJson = {
   userQuotas: "userQuotas?",
   communityAdditionalData: "communityAdditionalData?",
   communityUrl: "communityUrl?",
+  externalTenantId: "externalTenantId?",
+  externalTenantAppId: "externalTenantAppId?",
   users: "users?",
   groups: "groups?",
   channels: "channels?",
@@ -31,7 +33,10 @@ const communitydtoJson = {
     subscriptionEndDate: "subscriptionEndDate?",
     userQuotas: "userQuotas?",
     communityAdditionalData: "communityAdditionalData?",
-    communityUrl: "communityUrl?",
+  communityUrl: "communityUrl?",
+  externalTenantId: "externalTenantId?",
+  externalTenantAppId: "externalTenantAppId?",
+
     users: "users?",
     groups: "groups?",
     channels: "channels?",
@@ -51,11 +56,15 @@ const communityentityToDtoJson = {
     subscriptionEndDate: "subscriptionEndDate?",
     userQuotas: "userQuotas?",
     communityAdditionalData: "communityAdditionalData?",
-    communityUrl: "communityUrl?",
+  communityUrl: "communityUrl?",
+  externalTenantId: "externalTenantId?",
+  externalTenantAppId: "externalTenantAppId?",
+
     users: "users?",
     groups: "groups?",
     channels: "channels?",
-    CommunityUrl: "CommunityUrl?",
+  CommunityUrl: "CommunityUrl?",
+
     SocketId: "SocketId?",
     isActive:"isActive?"
 };
@@ -71,7 +80,10 @@ const communitydtoToEntityJson = {
     subscriptionEndDate: "subscriptionEndDate?",
     userQuotas: "userQuotas?",
     communityAdditionalData: "communityAdditionalData?",
-    communityUrl: "communityUrl?",
+  communityUrl: "communityUrl?",
+  externalTenantId: "externalTenantId?",
+  externalTenantAppId: "externalTenantAppId?",
+
     users: "users?",
     groups: "groups?",
     channels: "channels?",
