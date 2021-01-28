@@ -1,49 +1,49 @@
 const liveContentUserentityJson = {
-  Id:"Id?",
-  additonalDetails : "additonalDetails?",
-  contentId : "contentId?",
-  userId : "userId?",
+  Id: "Id?",
+  additonalDetails: "additonalDetails?",
+  liveContentId: "liveContentId?",
+  userId: "userId?",
   user: "user?",
   channel: "channel?",
   lessonData: "lessonData?",
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+  CommunityUrl: "CommunityUrl?",
 };
 
 const liveContentUserdtoJson = {
-  Id:"Id?",
-  additonalDetails : "additonalDetails?",
-  contentId : "contentId?",
-  userId : "userId?",
+  Id: "Id?",
+  additonalDetails: "additonalDetails?",
+  liveContentId: "liveContentId?",
+  userId: "userId?",
   user: "user?",
   channel: "channel?",
   lessonData: "lessonData?",
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+  CommunityUrl: "CommunityUrl?",
 };
 
 const liveContentUserentityToDtoJson = {
-  Id:"Id?",
-  additonalDetails : "additonalDetails?",
-  contentId : "contentId?",
-  userId : "userId?",
+  Id: "Id?",
+  additonalDetails: "additonalDetails?",
+  liveContentId: "liveContentId?",
+  userId: "userId?",
   user: "user?",
   channel: "channel?",
   lessonData: "lessonData?",
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+  CommunityUrl: "CommunityUrl?",
 };
 
 const liveContentUserdtoToEntityJson = {
-  Id:"Id?",
-  additonalDetails : "additonalDetails?",
-  contentId : "contentId?",
-  userId : "userId?",
+  Id: "Id?",
+  additonalDetails: "additonalDetails?",
+  liveContentId: "liveContentId?",
+  userId: "userId?",
   user: "user?",
   channel: "channel?",
   lessonData: "lessonData?",
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+  CommunityUrl: "CommunityUrl?",
 };
 
 module.exports.liveContentUserentityJson = liveContentUserentityJson;
