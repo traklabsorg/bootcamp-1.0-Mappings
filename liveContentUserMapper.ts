@@ -1,6 +1,6 @@
 const liveContentUserentityJson = {
   Id: "Id?",
-  additonalDetails: "additonalDetails?",
+  additionalDetails: "additionalDetails?",
   liveContentId: "liveContentId?",
   userId: "userId?",
   user: "user?",
@@ -12,7 +12,7 @@ const liveContentUserentityJson = {
 
 const liveContentUserdtoJson = {
   Id: "Id?",
-  additonalDetails: "additonalDetails?",
+  additionalDetails: "additionalDetails?",
   liveContentId: "liveContentId?",
   userId: "userId?",
   user: "user?",
@@ -24,7 +24,7 @@ const liveContentUserdtoJson = {
 
 const liveContentUserentityToDtoJson = {
   Id: "Id?",
-  additonalDetails: "additonalDetails?",
+  additionalDetails: "additionalDetails?",
   liveContentId: "liveContentId?",
   userId: "userId?",
   user: "user?",
@@ -36,7 +36,7 @@ const liveContentUserentityToDtoJson = {
 
 const liveContentUserdtoToEntityJson = {
   Id: "Id?",
-  additonalDetails: "additonalDetails?",
+  additionalDetails: "additionalDetails?",
   liveContentId: "liveContentId?",
   userId: "userId?",
   user: "user?",

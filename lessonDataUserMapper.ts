@@ -1,7 +1,7 @@
 const lessonDataUserentityJson = {
   Id:"Id?",
-  additonalDetails : "additonalDetails?",
-  userId : "userId",
+  additionalDetails : "additionalDetails?",
+  userId : "userId?",
   lessonDataId : "lessonDataId?",
   //channel: "channel?",
   lessonData: "lessonData?",
@@ -12,8 +12,8 @@ const lessonDataUserentityJson = {
 
 const lessonDataUserdtoJson = {
   Id:"Id?",
-  additonalDetails : "additonalDetails?",
-  userId : "userId",
+  additionalDetails : "additionalDetails?",
+  userId : "userId?",
   lessonDataId : "lessonDataId?",
   //channel: "channel?",
   lessonData: "lessonData?",
@@ -24,8 +24,8 @@ const lessonDataUserdtoJson = {
 
 const lessonDataUserentityToDtoJson = {
   Id:"Id?",
-  additonalDetails : "additonalDetails?",
-  userId : "userId",
+  additionalDetails : "additionalDetails?",
+  userId : "userId?",
   lessonDataId : "lessonDataId?",
   //channel: "channel?",
   lessonData: "lessonData?",
@@ -36,8 +36,8 @@ const lessonDataUserentityToDtoJson = {
 
 const lessonDataUserdtoToEntityJson = {
   Id:"Id?",
-  additonalDetails : "additonalDetails?",
-  userId : "userId",
+  additionalDetails : "additionalDetails?",
+  userId : "userId?",
   lessonDataId : "lessonDataId?",
   //channel: "channel?",
   lessonData: "lessonData?",
