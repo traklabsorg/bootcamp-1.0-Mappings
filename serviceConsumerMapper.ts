@@ -1,8 +1,8 @@
 
 const serviceConsumerentityJson = {
   Id:"Id?",
-    eventName: "eventName?",
-    eventDetails: "eventDetails?",
+  serviceConsumerName: "eventName?",
+  serviceConsumerType: "eventDetails?",
     serviceConsumerDetails: "serviceConsumerDetails?",
     businessEventSubscribers: "businessEventSubscribers?",
     //SocketId: "SocketId?",
@@ -11,32 +11,32 @@ const serviceConsumerentityJson = {
   
 const serviceConsumerdtoJson = {
   Id:"Id?",
-      eventName: "eventName?",
-      eventDetails: "eventDetails?",
-      serviceConsumerDetails: "serviceConsumerDetails?",
-      businessEventSubscribers: "businessEventSubscribers?",
-      //SocketId: "SocketId?",
-        CommunityUrl:"CommunityUrl?"
+  serviceConsumerName: "eventName?",
+  serviceConsumerType: "eventDetails?",
+    serviceConsumerDetails: "serviceConsumerDetails?",
+    businessEventSubscribers: "businessEventSubscribers?",
+    //SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
 const serviceConsumerentityToDtoJson = {
   Id:"Id?",
-      eventName: "eventName?",
-      eventDetails: "eventDetails?",
-      serviceConsumerDetails: "serviceConsumerDetails?",
-      businessEventSubscribers: "businessEventSubscribers?",
-      //SocketId: "SocketId?",
-        CommunityUrl:"CommunityUrl?"
+  serviceConsumerName: "eventName?",
+  serviceConsumerType: "eventDetails?",
+    serviceConsumerDetails: "serviceConsumerDetails?",
+    businessEventSubscribers: "businessEventSubscribers?",
+    //SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
 const serviceConsumerdtoToEntityJson = {
   Id:"Id?",
-      eventName: "eventName?",
-      eventDetails: "eventDetails?",
-      serviceConsumerDetails: "serviceConsumerDetails?",
-      businessEventSubscribers: "businessEventSubscribers?",
-      //SocketId: "SocketId?",
-        CommunityUrl:"CommunityUrl?"
+  serviceConsumerName: "eventName?",
+  serviceConsumerType: "eventDetails?",
+    serviceConsumerDetails: "serviceConsumerDetails?",
+    businessEventSubscribers: "businessEventSubscribers?",
+    //SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
   module.exports.serviceConsumerentityJson = serviceConsumerentityJson;

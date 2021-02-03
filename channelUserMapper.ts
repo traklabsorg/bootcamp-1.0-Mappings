@@ -9,6 +9,7 @@ const channelUserentityJson = {
   user: "user?",
   
   channel : "channel?",
+  channelUserAdditionalDetails : "channelUserAdditionalDetails?",
   CommunityUrl:"CommunityUrl?"
 };
 
@@ -23,6 +24,7 @@ const channelUserdtoJson = {
   user: "user?",
   
   channel : "channel?",
+  channelUserAdditionalDetails : "channelUserAdditionalDetails?",
   CommunityUrl:"CommunityUrl?"
 };
 
@@ -37,6 +39,7 @@ const channelUserentityToDtoJson = {
   user: "user?",
   
   channel : "channel?",
+  channelUserAdditionalDetails : "channelUserAdditionalDetails?",
   CommunityUrl:"CommunityUrl?"
 };
 
@@ -51,6 +54,7 @@ const channelUserdtoToEntityJson= {
   user: "user?",
   
   channel : "channel?",
+  channelUserAdditionalDetails : "channelUserAdditionalDetails?",
   CommunityUrl: "CommunityUrl?"
 };
 
