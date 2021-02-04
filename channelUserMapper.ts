@@ -55,7 +55,7 @@ const channelUserdtoToEntityJson= {
   
   channel : "channel?",
   channelUserAdditionalDetails : "channelUserAdditionalDetails?",
-  CommunityUrl: "CommunityUrl?"
+  CommunityUrl:"CommunityUrl?"
 };
 
 module.exports.channelUserentityJson = channelUserentityJson;

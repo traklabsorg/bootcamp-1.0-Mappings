@@ -11,6 +11,7 @@ const liveContententityJson = {
   userId: "userId?",
   typeOfRegistration: "typeOfRegistration?",
   user: "user?",
+  hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
   liveContentUsers: "liveContentUsers?",
   //SocketId: "SocketId?",
@@ -30,6 +31,7 @@ const liveContentdtoJson = {
   userId: "userId?",
   typeOfRegistration: "typeOfRegistration?",
   user: "user?",
+  hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
   liveContentUsers: "liveContentUsers?",
   //SocketId: "SocketId?",
@@ -49,11 +51,11 @@ const liveContententityToDtoJson = {
   userId: "userId?",
   typeOfRegistration: "typeOfRegistration?",
   user: "user?",
+  hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
   liveContentUsers: "liveContentUsers?",
   //SocketId: "SocketId?",
   CommunityUrl: "CommunityUrl?",
-};
 
 const liveContentdtoToEntityJson = {
   Id: "Id?",
@@ -68,6 +70,7 @@ const liveContentdtoToEntityJson = {
   userId: "userId?",
   typeOfRegistration: "typeOfRegistration?",
   user: "user?",
+  hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
   liveContentUsers: "liveContentUsers?",
   //SocketId: "SocketId?",

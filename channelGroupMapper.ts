@@ -19,7 +19,7 @@ channel : "channel?",
 group : "group?",
 channelGroupRevokeUsers : "channelGroupRevokeUsers?",
 //SocketId: "SocketId?",
-  CommunityUrl:"CommunityUrl?"
+  CommunityUrl:"CommunityUrl?
 };
 
 const channelGroupentityToDtoJson = {
@@ -31,7 +31,7 @@ channel : "channel?",
 group : "group?",
 channelGroupRevokeUsers : "channelGroupRevokeUsers?",
 //SocketId: "SocketId?",
-  CommunityUrl:"CommunityUrl?"
+  CommunityUrl:"CommunityUrl?
 };
 
 const channelGroupdtoToEntityJson = {
@@ -43,7 +43,7 @@ channel : "channel?",
 group : "group?",
 channelGroupRevokeUsers : "channelGroupRevokeUsers?",
 //SocketId: "SocketId?",
-  CommunityUrl:"CommunityUrl?"
+  CommunityUrl:"CommunityUrl?
 };
 
 module.exports.channelGroupentityJson = channelGroupentityJson;

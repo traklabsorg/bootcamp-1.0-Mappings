@@ -11,56 +11,52 @@ const groupentityJson = {
   groupUsers : "groupUsers?",
   community : "community?",
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?",
-   roleIds:"roleIds?"
+    CommunityUrl:"CommunityUrl?"
 };
 
 const groupdtoJson = {
   Id:"Id?",
-    groupName : "groupName?",
-    groupType : "groupType?",
-    groupDetails : "groupDetails?",
-    groupPayerType: "groupPayerType?",
-    communityId:"communityId",
-    isActive: "isActive?",
-    channelGroups: "channelGroups?",
-    groupUsers : "groupUsers?",
-    community : "community?",
-    //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?",
-    roleIds:"roleIds?"
+  groupName : "groupName?",
+  groupType : "groupType?",
+  groupDetails : "groupDetails?",
+  groupPayerType: "groupPayerType?",
+  communityId:"communityId",
+  isActive: "isActive?",
+  channelGroups: "channelGroups?",
+  groupUsers : "groupUsers?",
+  community : "community?",
+  //SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
 };
 
 const groupentityToDtoJson = {
   Id:"Id?",
-    groupName : "groupName?",
-    groupType : "groupType?",
-    groupDetails : "groupDetails?",
-    groupPayerType: "groupPayerType?",
-    communityId:"communityId",
-    isActive: "isActive?",
-    channelGroups: "channelGroups?",
-    groupUsers : "groupUsers?",
-    community : "community?",
-    //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?",
-    roleIds:"roleIds?"
+  groupName : "groupName?",
+  groupType : "groupType?",
+  groupDetails : "groupDetails?",
+  groupPayerType: "groupPayerType?",
+  communityId:"communityId",
+  isActive: "isActive?",
+  channelGroups: "channelGroups?",
+  groupUsers : "groupUsers?",
+  community : "community?",
+  //SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
 };
 
 const groupdtoToEntityJson = {
-  IId:"Id?",
-     groupName : "groupName?",
-     groupType : "groupType?",
-     groupDetails : "groupDetails?",
-     groupPayerType: "groupPayerType?",
-     communityId:"communityId",
-     isActive: "isActive?",
-     channelGroups: "channelGroups?",
-     groupUsers : "groupUsers?",
-     community : "community?",
-     //SocketId: "SocketId?",
-       CommunityUrl:"CommunityUrl?",
-      roleIds:"roleIds?"
+  Id:"Id?",
+  groupName : "groupName?",
+  groupType : "groupType?",
+  groupDetails : "groupDetails?",
+  groupPayerType: "groupPayerType?",
+  communityId:"communityId",
+  isActive: "isActive?",
+  channelGroups: "channelGroups?",
+  groupUsers : "groupUsers?",
+  community : "community?",
+  //SocketId: "SocketId?",
+    CommunityUrl:"CommunityUrl?"
 };
 
 module.exports.groupentityJson = groupentityJson;

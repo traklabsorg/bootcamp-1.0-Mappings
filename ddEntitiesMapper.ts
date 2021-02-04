@@ -11,32 +11,32 @@ const ddEntityentityJson = {
   
 const ddEntitydtoJson = {
   Id:"Id?",
-      title: "title?",
-      entityDetails: "entityDetails?",
-      businessEvents: "businessEvents?",
-      businessEventSubscribers: "businessEventSubscribers?",
-      //SocketId: "SocketId?",
-        CommunityUrl:"CommunityUrl?"
+    title: "title?",
+    entityDetails: "entityDetails?",
+    businessEvents: "businessEvents?",
+    businessEventSubscribers: "businessEventSubscribers?",
+    //SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
 const ddEntityentityToDtoJson = {
   Id:"Id?",
-      title: "title?",
-      entityDetails: "entityDetails?",
-      businessEvents: "businessEvents?",
-      businessEventSubscribers: "businessEventSubscribers?",
-      //SocketId: "SocketId?",
-        CommunityUrl:"CommunityUrl?"
+    title: "title?",
+    entityDetails: "entityDetails?",
+    businessEvents: "businessEvents?",
+    businessEventSubscribers: "businessEventSubscribers?",
+    //SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
 const ddEntitydtoToEntityJson = {
   Id:"Id?",
-      title: "title?",
-      entityDetails: "entityDetails?",
-      businessEvents: "businessEvents?",
-      businessEventSubscribers: "businessEventSubscribers?",
-      //SocketId: "SocketId?",
-        CommunityUrl:"CommunityUrl?"
+    title: "title?",
+    entityDetails: "entityDetails?",
+    businessEvents: "businessEvents?",
+    businessEventSubscribers: "businessEventSubscribers?",
+    //SocketId: "SocketId?",
+      CommunityUrl:"CommunityUrl?"
   };
   
   module.exports.ddEntityentityJson = ddEntityentityJson;
