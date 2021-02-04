@@ -56,6 +56,7 @@ const liveContententityToDtoJson = {
   liveContentUsers: "liveContentUsers?",
   //SocketId: "SocketId?",
   CommunityUrl: "CommunityUrl?",
+};
 
 const liveContentdtoToEntityJson = {
   Id: "Id?",
