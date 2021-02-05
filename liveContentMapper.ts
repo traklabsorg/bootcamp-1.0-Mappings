@@ -17,7 +17,7 @@ const liveContententityJson = {
   meetingProvider: "meetingProvider?",
 
   //SocketId: "SocketId?",
-  // CommunityUrl: "CommunityUrl?",
+  // 
 };
 
 const liveContentdtoJson = {
@@ -39,7 +39,7 @@ const liveContentdtoJson = {
   meetingProvider: "meetingProvider?",
 
   //SocketId: "SocketId?",
-  // CommunityUrl: "CommunityUrl?",
+  // 
 };
 
 const liveContententityToDtoJson = {
@@ -61,7 +61,7 @@ const liveContententityToDtoJson = {
   meetingProvider: "meetingProvider?",
 
   //SocketId: "SocketId?",
-  // CommunityUrl: "CommunityUrl?",
+  // 
 };
 
 const liveContentdtoToEntityJson = {

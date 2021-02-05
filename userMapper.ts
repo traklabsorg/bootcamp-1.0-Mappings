@@ -19,7 +19,7 @@ const userentityJson = {
   community: "community?",
   liveContents: "liveContents?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
+  
   externalUserId: "externalUserId?",
   externalTenantUserId: "externalTenantUserId?",
   externalTenantUserAppId:"externalTenantUserAppId?",
@@ -49,7 +49,7 @@ const userdtoJson = {
   community: "community?",
   liveContents: "liveContents?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
+  
   externalUserId: "externalUserId?",
   externalTenantUserId: "externalTenantUserId?",
   externalTenantUserAppId:"externalTenantUserAppId?",
@@ -78,7 +78,7 @@ const userentityToDtoJson = {
   community: "community?",
   liveContents: "liveContents?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
+  
   externalUserId: "externalUserId?",
   externalTenantUserId: "externalTenantUserId?",
   externalTenantUserAppId:"externalTenantUserAppId?",
@@ -107,7 +107,7 @@ const userdtoToEntityJson = {
   community: "community?",
   liveContents: "liveContents?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
+  
   externalUserId: "externalUserId?",
   externalTenantUserId: "externalTenantUserId?",
   externalTenantUserAppId:"externalTenantUserAppId?",

@@ -13,7 +13,7 @@ const paymententityJson = {
   paymentCoupons: "paymentCoupons?",
   user: "user?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
+  
 };
 
 const paymentdtoJson = {
@@ -31,7 +31,7 @@ const paymentdtoJson = {
   paymentCoupons: "paymentCoupons?",
   user: "user?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
+  
 };
 
 const paymententityToDtoJson = {
@@ -49,7 +49,7 @@ const paymententityToDtoJson = {
   paymentCoupons: "paymentCoupons?",
   user: "user?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
+  
 };
 
 const paymentdtoToEntityJson = {
@@ -67,7 +67,7 @@ const paymentdtoToEntityJson = {
   paymentCoupons: "paymentCoupons?",
   user: "user?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
+  
 };
 
 module.exports.paymententityJson = paymententityJson;
