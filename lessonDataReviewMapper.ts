@@ -3,8 +3,8 @@ const lessonDataReviewentityJson = {
   reviewDetails : "reviewDetails?",
   reviewStatus : "reviewStatus?",
   userId : "userId",
-  sectionId: "sectionId?",
-  section: "section?",
+  lessonDataId: "lessonDataId?",
+  lessonData: "lessonData?",
   user: "user?",
   //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
@@ -15,8 +15,8 @@ const lessonDataReviewdtoJson = {
   reviewDetails : "reviewDetails?",
   reviewStatus : "reviewStatus?",
   userId : "userId",
-  sectionId: "sectionId?",
-  section: "section?",
+  lessonDataId: "lessonDataId?",
+  lessonData: "lessonData?",
   user: "user?",
   //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
@@ -27,8 +27,8 @@ const lessonDataReviewentityToDtoJson = {
   reviewDetails : "reviewDetails?",
   reviewStatus : "reviewStatus?",
   userId : "userId",
-  sectionId: "sectionId?",
-  section: "section?",
+  lessonDataId: "lessonDataId?",
+  lessonData: "lessonData?",
   user: "user?",
   //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
@@ -39,8 +39,8 @@ const lessonDataReviewdtoToEntityJson = {
   reviewDetails : "reviewDetails?",
   reviewStatus : "reviewStatus?",
   userId : "userId",
-  sectionId: "sectionId?",
-  section: "section?",
+  lessonDataId: "lessonDataId?",
+  lessonData: "lessonData?",
   user: "user?",
   //SocketId: "SocketId?",
     CommunityUrl:"CommunityUrl?"
