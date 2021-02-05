@@ -7,7 +7,7 @@ const planentityJson = {
   planCurrency: "planCurrency?",
   channelBillPlans: "channelBillPlans?",
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    
 };
 
 const plandtoJson = {
@@ -18,7 +18,7 @@ const plandtoJson = {
     planCurrency: "planCurrency?",
     channelBillPlans: "channelBillPlans?",
     //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      
 };
 
 const planentityToDtoJson = {
@@ -29,7 +29,7 @@ const planentityToDtoJson = {
     planCurrency: "planCurrency?",
     channelBillPlans: "channelBillPlans?",
     //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      
 };
 
 const plandtoToEntityJson = {
@@ -40,7 +40,7 @@ const plandtoToEntityJson = {
     planCurrency: "planCurrency?",
     channelBillPlans: "channelBillPlans?",
     //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      
 };
 
 module.exports.planentityJson = planentityJson;

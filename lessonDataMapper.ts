@@ -6,12 +6,13 @@ const lessonDataentityJson = {
   isSubmitted: "isSubmitted?",
   isDraft: "isDraft?",
   lessonDetails: "lessonDetails?",
-  contentId: "contentId?",
+  lessonId:"lessonId?",
+  lessonDataReviews: "lessonDataReviews?",
   content: "content?",
   lessonDataUsers:"lessonDataUsers?",
   
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    
 };
 
 const lessonDatadtoJson = {
@@ -22,12 +23,13 @@ const lessonDatadtoJson = {
   isSubmitted: "isSubmitted?",
   isDraft: "isDraft?",
   lessonDetails: "lessonDetails?",
-  contentId: "contentId?",
+  lessonId:"lessonId?",
+  lessonDataReviews: "lessonDataReviews?",
   content: "content?",
   lessonDataUsers:"lessonDataUsers?",
   
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    
 };
 
 const lessonDataentityToDtoJson = {
@@ -38,12 +40,13 @@ const lessonDataentityToDtoJson = {
   isSubmitted: "isSubmitted?",
   isDraft: "isDraft?",
   lessonDetails: "lessonDetails?",
-  contentId: "contentId?",
+  lessonId:"lessonId?",
+  lessonDataReviews: "lessonDataReviews?",
   content: "content?",
   lessonDataUsers:"lessonDataUsers?",
   
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    
 };
 
 const lessonDatadtoToEntityJson = {
@@ -54,12 +57,14 @@ const lessonDatadtoToEntityJson = {
   isSubmitted: "isSubmitted?",
   isDraft: "isDraft?",
   lessonDetails: "lessonDetails?",
-  contentId: "contentId?",
+  lessonId:"lessonId?",
+  lessonDataReviews: "lessonDataReviews?",
   content: "content?",
   lessonDataUsers:"lessonDataUsers?",
   
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"};
+    
+};
 
 module.exports.lessonDataentityJson = lessonDataentityJson;
 module.exports.lessonDatadtoJson = lessonDatadtoJson;

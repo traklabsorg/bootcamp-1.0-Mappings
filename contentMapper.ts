@@ -1,50 +1,38 @@
 
 const contententityJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+  contentType : "contentType?",
+  contentTemplateId : "contentTemplateId?",
+  contentDetails : "contentDetails?",
+  sectionId : "sectionId?",
+  
   };
   
 const contentdtoJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+  contentType : "contentType?",
+  contentTemplateId : "contentTemplateId?",
+  contentDetails : "contentDetails?",
+  sectionId : "sectionId?",
+  
   };
   
 const contententityToDtoJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+  contentType : "contentType?",
+  contentTemplateId : "contentTemplateId?",
+  contentDetails : "contentDetails?",
+  sectionId : "sectionId?",
+  
   };
   
 const contentdtoToEntityJson = {
   Id:"Id?",
-    eventName : "eventName?",
-    eventDetails : "eventDetails?",
-    operationName : "operationName?",
-    publicDetails : "publicDetails?",
-    ddEntityId : "ddEntityId?",
-    businessEventSubscriber : "businessEventSubscriber?",
-    //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+  contentType : "contentType?",
+  contentTemplateId : "contentTemplateId?",
+  contentDetails : "contentDetails?",
+  sectionId : "sectionId?",
+  
   };
   
   module.exports.contententityJson = contententityJson;

@@ -8,46 +8,46 @@ const businessEvententityJson = {
     ddEntity: "ddEntity?",
   businessEventSubscriber: "businessEventSubscriber?",
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    
   };
   
 const businessEventdtoJson = {
   Id:"Id?",
-      eventName : "eventName?",
-      eventDetails : "eventDetails?",
-      operationName : "operationName?",
-      publicDetails : "publicDetails?",
-      ddEntityId : "ddEntityId?",
-      ddEntity: "ddEntity?",
-    businessEventSubscriber: "businessEventSubscriber?",
-    //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    ddEntity: "ddEntity?",
+  businessEventSubscriber: "businessEventSubscriber?",
+  //SocketId: "SocketId?",
+    
   };
   
 const businessEvententityToDtoJson = {
   Id:"Id?",
-      eventName : "eventName?",
-      eventDetails : "eventDetails?",
-      operationName : "operationName?",
-      publicDetails : "publicDetails?",
-      ddEntityId : "ddEntityId?",
-      ddEntity: "ddEntity?",
-    businessEventSubscriber: "businessEventSubscriber?",
-    //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    ddEntity: "ddEntity?",
+  businessEventSubscriber: "businessEventSubscriber?",
+  //SocketId: "SocketId?",
+    
   };
   
 const businessEventdtoToEntityJson = {
   Id:"Id?",
-      eventName : "eventName?",
-      eventDetails : "eventDetails?",
-      operationName : "operationName?",
-      publicDetails : "publicDetails?",
-      ddEntityId : "ddEntityId?",
-      ddEntity: "ddEntity?",
-    businessEventSubscriber: "businessEventSubscriber?",
-    //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+    eventName : "eventName?",
+    eventDetails : "eventDetails?",
+    operationName : "operationName?",
+    publicDetails : "publicDetails?",
+    ddEntityId : "ddEntityId?",
+    ddEntity: "ddEntity?",
+  businessEventSubscriber: "businessEventSubscriber?",
+  //SocketId: "SocketId?",
+    
   };
   
   module.exports.businessEvententityJson = businessEvententityJson;

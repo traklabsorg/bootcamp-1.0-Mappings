@@ -7,7 +7,7 @@ const lessonDataUserentityJson = {
   lessonData: "lessonData?",
   user: "user?",
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    
 };
 
 const lessonDataUserdtoJson = {
@@ -19,7 +19,7 @@ const lessonDataUserdtoJson = {
   lessonData: "lessonData?",
   user: "user?",
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    
 };
 
 const lessonDataUserentityToDtoJson = {
@@ -31,7 +31,7 @@ const lessonDataUserentityToDtoJson = {
   lessonData: "lessonData?",
   user: "user?",
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    
 };
 
 const lessonDataUserdtoToEntityJson = {
@@ -43,7 +43,7 @@ const lessonDataUserdtoToEntityJson = {
   lessonData: "lessonData?",
   user: "user?",
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    
 };
 
 module.exports.lessonDataUserentityJson = lessonDataUserentityJson;

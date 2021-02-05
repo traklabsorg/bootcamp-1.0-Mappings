@@ -9,44 +9,47 @@ const userMeetingProviderentityJson = {
   user: "user?",
   meetingProvider: "meetingProvider?",
   //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    
 
 };
 
 const userMeetingProviderdtoJson = {
   Id:"Id?",
-    Details: "Details?",
-    userId : "userId?",
-    meetingProviderId : "meetingProviderId?",
-    userMeetingProvider_meetings: "userMeetingProvider_meetings?",
-    user: "user?",
-    meetingProvider: "meetingProvider?",
-    //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+  Details: "Details?",
+  userId : "userId?",
+  meetingProviderId : "meetingProviderId?",
+  userMeetingProvider_meetings: "userMeetingProvider_meetings?",
+  user: "user?",
+  meetingProvider: "meetingProvider?",
+  //SocketId: "SocketId?",
+    
+
 };
 
 const userMeetingProviderentityToDtoJson = {
   Id:"Id?",
-    Details: "Details?",
-    userId : "userId?",
-    meetingProviderId : "meetingProviderId?",
-    userMeetingProvider_meetings: "userMeetingProvider_meetings?",
-    user: "user?",
-    meetingProvider: "meetingProvider?",
-    //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+  Details: "Details?",
+  userId : "userId?",
+  meetingProviderId : "meetingProviderId?",
+  userMeetingProvider_meetings: "userMeetingProvider_meetings?",
+  user: "user?",
+  meetingProvider: "meetingProvider?",
+  //SocketId: "SocketId?",
+    
+
 };
 
 const userMeetingProviderdtoToEntityJson = {
   Id:"Id?",
-    Details: "Details?",
-    userId : "userId?",
-    meetingProviderId : "meetingProviderId?",
-    userMeetingProvider_meetings: "userMeetingProvider_meetings?",
-    user: "user?",
-    meetingProvider: "meetingProvider?",
-    //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+  Details: "Details?",
+  userId : "userId?",
+  meetingProviderId : "meetingProviderId?",
+  userMeetingProvider_meetings: "userMeetingProvider_meetings?",
+  user: "user?",
+  meetingProvider: "meetingProvider?",
+  //SocketId: "SocketId?",
+    
+
 };
 
 module.exports.userMeetingProviderentityJson = userMeetingProviderentityJson;

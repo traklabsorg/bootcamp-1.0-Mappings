@@ -10,7 +10,7 @@ const channelUserentityJson = {
   
   channel : "channel?",
   channelUserAdditionalDetails : "channelUserAdditionalDetails?",
-  CommunityUrl:"CommunityUrl?"
+  
 };
 
 const channelUserdtoJson = {
@@ -25,7 +25,7 @@ const channelUserdtoJson = {
   
   channel : "channel?",
   channelUserAdditionalDetails : "channelUserAdditionalDetails?",
-  CommunityUrl:"CommunityUrl?"
+  
 };
 
 const channelUserentityToDtoJson = {
@@ -40,7 +40,7 @@ const channelUserentityToDtoJson = {
   
   channel : "channel?",
   channelUserAdditionalDetails : "channelUserAdditionalDetails?",
-  CommunityUrl:"CommunityUrl?"
+  
 };
 
 const channelUserdtoToEntityJson= {
@@ -55,7 +55,7 @@ const channelUserdtoToEntityJson= {
   
   channel : "channel?",
   channelUserAdditionalDetails : "channelUserAdditionalDetails?",
-  CommunityUrl: "CommunityUrl?"
+  
 };
 
 module.exports.channelUserentityJson = channelUserentityJson;

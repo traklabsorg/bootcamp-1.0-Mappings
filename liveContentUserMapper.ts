@@ -4,10 +4,10 @@ const liveContentUserentityJson = {
   liveContentId: "liveContentId?",
   userId: "userId?",
   user: "user?",
-  channel: "channel?",
-  lessonData: "lessonData?",
+  liveContent: "liveContent?",
+  invitationType:"invitationType?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
+  CommunityUrl: "CommunityUrl?"
 };
 
 const liveContentUserdtoJson = {
@@ -16,10 +16,10 @@ const liveContentUserdtoJson = {
   liveContentId: "liveContentId?",
   userId: "userId?",
   user: "user?",
-  channel: "channel?",
-  lessonData: "lessonData?",
+  liveContent: "liveContent?",
+  invitationType:"invitationType?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
+  CommunityUrl: "CommunityUrl?"
 };
 
 const liveContentUserentityToDtoJson = {
@@ -28,10 +28,10 @@ const liveContentUserentityToDtoJson = {
   liveContentId: "liveContentId?",
   userId: "userId?",
   user: "user?",
-  channel: "channel?",
-  lessonData: "lessonData?",
+  liveContent: "liveContent?",
+  invitationType:"invitationType?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
+  CommunityUrl: "CommunityUrl?"
 };
 
 const liveContentUserdtoToEntityJson = {
@@ -40,10 +40,10 @@ const liveContentUserdtoToEntityJson = {
   liveContentId: "liveContentId?",
   userId: "userId?",
   user: "user?",
-  channel: "channel?",
-  lessonData: "lessonData?",
+  liveContent: "liveContent?",
+  invitationType:"invitationType?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
+  CommunityUrl: "CommunityUrl?"
 };
 
 module.exports.liveContentUserentityJson = liveContentUserentityJson;

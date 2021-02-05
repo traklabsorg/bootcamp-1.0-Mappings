@@ -8,7 +8,7 @@ const sectionReviewentityJson = {
     section: "section?",
     user: "user?",
         //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    
 };
 
 const sectionReviewdtoJson = {
@@ -20,7 +20,7 @@ const sectionReviewdtoJson = {
     section: "section?",
     user: "user?",
         //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    
 };
 
 const sectionReviewentityToDtoJson = {
@@ -32,7 +32,7 @@ const sectionReviewentityToDtoJson = {
     section: "section?",
     user: "user?",
         //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    
 };
 
 const sectionReviewdtoToEntityJson= {
@@ -44,7 +44,7 @@ const sectionReviewdtoToEntityJson= {
     section: "section?",
     user: "user?",
         //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    
 };
 
 module.exports.sectionReviewentityJson = sectionReviewentityJson;

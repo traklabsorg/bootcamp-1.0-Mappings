@@ -6,7 +6,7 @@ const serviceConsumerentityJson = {
     serviceConsumerDetails: "serviceConsumerDetails?",
     businessEventSubscribers: "businessEventSubscribers?",
     //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      
   };
   
 const serviceConsumerdtoJson = {
@@ -16,7 +16,7 @@ const serviceConsumerdtoJson = {
     serviceConsumerDetails: "serviceConsumerDetails?",
     businessEventSubscribers: "businessEventSubscribers?",
     //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      
   };
   
 const serviceConsumerentityToDtoJson = {
@@ -26,7 +26,7 @@ const serviceConsumerentityToDtoJson = {
     serviceConsumerDetails: "serviceConsumerDetails?",
     businessEventSubscribers: "businessEventSubscribers?",
     //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      
   };
   
 const serviceConsumerdtoToEntityJson = {
@@ -36,7 +36,7 @@ const serviceConsumerdtoToEntityJson = {
     serviceConsumerDetails: "serviceConsumerDetails?",
     businessEventSubscribers: "businessEventSubscribers?",
     //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      
   };
   
   module.exports.serviceConsumerentityJson = serviceConsumerentityJson;

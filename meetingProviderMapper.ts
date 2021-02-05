@@ -6,37 +6,37 @@ const meetingProviderentityJson = {
     userMeetingProviders: "userMeetingProviders?",
     liveContents: "liveContents?",
     //SocketId: "SocketId?",
-    CommunityUrl:"CommunityUrl?"
+    
 };
 
 const meetingProviderdtoJson = {
   Id:"Id?",
-      providerName : "providerName?",
-      providerDetails : "providerDetails?",
-      userMeetingProviders: "userMeetingProviders?",
-      liveContents: "liveContents?",
-      //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+    providerName : "providerName?",
+    providerDetails : "providerDetails?",
+    userMeetingProviders: "userMeetingProviders?",
+    liveContents: "liveContents?",
+    //SocketId: "SocketId?",
+    
 };
 
 const meetingProviderentityToDtoJson = {
   Id:"Id?",
-      providerName : "providerName?",
-      providerDetails : "providerDetails?",
-      userMeetingProviders: "userMeetingProviders?",
-      liveContents: "liveContents?",
-      //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+    providerName : "providerName?",
+    providerDetails : "providerDetails?",
+    userMeetingProviders: "userMeetingProviders?",
+    liveContents: "liveContents?",
+    //SocketId: "SocketId?",
+    
 };
 
 const meetingProviderdtoToEntityJson = {
   Id:"Id?",
-      providerName : "providerName?",
-      providerDetails : "providerDetails?",
-      userMeetingProviders: "userMeetingProviders?",
-      liveContents: "liveContents?",
-      //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+    providerName : "providerName?",
+    providerDetails : "providerDetails?",
+    userMeetingProviders: "userMeetingProviders?",
+    liveContents: "liveContents?",
+    //SocketId: "SocketId?",
+    
 };
 
 module.exports.meetingProviderentityJson = meetingProviderentityJson;

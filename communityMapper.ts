@@ -10,14 +10,13 @@ const communityentityJson = {
   subscriptionEndDate: "subscriptionEndDate?",
   userQuotas: "userQuotas?",
   communityAdditionalData: "communityAdditionalData?",
-  communityUrl: "communityUrl?",
+  extraData: "extraData?",
   externalTenantId: "externalTenantId?",
   externalTenantAppId: "externalTenantAppId?",
   users: "users?",
   groups: "groups?",
   channels: "channels?",
   CommunityUrl: "CommunityUrl?",
-  SocketId: "SocketId?",
   isActive:"isActive?"
 
 };
@@ -25,71 +24,64 @@ const communityentityJson = {
 const communitydtoJson = {
   Id:"Id?",
 
-    communityName : "communityName?",
-    communityAdminId : "communityAdminId?",
-    address: "address?",
-    paymentInfo: "paymentInfo?",
-    subscriptionStartDate : "subscriptionStartDate?",
-    subscriptionEndDate: "subscriptionEndDate?",
-    userQuotas: "userQuotas?",
-    communityAdditionalData: "communityAdditionalData?",
-  communityUrl: "communityUrl?",
+  communityName : "communityName?",
+  communityAdminId : "communityAdminId?",
+  address: "address?",
+  paymentInfo: "paymentInfo?",
+  subscriptionStartDate : "subscriptionStartDate?",
+  subscriptionEndDate: "subscriptionEndDate?",
+  userQuotas: "userQuotas?",
+  communityAdditionalData: "communityAdditionalData?",
+  extraData: "extraData?",
   externalTenantId: "externalTenantId?",
   externalTenantAppId: "externalTenantAppId?",
-
-    users: "users?",
-    groups: "groups?",
-    channels: "channels?",
-    CommunityUrl: "CommunityUrl?",
-    SocketId: "SocketId?",
-    isActive:"isActive?"
+  users: "users?",
+  groups: "groups?",
+  channels: "channels?",
+  CommunityUrl: "CommunityUrl?",
+  isActive:"isActive?"
 };
 
 const communityentityToDtoJson = {
   Id:"Id?",
 
-    communityName : "communityName?",
-    communityAdminId : "communityAdminId?",
-    address: "address?",
-    paymentInfo: "paymentInfo?",
-    subscriptionStartDate : "subscriptionStartDate?",
-    subscriptionEndDate: "subscriptionEndDate?",
-    userQuotas: "userQuotas?",
-    communityAdditionalData: "communityAdditionalData?",
-  communityUrl: "communityUrl?",
+  communityName : "communityName?",
+  communityAdminId : "communityAdminId?",
+  address: "address?",
+  paymentInfo: "paymentInfo?",
+  subscriptionStartDate : "subscriptionStartDate?",
+  subscriptionEndDate: "subscriptionEndDate?",
+  userQuotas: "userQuotas?",
+  communityAdditionalData: "communityAdditionalData?",
+  extraData: "extraData?",
   externalTenantId: "externalTenantId?",
   externalTenantAppId: "externalTenantAppId?",
-
-    users: "users?",
-    groups: "groups?",
-    channels: "channels?",
+  users: "users?",
+  groups: "groups?",
+  channels: "channels?",
   CommunityUrl: "CommunityUrl?",
-
-    SocketId: "SocketId?",
-    isActive:"isActive?"
+  isActive:"isActive?"
 };
 
 const communitydtoToEntityJson = {
   Id:"Id?",
 
-    communityName : "communityName?",
-    communityAdminId : "communityAdminId?",
-    address: "address?",
-    paymentInfo: "paymentInfo?",
-    subscriptionStartDate : "subscriptionStartDate?",
-    subscriptionEndDate: "subscriptionEndDate?",
-    userQuotas: "userQuotas?",
-    communityAdditionalData: "communityAdditionalData?",
-  communityUrl: "communityUrl?",
+  communityName : "communityName?",
+  communityAdminId : "communityAdminId?",
+  address: "address?",
+  paymentInfo: "paymentInfo?",
+  subscriptionStartDate : "subscriptionStartDate?",
+  subscriptionEndDate: "subscriptionEndDate?",
+  userQuotas: "userQuotas?",
+  communityAdditionalData: "communityAdditionalData?",
+  extraData: "extraData?",
   externalTenantId: "externalTenantId?",
   externalTenantAppId: "externalTenantAppId?",
-
-    users: "users?",
-    groups: "groups?",
-    channels: "channels?",
-    CommunityUrl: "CommunityUrl?",
-    SocketId: "SocketId?",
-    isActive:"isActive?"
+  users: "users?",
+  groups: "groups?",
+  channels: "channels?",
+  CommunityUrl: "CommunityUrl?",
+  isActive:"isActive?"
 };
 
 module.exports.communityentityJson = communityentityJson;

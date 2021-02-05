@@ -12,55 +12,55 @@ const subscriptionentityJson = {
     channelBillPlan: "channelBillPlan?",
     subscriptionOrders: "subscriptionOrders?",
     //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      
   };
   
 const subscriptiondtoJson = {
   Id:"Id?",
-      subscriptionDetails: "subscriptionDetails?",
-      isAutoRenew: "isAutoRenew?",
-      isActive: "isActive?",
-      subscriptionType: "subscriptionType?",
-      startDateTime: "startDateTime?",
-      endDateTime: "endDateTime?",
-      transactionDateTime: "transactionDateTime?",
-      channelBillPlanId: "channelBillPlanId?",
-      channelBillPlan: "channelBillPlan?",
-      subscriptionOrders: "subscriptionOrders?",
-      //SocketId: "SocketId?",
-        CommunityUrl:"CommunityUrl?"
+    subscriptionDetails: "subscriptionDetails?",
+    isAutoRenew: "isAutoRenew?",
+    isActive: "isActive?",
+    subscriptionType: "subscriptionType?",
+    startDateTime: "startDateTime?",
+    endDateTime: "endDateTime?",
+    transactionDateTime: "transactionDateTime?",
+    channelBillPlanId: "channelBillPlanId?",
+    channelBillPlan: "channelBillPlan?",
+    subscriptionOrders: "subscriptionOrders?",
+    //SocketId: "SocketId?",
+      
   };
   
 const subscriptionentityToDtoJson = {
   Id:"Id?",
-      subscriptionDetails: "subscriptionDetails?",
-      isAutoRenew: "isAutoRenew?",
-      isActive: "isActive?",
-      subscriptionType: "subscriptionType?",
-      startDateTime: "startDateTime?",
-      endDateTime: "endDateTime?",
-      transactionDateTime: "transactionDateTime?",
-      channelBillPlanId: "channelBillPlanId?",
-      channelBillPlan: "channelBillPlan?",
-      subscriptionOrders: "subscriptionOrders?",
-      //SocketId: "SocketId?",
-        CommunityUrl:"CommunityUrl?"
+    subscriptionDetails: "subscriptionDetails?",
+    isAutoRenew: "isAutoRenew?",
+    isActive: "isActive?",
+    subscriptionType: "subscriptionType?",
+    startDateTime: "startDateTime?",
+    endDateTime: "endDateTime?",
+    transactionDateTime: "transactionDateTime?",
+    channelBillPlanId: "channelBillPlanId?",
+    channelBillPlan: "channelBillPlan?",
+    subscriptionOrders: "subscriptionOrders?",
+    //SocketId: "SocketId?",
+      
   };
   
 const subscriptiondtoToEntityJson = {
   Id:"Id?",
-      subscriptionDetails: "subscriptionDetails?",
-      isAutoRenew: "isAutoRenew?",
-      isActive: "isActive?",
-      subscriptionType: "subscriptionType?",
-      startDateTime: "startDateTime?",
-      endDateTime: "endDateTime?",
-      transactionDateTime: "transactionDateTime?",
-      channelBillPlanId: "channelBillPlanId?",
-      channelBillPlan: "channelBillPlan?",
-      subscriptionOrders: "subscriptionOrders?",
-      //SocketId: "SocketId?",
-        CommunityUrl:"CommunityUrl?"
+    subscriptionDetails: "subscriptionDetails?",
+    isAutoRenew: "isAutoRenew?",
+    isActive: "isActive?",
+    subscriptionType: "subscriptionType?",
+    startDateTime: "startDateTime?",
+    endDateTime: "endDateTime?",
+    transactionDateTime: "transactionDateTime?",
+    channelBillPlanId: "channelBillPlanId?",
+    channelBillPlan: "channelBillPlan?",
+    subscriptionOrders: "subscriptionOrders?",
+    //SocketId: "SocketId?",
+      
   };
   
   module.exports.subscriptionentityJson = subscriptionentityJson;

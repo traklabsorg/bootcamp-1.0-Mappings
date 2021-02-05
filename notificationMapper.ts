@@ -4,7 +4,7 @@ const notificationentityJson = {
     notificationType: "notificationType?",
     notificationData: "notificationData?",
     //SocketId: "SocketId?",
-      CommunityUrl:"CommunityUrl?"
+      
   };
 
 const notificationdtoJson = {
@@ -12,7 +12,7 @@ const notificationdtoJson = {
       notificationType: "notificationType?",
       notificationData: "notificationData?",
       //SocketId: "SocketId?",
-        CommunityUrl:"CommunityUrl?"
+        
   };
 
 const notificationentityToDtoJson = {
@@ -20,7 +20,7 @@ const notificationentityToDtoJson = {
       notificationType: "notificationType?",
       notificationData: "notificationData?",
       //SocketId: "SocketId?",
-        CommunityUrl:"CommunityUrl?"
+        
   };
 
 const notificationdtoToEntityJson = {
@@ -28,7 +28,7 @@ const notificationdtoToEntityJson = {
       notificationType: "notificationType?",
       notificationData: "notificationData?",
       //SocketId: "SocketId?",
-        CommunityUrl:"CommunityUrl?"
+        
   };
 
   module.exports.notificationentityJson = notificationentityJson;
