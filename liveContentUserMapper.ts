@@ -5,6 +5,7 @@ const liveContentUserentityJson = {
   userId: "userId?",
   user: "user?",
   liveContent: "liveContent?",
+  invitationType:"invitationType?",
   //SocketId: "SocketId?",
   CommunityUrl: "CommunityUrl?"
 };
@@ -16,6 +17,7 @@ const liveContentUserdtoJson = {
   userId: "userId?",
   user: "user?",
   liveContent: "liveContent?",
+  invitationType:"invitationType?",
   //SocketId: "SocketId?",
   CommunityUrl: "CommunityUrl?"
 };
@@ -27,6 +29,7 @@ const liveContentUserentityToDtoJson = {
   userId: "userId?",
   user: "user?",
   liveContent: "liveContent?",
+  invitationType:"invitationType?",
   //SocketId: "SocketId?",
   CommunityUrl: "CommunityUrl?"
 };
@@ -38,6 +41,7 @@ const liveContentUserdtoToEntityJson = {
   userId: "userId?",
   user: "user?",
   liveContent: "liveContent?",
+  invitationType:"invitationType?",
   //SocketId: "SocketId?",
   CommunityUrl: "CommunityUrl?"
 };

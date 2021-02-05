@@ -1,4 +1,5 @@
 const liveContententityJson = {
+  // AutoOffset: "AutoOffset?",
   Id: "Id?",
   url: "url?",
   contentDetails: "contentDetails?",
@@ -6,6 +7,7 @@ const liveContententityJson = {
   startDateTime: "startDateTime?",
   duration: "duration?",
   endDate: "endDate?",
+  recordingURL:"recordingURL?",
   externalMeetingProviderUserId: "externalMeetingProviderUserId?",
   meetingProviderId: "meetingProviderId?",
   userId: "userId?",
@@ -13,12 +15,13 @@ const liveContententityJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
-  liveContentUsers: "liveContentUsers?",
+
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
+  // CommunityUrl: "CommunityUrl?",
 };
 
 const liveContentdtoJson = {
+  // AutoOffset: "AutoOffset?",
   Id: "Id?",
   url: "url?",
   contentDetails: "contentDetails?",
@@ -26,6 +29,7 @@ const liveContentdtoJson = {
   startDateTime: "startDateTime?",
   duration: "duration?",
   endDate: "endDate?",
+  recordingURL:"recordingURL?",
   externalMeetingProviderUserId: "externalMeetingProviderUserId?",
   meetingProviderId: "meetingProviderId?",
   userId: "userId?",
@@ -33,12 +37,13 @@ const liveContentdtoJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
-  liveContentUsers: "liveContentUsers?",
+
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
+  // CommunityUrl: "CommunityUrl?",
 };
 
 const liveContententityToDtoJson = {
+  // AutoOffset: "AutoOffset?",
   Id: "Id?",
   url: "url?",
   contentDetails: "contentDetails?",
@@ -46,6 +51,7 @@ const liveContententityToDtoJson = {
   startDateTime: "startDateTime?",
   duration: "duration?",
   endDate: "endDate?",
+  recordingURL:"recordingURL?",
   externalMeetingProviderUserId: "externalMeetingProviderUserId?",
   meetingProviderId: "meetingProviderId?",
   userId: "userId?",
@@ -53,12 +59,13 @@ const liveContententityToDtoJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
-  liveContentUsers: "liveContentUsers?",
+
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
+  // CommunityUrl: "CommunityUrl?",
 };
 
 const liveContentdtoToEntityJson = {
+  // AutoOffset: "AutoOffset?",
   Id: "Id?",
   url: "url?",
   contentDetails: "contentDetails?",
@@ -66,6 +73,7 @@ const liveContentdtoToEntityJson = {
   startDateTime: "startDateTime?",
   duration: "duration?",
   endDate: "endDate?",
+  recordingURL:"recordingURL?",
   externalMeetingProviderUserId: "externalMeetingProviderUserId?",
   meetingProviderId: "meetingProviderId?",
   userId: "userId?",
@@ -73,9 +81,6 @@ const liveContentdtoToEntityJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
-  liveContentUsers: "liveContentUsers?",
-  //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?",
 };
 
 module.exports.liveContententityJson = liveContententityJson;
