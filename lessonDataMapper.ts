@@ -8,7 +8,7 @@ const lessonDataentityJson = {
   lessonDetails: "lessonDetails?",
   lessonId:"lessonId?",
   lessonDataReviews: "lessonDataReviews?",
-  content: "content?",
+  lesson: "lesson?",
   lessonDataUsers:"lessonDataUsers?",
   
   //SocketId: "SocketId?",
@@ -25,7 +25,7 @@ const lessonDatadtoJson = {
   lessonDetails: "lessonDetails?",
   lessonId:"lessonId?",
   lessonDataReviews: "lessonDataReviews?",
-  content: "content?",
+  lesson: "lesson?",
   lessonDataUsers:"lessonDataUsers?",
   
   //SocketId: "SocketId?",
@@ -42,7 +42,7 @@ const lessonDataentityToDtoJson = {
   lessonDetails: "lessonDetails?",
   lessonId:"lessonId?",
   lessonDataReviews: "lessonDataReviews?",
-  content: "content?",
+  lesson: "lesson?",
   lessonDataUsers:"lessonDataUsers?",
   
   //SocketId: "SocketId?",
@@ -59,7 +59,7 @@ const lessonDatadtoToEntityJson = {
   lessonDetails: "lessonDetails?",
   lessonId:"lessonId?",
   lessonDataReviews: "lessonDataReviews?",
-  content: "content?",
+  lesson: "lesson?",
   lessonDataUsers:"lessonDataUsers?",
   
   //SocketId: "SocketId?",
