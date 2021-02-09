@@ -3,30 +3,42 @@ const notificationentityJson = {
   Id:"Id?",
     notificationType: "notificationType?",
     notificationData: "notificationData?",
+    userId: "userId?",
+    isRead: "isRead?",
+    dateTime: "dateTime?"
     //SocketId: "SocketId?",
       
   };
 
 const notificationdtoJson = {
   Id:"Id?",
-      notificationType: "notificationType?",
-      notificationData: "notificationData?",
+  notificationType: "notificationType?",
+  notificationData: "notificationData?",
+  userId: "userId?",
+  isRead: "isRead?",
+  dateTime: "dateTime?"
       //SocketId: "SocketId?",
         
   };
 
 const notificationentityToDtoJson = {
   Id:"Id?",
-      notificationType: "notificationType?",
-      notificationData: "notificationData?",
+  notificationType: "notificationType?",
+  notificationData: "notificationData?",
+  userId: "userId?",
+  isRead: "isRead?",
+  dateTime: "dateTime?"
       //SocketId: "SocketId?",
         
   };
 
 const notificationdtoToEntityJson = {
   Id:"Id?",
-      notificationType: "notificationType?",
-      notificationData: "notificationData?",
+  notificationType: "notificationType?",
+  notificationData: "notificationData?",
+  userId: "userId?",
+  isRead: "isRead?",
+  dateTime: "dateTime?"
       //SocketId: "SocketId?",
         
   };
