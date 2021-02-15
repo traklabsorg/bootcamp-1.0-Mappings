@@ -9,7 +9,7 @@ channelId : "channelId?",
 planId : "planId?",
 channel: "channel?",
 plan: "plan?",
-subscriptions: "subscriptions?",
+subscription: "subscription?",
 //SocketId: "SocketId?",
   
 };
@@ -24,7 +24,7 @@ channelId : "channelId?",
 planId : "planId?",
 channel: "channel?",
 plan: "plan?",
-subscriptions: "subscriptions?",
+subscription: "subscription?",
 //SocketId: "SocketId?",
   
 };
@@ -39,7 +39,7 @@ channelId : "channelId?",
 planId : "planId?",
 channel: "channel?",
 plan: "plan?",
-subscriptions: "subscriptions?",
+subscription: "subscription?",
 //SocketId: "SocketId?",
   
 };
@@ -54,7 +54,7 @@ channelId : "channelId?",
 planId : "planId?",
 channel: "channel?",
 plan: "plan?",
-subscriptions: "subscriptions?",
+subscription: "subscription?",
 //SocketId: "SocketId?",
   
 };

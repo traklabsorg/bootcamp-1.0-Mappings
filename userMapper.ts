@@ -10,22 +10,22 @@ const userentityJson = {
   isActive: "isActive?",
   lastLogonDateTime: "lastLogonDateTime?",
   userAdditionalDetails : "userAdditionalDetails?",
-  liveContentUsers: "liveContentUsers?",
-  userMeetingProviders: "userMeetingProviders?",
-  groupUsers: "groupUsers?",
-  enrolledMeetings: "enrolledMeetings?",
-  lessonDataReviews: "lessonDataReviews?",
-  lessonDataUsers: "lessonDataUsers?",
+  liveContentUser: "liveContentUser?",
+  userMeetingProvider: "userMeetingProvider?",
+  groupUser: "groupUser?",
+  enrolledMeeting: "enrolledMeeting?",
+  lessonDataReview: "lessonDataReview?",
+  lessonDataUser: "lessonDataUser?",
   community: "community?",
-  liveContents: "liveContents?",
+  liveContent: "liveContent?",
   //SocketId: "SocketId?",
   
   externalUserId: "externalUserId?",
   externalTenantUserId: "externalTenantUserId?",
   externalTenantUserAppId:"externalTenantUserAppId?",
-  channelUsers: "channelUsers?",
-  sectionReviews: "sectionReviews?",
-  payments: "payments?"
+  channelUser: "channelUser?",
+  sectionReview: "sectionReview?",
+  payment: "payment?"
     
 };
 
@@ -40,22 +40,22 @@ const userdtoJson = {
   isActive: "isActive?",
   lastLogonDateTime: "lastLogonDateTime?",
   userAdditionalDetails : "userAdditionalDetails?",
-  liveContentUsers: "liveContentUsers?",
-  userMeetingProviders: "userMeetingProviders?",
-  groupUsers: "groupUsers?",
-  enrolledMeetings: "enrolledMeetings?",
-  lessonDataReviews: "lessonDataReviews?",
-  lessonDataUsers: "lessonDataUsers?",
+  liveContentUser: "liveContentUser?",
+  userMeetingProvider: "userMeetingProvider?",
+  groupUser: "groupUser?",
+  enrolledMeeting: "enrolledMeeting?",
+  lessonDataReview: "lessonDataReview?",
+  lessonDataUser: "lessonDataUser?",
   community: "community?",
-  liveContents: "liveContents?",
+  liveContent: "liveContent?",
   //SocketId: "SocketId?",
   
   externalUserId: "externalUserId?",
   externalTenantUserId: "externalTenantUserId?",
   externalTenantUserAppId:"externalTenantUserAppId?",
-  channelUsers: "channelUsers?",
-  sectionReviews: "sectionReviews?",
-  payments: "payments?"
+  channelUser: "channelUser?",
+  sectionReview: "sectionReview?",
+  payment: "payment?"
 };
 
 const userentityToDtoJson = {
@@ -69,22 +69,22 @@ const userentityToDtoJson = {
   isActive: "isActive?",
   lastLogonDateTime: "lastLogonDateTime?",
   userAdditionalDetails : "userAdditionalDetails?",
-  liveContentUsers: "liveContentUsers?",
-  userMeetingProviders: "userMeetingProviders?",
-  groupUsers: "groupUsers?",
-  enrolledMeetings: "enrolledMeetings?",
-  lessonDataReviews: "lessonDataReviews?",
-  lessonDataUsers: "lessonDataUsers?",
+  liveContentUser: "liveContentUser?",
+  userMeetingProvider: "userMeetingProvider?",
+  groupUser: "groupUser?",
+  enrolledMeeting: "enrolledMeeting?",
+  lessonDataReview: "lessonDataReview?",
+  lessonDataUser: "lessonDataUser?",
   community: "community?",
-  liveContents: "liveContents?",
+  liveContent: "liveContent?",
   //SocketId: "SocketId?",
   
   externalUserId: "externalUserId?",
   externalTenantUserId: "externalTenantUserId?",
   externalTenantUserAppId:"externalTenantUserAppId?",
-  channelUsers: "channelUsers?",
-  sectionReviews: "sectionReviews?",
-  payments: "payments?"
+  channelUser: "channelUser?",
+  sectionReview: "sectionReview?",
+  payment: "payment?"
 };
 
 const userdtoToEntityJson = {
@@ -98,22 +98,22 @@ const userdtoToEntityJson = {
   isActive: "isActive?",
   lastLogonDateTime: "lastLogonDateTime?",
   userAdditionalDetails : "userAdditionalDetails?",
-  liveContentUsers: "liveContentUsers?",
-  userMeetingProviders: "userMeetingProviders?",
-  groupUsers: "groupUsers?",
-  enrolledMeetings: "enrolledMeetings?",
-  lessonDataReviews: "lessonDataReviews?",
-  lessonDataUsers: "lessonDataUsers?",
+  liveContentUser: "liveContentUser?",
+  userMeetingProvider: "userMeetingProvider?",
+  groupUser: "groupUser?",
+  enrolledMeeting: "enrolledMeeting?",
+  lessonDataReview: "lessonDataReview?",
+  lessonDataUser: "lessonDataUser?",
   community: "community?",
-  liveContents: "liveContents?",
+  liveContent: "liveContent?",
   //SocketId: "SocketId?",
   
   externalUserId: "externalUserId?",
   externalTenantUserId: "externalTenantUserId?",
   externalTenantUserAppId:"externalTenantUserAppId?",
-  channelUsers: "channelUsers?",
-  sectionReviews: "sectionReviews?",
-  payments: "payments?"
+  channelUser: "channelUser?",
+  sectionReview: "sectionReview?",
+  payment: "payment?"
 };
 
 module.exports.userentityJson = userentityJson;

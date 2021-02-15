@@ -3,8 +3,8 @@ const ddEntityentityJson = {
   Id:"Id?",
     title: "title?",
     entityDetails: "entityDetails?",
-    businessEvents: "businessEvents?",
-    businessEventSubscribers: "businessEventSubscribers?",
+    businessEvent: "businessEvent?",
+    businessEventSubscriber: "businessEventSubscriber?",
     //SocketId: "SocketId?",
       
   };
@@ -13,8 +13,8 @@ const ddEntitydtoJson = {
   Id:"Id?",
     title: "title?",
     entityDetails: "entityDetails?",
-    businessEvents: "businessEvents?",
-    businessEventSubscribers: "businessEventSubscribers?",
+    businessEvent: "businessEvent?",
+    businessEventSubscriber: "businessEventSubscriber?",
     //SocketId: "SocketId?",
       
   };
@@ -23,8 +23,8 @@ const ddEntityentityToDtoJson = {
   Id:"Id?",
     title: "title?",
     entityDetails: "entityDetails?",
-    businessEvents: "businessEvents?",
-    businessEventSubscribers: "businessEventSubscribers?",
+    businessEvent: "businessEvent?",
+    businessEventSubscriber: "businessEventSubscriber?",
     //SocketId: "SocketId?",
       
   };
@@ -33,8 +33,8 @@ const ddEntitydtoToEntityJson = {
   Id:"Id?",
     title: "title?",
     entityDetails: "entityDetails?",
-    businessEvents: "businessEvents?",
-    businessEventSubscribers: "businessEventSubscribers?",
+    businessEvent: "businessEvent?",
+    businessEventSubscriber: "businessEventSubscriber?",
     //SocketId: "SocketId?",
       
   };

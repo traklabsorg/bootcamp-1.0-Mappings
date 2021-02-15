@@ -7,8 +7,8 @@ const groupentityJson = {
   groupPayerType: "groupPayerType?",
   communityId:"communityId",
   isActive: "isActive?",
-  channelGroups: "channelGroups?",
-  groupUsers : "groupUsers?",
+  channelGroup: "channelGroup?",
+  groupUser : "groupUser?",
   community : "community?",
   //SocketId: "SocketId?",
     
@@ -22,8 +22,8 @@ const groupdtoJson = {
   groupPayerType: "groupPayerType?",
   communityId:"communityId",
   isActive: "isActive?",
-  channelGroups: "channelGroups?",
-  groupUsers : "groupUsers?",
+  channelGroup: "channelGroup?",
+  groupUser : "groupUser?",
   community : "community?",
   //SocketId: "SocketId?",
     
@@ -37,8 +37,8 @@ const groupentityToDtoJson = {
   groupPayerType: "groupPayerType?",
   communityId:"communityId",
   isActive: "isActive?",
-  channelGroups: "channelGroups?",
-  groupUsers : "groupUsers?",
+  channelGroup: "channelGroup?",
+  groupUser : "groupUser?",
   community : "community?",
   //SocketId: "SocketId?",
     
@@ -52,8 +52,8 @@ const groupdtoToEntityJson = {
   groupPayerType: "groupPayerType?",
   communityId:"communityId",
   isActive: "isActive?",
-  channelGroups: "channelGroups?",
-  groupUsers : "groupUsers?",
+  channelGroup: "channelGroup?",
+  groupUser : "groupUser?",
   community : "community?",
   //SocketId: "SocketId?",
     

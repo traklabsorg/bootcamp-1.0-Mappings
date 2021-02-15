@@ -9,7 +9,7 @@ const couponentityJson = {
     couponType: "couponType?",
     isActive: "isActive?",
     couponDetails: "couponDetails?",
-    paymentCoupons: "paymentCoupons?",
+    paymentCoupon: "paymentCoupon?",
     //SocketId: "SocketId?",
       
   };
@@ -24,7 +24,7 @@ const coupondtoJson = {
     couponType: "couponType?",
     isActive: "isActive?",
     couponDetails: "couponDetails?",
-    paymentCoupons: "paymentCoupons?",
+    paymentCoupon: "paymentCoupon?",
     //SocketId: "SocketId?",
       
   };
@@ -39,7 +39,7 @@ const couponentityToDtoJson = {
     couponType: "couponType?",
     isActive: "isActive?",
     couponDetails: "couponDetails?",
-    paymentCoupons: "paymentCoupons?",
+    paymentCoupon: "paymentCoupon?",
     //SocketId: "SocketId?",
       
   };
@@ -54,7 +54,7 @@ const coupondtoToEntityJson = {
     couponType: "couponType?",
     isActive: "isActive?",
     couponDetails: "couponDetails?",
-    paymentCoupons: "paymentCoupons?",
+    paymentCoupon: "paymentCoupon?",
     //SocketId: "SocketId?",
       
   };

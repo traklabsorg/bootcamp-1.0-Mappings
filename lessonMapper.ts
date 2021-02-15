@@ -8,7 +8,7 @@ const lessonentityJson = {
   isMandatorySequence: "isMandatorySequence?",
   sectionId: "sectionId?",
   section: "section?",
-  lessonDatas:"lessonDatas?",
+  lessonData:"lessonData?",
   //SocketId: "SocketId?",
     
 };
@@ -23,7 +23,7 @@ const lessondtoJson = {
   isMandatorySequence: "isMandatorySequence?",
   sectionId: "sectionId?",
   section: "section?",
-  lessonDatas:"lessonDatas?",
+  lessonData:"lessonData?",
   //SocketId: "SocketId?",
     
 };
@@ -38,7 +38,7 @@ const lessonentityToDtoJson = {
   isMandatorySequence: "isMandatorySequence?",
   sectionId: "sectionId?",
   section: "section?",
-  lessonDatas:"lessonDatas?",
+  lessonData:"lessonData?",
   //SocketId: "SocketId?",
     
 };
@@ -54,7 +54,7 @@ const lessondtoToEntityJson = {
   isMandatorySequence: "isMandatorySequence?",
   sectionId: "sectionId?",
   section: "section?",
-  lessonDatas:"lessonDatas?",
+  lessonData:"lessonData?",
   //SocketId: "SocketId?",
     
 };

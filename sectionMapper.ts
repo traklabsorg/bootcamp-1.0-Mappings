@@ -7,8 +7,8 @@ const sectionentityJson = {
     sectionDetails: "sectionDetails?",
     sectionType: "sectionType?",
     channelId: "channelId?",
-    lessons: "lessons?",
-    sectionReviews: "sectionReviews?",
+    lesson: "lesson?",
+    sectionReview: "sectionReview?",
     channel: "channel?",
     //SocketId: "SocketId?",
       
@@ -22,8 +22,8 @@ const sectiondtoJson = {
     sectionDetails: "sectionDetails?",
     sectionType: "sectionType?",
     channelId: "channelId?",
-    lessons: "lessons?",
-    sectionReviews: "sectionReviews?",
+    lesson: "lesson?",
+    sectionReview: "sectionReview?",
     channel: "channel?",
     //SocketId: "SocketId?",
       
@@ -37,8 +37,8 @@ const sectionentityToDtoJson = {
     sectionDetails: "sectionDetails?",
     sectionType: "sectionType?",
     channelId: "channelId?",
-    lessons: "lessons?",
-    sectionReviews: "sectionReviews?",
+    lesson: "lesson?",
+    sectionReview: "sectionReview?",
     channel: "channel?",
     //SocketId: "SocketId?",
       
@@ -52,8 +52,8 @@ const sectionentityToDtoJson = {
     sectionDetails: "sectionDetails?",
     sectionType: "sectionType?",
     channelId: "channelId?",
-    lessons: "lessons?",
-    sectionReviews: "sectionReviews?",
+    lesson: "lesson?",
+    sectionReview: "sectionReview?",
     channel: "channel?",
     //SocketId: "SocketId?",
       

@@ -3,8 +3,8 @@ const meetingProviderentityJson = {
   Id:"Id?",
     providerName : "providerName?",
     providerDetails : "providerDetails?",
-    userMeetingProviders: "userMeetingProviders?",
-    liveContents: "liveContents?",
+    userMeetingProvider: "userMeetingProvider?",
+    liveContent: "liveContent?",
     //SocketId: "SocketId?",
     
 };
@@ -13,8 +13,8 @@ const meetingProviderdtoJson = {
   Id:"Id?",
     providerName : "providerName?",
     providerDetails : "providerDetails?",
-    userMeetingProviders: "userMeetingProviders?",
-    liveContents: "liveContents?",
+    userMeetingProvider: "userMeetingProvider?",
+    liveContent: "liveContent?",
     //SocketId: "SocketId?",
     
 };
@@ -23,8 +23,8 @@ const meetingProviderentityToDtoJson = {
   Id:"Id?",
     providerName : "providerName?",
     providerDetails : "providerDetails?",
-    userMeetingProviders: "userMeetingProviders?",
-    liveContents: "liveContents?",
+    userMeetingProvider: "userMeetingProvider?",
+    liveContent: "liveContent?",
     //SocketId: "SocketId?",
     
 };
@@ -33,8 +33,8 @@ const meetingProviderdtoToEntityJson = {
   Id:"Id?",
     providerName : "providerName?",
     providerDetails : "providerDetails?",
-    userMeetingProviders: "userMeetingProviders?",
-    liveContents: "liveContents?",
+    userMeetingProvider: "userMeetingProvider?",
+    liveContent: "liveContent?",
     //SocketId: "SocketId?",
     
 };

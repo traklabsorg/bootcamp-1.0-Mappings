@@ -13,9 +13,9 @@ const communityentityJson = {
   extraData: "extraData?",
   externalTenantId: "externalTenantId?",
   externalTenantAppId: "externalTenantAppId?",
-  users: "users?",
-  groups: "groups?",
-  channels: "channels?",
+  user: "user?",
+  group: "group?",
+  channel: "channel?",
   CommunityUrl: "CommunityUrl?",
   isActive:"isActive?"
 
@@ -35,9 +35,9 @@ const communitydtoJson = {
   extraData: "extraData?",
   externalTenantId: "externalTenantId?",
   externalTenantAppId: "externalTenantAppId?",
-  users: "users?",
-  groups: "groups?",
-  channels: "channels?",
+  user: "user?",
+  group: "group?",
+  channel: "channel?",
   CommunityUrl: "CommunityUrl?",
   isActive:"isActive?"
 };
@@ -56,9 +56,9 @@ const communityentityToDtoJson = {
   extraData: "extraData?",
   externalTenantId: "externalTenantId?",
   externalTenantAppId: "externalTenantAppId?",
-  users: "users?",
-  groups: "groups?",
-  channels: "channels?",
+  user: "user?",
+  group: "group?",
+  channel: "channel?",
   CommunityUrl: "CommunityUrl?",
   isActive:"isActive?"
 };
@@ -77,9 +77,9 @@ const communitydtoToEntityJson = {
   extraData: "extraData?",
   externalTenantId: "externalTenantId?",
   externalTenantAppId: "externalTenantAppId?",
-  users: "users?",
-  groups: "groups?",
-  channels: "channels?",
+  user: "user?",
+  group: "group?",
+  channel: "channel?",
   CommunityUrl: "CommunityUrl?",
   isActive:"isActive?"
 };

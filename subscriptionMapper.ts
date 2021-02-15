@@ -10,7 +10,7 @@ const subscriptionentityJson = {
     transactionDateTime: "transactionDateTime?",
     channelBillPlanId: "channelBillPlanId?",
     channelBillPlan: "channelBillPlan?",
-    subscriptionOrders: "subscriptionOrders?",
+    subscriptionOrder: "subscriptionOrder?",
     //SocketId: "SocketId?",
       
   };
@@ -26,7 +26,7 @@ const subscriptiondtoJson = {
     transactionDateTime: "transactionDateTime?",
     channelBillPlanId: "channelBillPlanId?",
     channelBillPlan: "channelBillPlan?",
-    subscriptionOrders: "subscriptionOrders?",
+    subscriptionOrder: "subscriptionOrder?",
     //SocketId: "SocketId?",
       
   };
@@ -42,7 +42,7 @@ const subscriptionentityToDtoJson = {
     transactionDateTime: "transactionDateTime?",
     channelBillPlanId: "channelBillPlanId?",
     channelBillPlan: "channelBillPlan?",
-    subscriptionOrders: "subscriptionOrders?",
+    subscriptionOrder: "subscriptionOrder?",
     //SocketId: "SocketId?",
       
   };
@@ -58,7 +58,7 @@ const subscriptiondtoToEntityJson = {
     transactionDateTime: "transactionDateTime?",
     channelBillPlanId: "channelBillPlanId?",
     channelBillPlan: "channelBillPlan?",
-    subscriptionOrders: "subscriptionOrders?",
+    subscriptionOrder: "subscriptionOrder?",
     //SocketId: "SocketId?",
       
   };

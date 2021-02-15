@@ -5,7 +5,7 @@ const planentityJson = {
   planDetails : "planDetails?",
   planDefaultPrice: "planDefaultPrice?",
   planCurrency: "planCurrency?",
-  channelBillPlans: "channelBillPlans?",
+  channelBillPlan: "channelBillPlan?",
   //SocketId: "SocketId?",
     
 };
@@ -16,7 +16,7 @@ const plandtoJson = {
     planDetails : "planDetails?",
     planDefaultPrice: "planDefaultPrice?",
     planCurrency: "planCurrency?",
-    channelBillPlans: "channelBillPlans?",
+    channelBillPlan: "channelBillPlan?",
     //SocketId: "SocketId?",
       
 };
@@ -27,7 +27,7 @@ const planentityToDtoJson = {
     planDetails : "planDetails?",
     planDefaultPrice: "planDefaultPrice?",
     planCurrency: "planCurrency?",
-    channelBillPlans: "channelBillPlans?",
+    channelBillPlan: "channelBillPlan?",
     //SocketId: "SocketId?",
       
 };
@@ -38,7 +38,7 @@ const plandtoToEntityJson = {
     planDetails : "planDetails?",
     planDefaultPrice: "planDefaultPrice?",
     planCurrency: "planCurrency?",
-    channelBillPlans: "channelBillPlans?",
+    channelBillPlan: "channelBillPlan?",
     //SocketId: "SocketId?",
       
 };

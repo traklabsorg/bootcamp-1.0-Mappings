@@ -15,6 +15,7 @@ const liveContententityJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
+  liveContentUser:"liveContentUser?"
 
   //SocketId: "SocketId?",
   // 
@@ -37,6 +38,7 @@ const liveContentdtoJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
+  liveContentUser:"liveContentUser?"
 
   //SocketId: "SocketId?",
   // 
@@ -59,6 +61,7 @@ const liveContententityToDtoJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
+  liveContentUser:"liveContentUser?"
 
   //SocketId: "SocketId?",
   // 
@@ -81,6 +84,7 @@ const liveContentdtoToEntityJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
+  liveContentUser:"liveContentUser?"
 };
 
 module.exports.liveContententityJson = liveContententityJson;

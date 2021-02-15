@@ -7,13 +7,13 @@ const channelentityJson = {
   channelDetails : "channelDetails?",
   communityId: "communityId?",
   community: "community?",
-  channelBillPlans: "channelBillPlans?",
-  sections: "sections?",
+  channelBillPlan: "channelBillPlan?",
+  section: "section?",
   // lessonDataUsers: "lessonDataUsers?",
-  channelGroups: "channelGroups?",
+  channelGroup: "channelGroup?",
   //SocketId: "SocketId?",
     
-    channelUsers:"channelUsers?"
+    channelUser:"channelUser?"
 };
 
 const channeldtoJson = {
@@ -24,13 +24,13 @@ const channeldtoJson = {
   channelDetails : "channelDetails?",
   communityId: "communityId?",
   community: "community?",
-  channelBillPlans: "channelBillPlans?",
-  sections: "sections?",
+  channelBillPlan: "channelBillPlan?",
+  section: "section?",
   // lessonDataUsers: "lessonDataUsers?",
-  channelGroups: "channelGroups?",
+  channelGroup: "channelGroup?",
   //SocketId: "SocketId?",
     
-    channelUsers:"channelUsers?"
+    channelUser:"channelUser?"
 };
 
 const channelentityToDtoJson = {
@@ -41,13 +41,13 @@ const channelentityToDtoJson = {
   channelDetails : "channelDetails?",
   communityId: "communityId?",
   community: "community?",
-  channelBillPlans: "channelBillPlans?",
-  sections: "sections?",
+  channelBillPlan: "channelBillPlan?",
+  section: "section?",
   // lessonDataUsers: "lessonDataUsers?",
-  channelGroups: "channelGroups?",
+  channelGroup: "channelGroup?",
   //SocketId: "SocketId?",
     
-    channelUsers:"channelUsers?"
+    channelUser:"channelUser?"
 };
 
 const channeldtoToEntityJson= {
@@ -58,13 +58,13 @@ const channeldtoToEntityJson= {
   channelDetails : "channelDetails?",
   communityId: "communityId?",
   community: "community?",
-  channelBillPlans: "channelBillPlans?",
-  sections: "sections?",
+  channelBillPlan: "channelBillPlan?",
+  section: "section?",
   // lessonDataUsers: "lessonDataUsers?",
-  channelGroups: "channelGroups?",
+  channelGroup: "channelGroup?",
   //SocketId: "SocketId?",
     
-    channelUsers:"channelUsers?"
+    channelUser:"channelUser?"
 };
 
 module.exports.channelentityJson = channelentityJson;

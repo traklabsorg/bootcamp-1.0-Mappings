@@ -7,9 +7,9 @@ const lessonDataentityJson = {
   isDraft: "isDraft?",
   lessonDetails: "lessonDetails?",
   lessonId:"lessonId?",
-  lessonDataReviews: "lessonDataReviews?",
+  lessonDataReview: "lessonDataReview?",
   lesson: "lesson?",
-  lessonDataUsers:"lessonDataUsers?",
+  lessonDataUser:"lessonDataUser?",
   
   //SocketId: "SocketId?",
     
@@ -24,9 +24,9 @@ const lessonDatadtoJson = {
   isDraft: "isDraft?",
   lessonDetails: "lessonDetails?",
   lessonId:"lessonId?",
-  lessonDataReviews: "lessonDataReviews?",
+  lessonDataReview: "lessonDataReview?",
   lesson: "lesson?",
-  lessonDataUsers:"lessonDataUsers?",
+  lessonDataUser:"lessonDataUser?",
   
   //SocketId: "SocketId?",
     
@@ -41,9 +41,9 @@ const lessonDataentityToDtoJson = {
   isDraft: "isDraft?",
   lessonDetails: "lessonDetails?",
   lessonId:"lessonId?",
-  lessonDataReviews: "lessonDataReviews?",
+  lessonDataReview: "lessonDataReview?",
   lesson: "lesson?",
-  lessonDataUsers:"lessonDataUsers?",
+  lessonDataUser:"lessonDataUser?",
   
   //SocketId: "SocketId?",
     
@@ -58,9 +58,9 @@ const lessonDatadtoToEntityJson = {
   isDraft: "isDraft?",
   lessonDetails: "lessonDetails?",
   lessonId:"lessonId?",
-  lessonDataReviews: "lessonDataReviews?",
+  lessonDataReview: "lessonDataReview?",
   lesson: "lesson?",
-  lessonDataUsers:"lessonDataUsers?",
+  lessonDataUser:"lessonDataUser?",
   
   //SocketId: "SocketId?",
     
