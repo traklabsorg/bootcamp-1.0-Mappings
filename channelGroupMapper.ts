@@ -1,6 +1,6 @@
 const channelGroupentityJson = {
   Id:"Id?",
-  channelId : "channelIdadditionalDetails?",
+  channelId : "channelId?",
   groupId : "groupId?",
   channelGroupDetails : "channelGroupDetails?",
   channel : "channel?",
@@ -12,7 +12,7 @@ const channelGroupentityJson = {
 
 const channelGroupdtoJson = {
   Id:"Id?",
-  channelId : "channelIdadditionalDetails?",
+  channelId : "channelId?",
   groupId : "groupId?",
   channelGroupDetails : "channelGroupDetails?",
   channel : "channel?",
@@ -24,7 +24,7 @@ const channelGroupdtoJson = {
 
 const channelGroupentityToDtoJson = {
   Id:"Id?",
-  channelId : "channelIdadditionalDetails?",
+  channelId : "channelId?",
   groupId : "groupId?",
   channelGroupDetails : "channelGroupDetails?",
   channel : "channel?",
@@ -36,7 +36,7 @@ const channelGroupentityToDtoJson = {
 
 const channelGroupdtoToEntityJson = {
   Id:"Id?",
-  channelId : "channelIdadditionalDetails?",
+  channelId : "channelId?",
   groupId : "groupId?",
   channelGroupDetails : "channelGroupDetails?",
   channel : "channel?",
