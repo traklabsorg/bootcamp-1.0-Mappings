@@ -1,5 +1,6 @@
 const lessonentityJson = {
   Id:"Id?",
+  title:"title?",
   contentType : "contentType?",
   contentTemplateId : "contentTemplateId?",
   contentDetails : "contentDetails?",
@@ -15,6 +16,7 @@ const lessonentityJson = {
 
 const lessondtoJson = {
   Id:"Id?",
+  title:"title?",
   contentType : "contentType?",
   contentTemplateId : "contentTemplateId?",
   contentDetails : "contentDetails?",
@@ -30,6 +32,7 @@ const lessondtoJson = {
 
 const lessonentityToDtoJson = {
   Id:"Id?",
+  title:"title?",
   contentType : "contentType?",
   contentTemplateId : "contentTemplateId?",
   contentDetails : "contentDetails?",
@@ -45,7 +48,7 @@ const lessonentityToDtoJson = {
 
 const lessondtoToEntityJson = {
   Id:"Id?",
-  coId:"Id?",
+  title:"title?",
   contentType : "contentType?",
   contentTemplateId : "contentTemplateId?",
   contentDetails : "contentDetails?",
