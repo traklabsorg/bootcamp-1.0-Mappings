@@ -1,5 +1,5 @@
 const channelUserentityJson = {
-  id : "id?",
+  Id : "Id?",
   userId : "userId?",
   
   channelId : "channelId?",
@@ -14,7 +14,7 @@ const channelUserentityJson = {
 };
 
 const channelUserdtoJson = {
-  id : "id?",
+  Id : "Id?",
   userId : "userId?",
   
   channelId : "channelId?",
@@ -29,7 +29,7 @@ const channelUserdtoJson = {
 };
 
 const channelUserentityToDtoJson = {
-  id : "id?",
+  Id : "Id?",
   userId : "userId?",
   
   channelId : "channelId?",
@@ -44,7 +44,7 @@ const channelUserentityToDtoJson = {
 };
 
 const channelUserdtoToEntityJson= {
-  id : "id?",
+  Id : "Id?",
   userId : "userId?",
   
   channelId : "channelId?",

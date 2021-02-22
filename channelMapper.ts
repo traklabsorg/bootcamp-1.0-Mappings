@@ -1,11 +1,13 @@
 
 const channelentityJson = {
-  id : "id?",
+  Id : "Id?",
   title : "title?",
   channelType : "channelType?",
   isDraft: "isDraft?",
   channelDetails : "channelDetails?",
   communityId: "communityId?",
+  channelSequenceId: "channelSequenceId?",
+
   community: "community?",
   channelBillPlan: "channelBillPlan?",
   section: "section?",
@@ -17,12 +19,14 @@ const channelentityJson = {
 };
 
 const channeldtoJson = {
-  id : "id?",
+  Id : "Id?",
   title : "title?",
   channelType : "channelType?",
   isDraft: "isDraft?",
   channelDetails : "channelDetails?",
   communityId: "communityId?",
+  channelSequenceId: "channelSequenceId?",
+
   community: "community?",
   channelBillPlan: "channelBillPlan?",
   section: "section?",
@@ -34,12 +38,14 @@ const channeldtoJson = {
 };
 
 const channelentityToDtoJson = {
-  id : "id?",
+  Id : "Id?",
   title : "title?",
   channelType : "channelType?",
   isDraft: "isDraft?",
   channelDetails : "channelDetails?",
   communityId: "communityId?",
+  channelSequenceId: "channelSequenceId?",
+
   community: "community?",
   channelBillPlan: "channelBillPlan?",
   section: "section?",
@@ -51,12 +57,14 @@ const channelentityToDtoJson = {
 };
 
 const channeldtoToEntityJson= {
-  id : "id?",
+  Id : "Id?",
   title : "title?",
   channelType : "channelType?",
   isDraft: "isDraft?",
   channelDetails : "channelDetails?",
   communityId: "communityId?",
+  channelSequenceId: "channelSequenceId?",
+
   community: "community?",
   channelBillPlan: "channelBillPlan?",
   section: "section?",
