@@ -5,6 +5,7 @@ const notificationentityJson = {
     notificationData: "notificationData?",
     userId: "userId?",
     isRead: "isRead?",
+    label: "label?",
     dateTime: "dateTime?"
     //SocketId: "SocketId?",
       
@@ -16,6 +17,7 @@ const notificationdtoJson = {
   notificationData: "notificationData?",
   userId: "userId?",
   isRead: "isRead?",
+  label: "label?",
   dateTime: "dateTime?"
       //SocketId: "SocketId?",
         
@@ -27,6 +29,7 @@ const notificationentityToDtoJson = {
   notificationData: "notificationData?",
   userId: "userId?",
   isRead: "isRead?",
+  label: "label?",
   dateTime: "dateTime?"
       //SocketId: "SocketId?",
         
@@ -38,6 +41,7 @@ const notificationdtoToEntityJson = {
   notificationData: "notificationData?",
   userId: "userId?",
   isRead: "isRead?",
+  label: "label?",
   dateTime: "dateTime?"
       //SocketId: "SocketId?",
         
