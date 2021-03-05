@@ -7,6 +7,10 @@ const sectionReviewentityJson = {
     reviewStatus: "reviewStatus?",
     section: "section?",
     user: "user?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
         //SocketId: "SocketId?",
     
 };
@@ -19,6 +23,10 @@ const sectionReviewdtoJson = {
     reviewStatus: "reviewStatus?",
     section: "section?",
     user: "user?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
         //SocketId: "SocketId?",
     
 };
@@ -31,6 +39,10 @@ const sectionReviewentityToDtoJson = {
     reviewStatus: "reviewStatus?",
     section: "section?",
     user: "user?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
         //SocketId: "SocketId?",
     
 };
@@ -43,6 +55,10 @@ const sectionReviewdtoToEntityJson= {
     reviewStatus: "reviewStatus?",
     section: "section?",
     user: "user?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
         //SocketId: "SocketId?",
     
 };

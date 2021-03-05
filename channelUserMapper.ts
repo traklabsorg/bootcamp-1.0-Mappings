@@ -10,6 +10,10 @@ const channelUserentityJson = {
   
   channel : "channel?",
   channelUserAdditionalDetails : "channelUserAdditionalDetails?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   
 };
 
@@ -25,6 +29,10 @@ const channelUserdtoJson = {
   
   channel : "channel?",
   channelUserAdditionalDetails : "channelUserAdditionalDetails?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   
 };
 
@@ -40,6 +48,10 @@ const channelUserentityToDtoJson = {
   
   channel : "channel?",
   channelUserAdditionalDetails : "channelUserAdditionalDetails?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   
 };
 
@@ -55,6 +67,10 @@ const channelUserdtoToEntityJson= {
   
   channel : "channel?",
   channelUserAdditionalDetails : "channelUserAdditionalDetails?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   
 };
 

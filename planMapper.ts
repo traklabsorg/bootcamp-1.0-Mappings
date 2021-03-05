@@ -6,6 +6,10 @@ const planentityJson = {
   planDefaultPrice: "planDefaultPrice?",
   planCurrency: "planCurrency?",
   channelBillPlan: "channelBillPlan?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -17,6 +21,10 @@ const plandtoJson = {
     planDefaultPrice: "planDefaultPrice?",
     planCurrency: "planCurrency?",
     channelBillPlan: "channelBillPlan?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
 };
@@ -28,6 +36,10 @@ const planentityToDtoJson = {
     planDefaultPrice: "planDefaultPrice?",
     planCurrency: "planCurrency?",
     channelBillPlan: "channelBillPlan?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
 };
@@ -39,6 +51,10 @@ const plandtoToEntityJson = {
     planDefaultPrice: "planDefaultPrice?",
     planCurrency: "planCurrency?",
     channelBillPlan: "channelBillPlan?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
 };

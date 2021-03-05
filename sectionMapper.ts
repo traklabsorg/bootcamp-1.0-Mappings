@@ -10,6 +10,10 @@ const sectionentityJson = {
     lesson: "lesson?",
     sectionReview: "sectionReview?",
     channel: "channel?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -25,6 +29,10 @@ const sectiondtoJson = {
     lesson: "lesson?",
     sectionReview: "sectionReview?",
     channel: "channel?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -40,6 +48,10 @@ const sectionentityToDtoJson = {
     lesson: "lesson?",
     sectionReview: "sectionReview?",
     channel: "channel?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -55,6 +67,10 @@ const sectionentityToDtoJson = {
     lesson: "lesson?",
     sectionReview: "sectionReview?",
     channel: "channel?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };

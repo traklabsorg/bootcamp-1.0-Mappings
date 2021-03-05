@@ -7,7 +7,11 @@ const liveContentUserentityJson = {
   liveContent: "liveContent?",
   invitationType:"invitationType?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?"
+  CommunityUrl: "CommunityUrl?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 };
 
 const liveContentUserdtoJson = {
@@ -19,7 +23,11 @@ const liveContentUserdtoJson = {
   liveContent: "liveContent?",
   invitationType:"invitationType?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?"
+  CommunityUrl: "CommunityUrl?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 };
 
 const liveContentUserentityToDtoJson = {
@@ -31,7 +39,11 @@ const liveContentUserentityToDtoJson = {
   liveContent: "liveContent?",
   invitationType:"invitationType?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?"
+  CommunityUrl: "CommunityUrl?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 };
 
 const liveContentUserdtoToEntityJson = {
@@ -43,7 +55,11 @@ const liveContentUserdtoToEntityJson = {
   liveContent: "liveContent?",
   invitationType:"invitationType?",
   //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?"
+  CommunityUrl: "CommunityUrl?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 };
 
 module.exports.liveContentUserentityJson = liveContentUserentityJson;

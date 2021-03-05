@@ -8,6 +8,10 @@ const userMeetingProviderentityJson = {
   userMeetingProvider_meetings: "userMeetingProvider_meetings?",
   user: "user?",
   meetingProvider: "meetingProvider?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 
@@ -21,6 +25,10 @@ const userMeetingProviderdtoJson = {
   userMeetingProvider_meetings: "userMeetingProvider_meetings?",
   user: "user?",
   meetingProvider: "meetingProvider?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 
@@ -34,6 +42,10 @@ const userMeetingProviderentityToDtoJson = {
   userMeetingProvider_meetings: "userMeetingProvider_meetings?",
   user: "user?",
   meetingProvider: "meetingProvider?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 
@@ -47,6 +59,10 @@ const userMeetingProviderdtoToEntityJson = {
   userMeetingProvider_meetings: "userMeetingProvider_meetings?",
   user: "user?",
   meetingProvider: "meetingProvider?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 

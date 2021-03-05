@@ -18,6 +18,7 @@ const userentityJson = {
   lessonDataUser: "lessonDataUser?",
   community: "community?",
   liveContent: "liveContent?",
+  
   //SocketId: "SocketId?",
   
   externalUserId: "externalUserId?",
@@ -25,7 +26,11 @@ const userentityJson = {
   externalTenantUserAppId:"externalTenantUserAppId?",
   channelUser: "channelUser?",
   sectionReview: "sectionReview?",
-  payment: "payment?"
+  payment: "payment?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     
 };
 
@@ -55,7 +60,11 @@ const userdtoJson = {
   externalTenantUserAppId:"externalTenantUserAppId?",
   channelUser: "channelUser?",
   sectionReview: "sectionReview?",
-  payment: "payment?"
+  payment: "payment?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 };
 
 const userentityToDtoJson = {
@@ -84,7 +93,11 @@ const userentityToDtoJson = {
   externalTenantUserAppId:"externalTenantUserAppId?",
   channelUser: "channelUser?",
   sectionReview: "sectionReview?",
-  payment: "payment?"
+  payment: "payment?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 };
 
 const userdtoToEntityJson = {
@@ -113,7 +126,11 @@ const userdtoToEntityJson = {
   externalTenantUserAppId:"externalTenantUserAppId?",
   channelUser: "channelUser?",
   sectionReview: "sectionReview?",
-  payment: "payment?"
+  payment: "payment?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 };
 
 module.exports.userentityJson = userentityJson;

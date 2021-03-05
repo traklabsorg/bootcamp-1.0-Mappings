@@ -5,6 +5,10 @@ const serviceConsumerentityJson = {
   serviceConsumerType: "eventDetails?",
     serviceConsumerDetails: "serviceConsumerDetails?",
     businessEventSubscriber: "businessEventSubscriber?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -15,6 +19,10 @@ const serviceConsumerdtoJson = {
   serviceConsumerType: "eventDetails?",
     serviceConsumerDetails: "serviceConsumerDetails?",
     businessEventSubscriber: "businessEventSubscriber?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -25,6 +33,10 @@ const serviceConsumerentityToDtoJson = {
   serviceConsumerType: "eventDetails?",
     serviceConsumerDetails: "serviceConsumerDetails?",
     businessEventSubscriber: "businessEventSubscriber?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -35,6 +47,10 @@ const serviceConsumerdtoToEntityJson = {
   serviceConsumerType: "eventDetails?",
     serviceConsumerDetails: "serviceConsumerDetails?",
     businessEventSubscriber: "businessEventSubscriber?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };

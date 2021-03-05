@@ -15,7 +15,11 @@ const liveContententityJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
-  liveContentUser:"liveContentUser?"
+  liveContentUser:"liveContentUser?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 
   //SocketId: "SocketId?",
   // 
@@ -38,7 +42,11 @@ const liveContentdtoJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
-  liveContentUser:"liveContentUser?"
+  liveContentUser:"liveContentUser?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 
   //SocketId: "SocketId?",
   // 
@@ -61,7 +69,11 @@ const liveContententityToDtoJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
-  liveContentUser:"liveContentUser?"
+  liveContentUser:"liveContentUser?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 
   //SocketId: "SocketId?",
   // 
@@ -84,7 +96,11 @@ const liveContentdtoToEntityJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
-  liveContentUser:"liveContentUser?"
+  liveContentUser:"liveContentUser?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 };
 
 module.exports.liveContententityJson = liveContententityJson;

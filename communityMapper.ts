@@ -17,7 +17,11 @@ const communityentityJson = {
   group: "group?",
   channel: "channel?",
   CommunityUrl: "CommunityUrl?",
-  isActive:"isActive?"
+  isActive:"isActive?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 
 };
 
@@ -39,7 +43,11 @@ const communitydtoJson = {
   group: "group?",
   channel: "channel?",
   CommunityUrl: "CommunityUrl?",
-  isActive:"isActive?"
+  isActive:"isActive?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 };
 
 const communityentityToDtoJson = {
@@ -60,7 +68,11 @@ const communityentityToDtoJson = {
   group: "group?",
   channel: "channel?",
   CommunityUrl: "CommunityUrl?",
-  isActive:"isActive?"
+  isActive:"isActive?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 };
 
 const communitydtoToEntityJson = {
@@ -81,7 +93,11 @@ const communitydtoToEntityJson = {
   group: "group?",
   channel: "channel?",
   CommunityUrl: "CommunityUrl?",
-  isActive:"isActive?"
+  isActive:"isActive?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 };
 
 module.exports.communityentityJson = communityentityJson;

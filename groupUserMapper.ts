@@ -9,6 +9,10 @@ const groupUserentityJson = {
   invitationStatus: "invitationStatus?",
   group: "group?",
   user: "user?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -23,6 +27,10 @@ const groupUserdtoJson = {
   invitationStatus: "invitationStatus?",
   group: "group?",
   user: "user?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -37,6 +45,10 @@ const groupUserentityToDtoJson = {
   invitationStatus: "invitationStatus?",
   group: "group?",
   user: "user?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -51,6 +63,10 @@ const groupUserdtoToEntityJson = {
   invitationStatus: "invitationStatus?",
   group: "group?",
   user: "user?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };

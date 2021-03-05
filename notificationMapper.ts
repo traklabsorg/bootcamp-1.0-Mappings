@@ -6,7 +6,11 @@ const notificationentityJson = {
     userId: "userId?",
     isRead: "isRead?",
     label: "label?",
-    dateTime: "dateTime?"
+    dateTime: "dateTime?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -18,7 +22,11 @@ const notificationdtoJson = {
   userId: "userId?",
   isRead: "isRead?",
   label: "label?",
-  dateTime: "dateTime?"
+  dateTime: "dateTime?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
       //SocketId: "SocketId?",
         
   };
@@ -30,7 +38,11 @@ const notificationentityToDtoJson = {
   userId: "userId?",
   isRead: "isRead?",
   label: "label?",
-  dateTime: "dateTime?"
+  dateTime: "dateTime?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
       //SocketId: "SocketId?",
         
   };
@@ -42,7 +54,11 @@ const notificationdtoToEntityJson = {
   userId: "userId?",
   isRead: "isRead?",
   label: "label?",
-  dateTime: "dateTime?"
+  dateTime: "dateTime?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
       //SocketId: "SocketId?",
         
   };

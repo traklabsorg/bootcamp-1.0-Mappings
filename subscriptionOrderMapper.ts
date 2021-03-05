@@ -7,6 +7,10 @@ const subscriptionOrderentityJson = {
   subscriptionId: "subscriptionId?",
   subscription: "subscription?",
   payment: "payment?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
    //SocketId: "SocketId?",
       
   };
@@ -19,6 +23,10 @@ const subscriptionOrderdtoJson = {
   subscriptionId: "subscriptionId?",
   subscription: "subscription?",
   payment: "payment?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
    //SocketId: "SocketId?",
       
   };
@@ -31,6 +39,10 @@ const subscriptionOrderentityToDtoJson = {
   subscriptionId: "subscriptionId?",
   subscription: "subscription?",
   payment: "payment?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
    //SocketId: "SocketId?",
       
   };
@@ -43,6 +55,10 @@ const subscriptionOrderdtoToEntityJson = {
   subscriptionId: "subscriptionId?",
   subscription: "subscription?",
   payment: "payment?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
    //SocketId: "SocketId?",
       
 

@@ -12,6 +12,10 @@ const lessonentityJson = {
   collaborators:"collaborators?",
   section: "section?",
   lessonData:"lessonData?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -30,6 +34,10 @@ const lessondtoJson = {
   collaborators:"collaborators?",
   section: "section?",
   lessonData:"lessonData?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -48,6 +56,10 @@ const lessonentityToDtoJson = {
   collaborators:"collaborators?",
   section: "section?",
   lessonData:"lessonData?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -66,6 +78,10 @@ const lessondtoToEntityJson = {
   collaborators:"collaborators?",
   section: "section?",
   lessonData:"lessonData?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };

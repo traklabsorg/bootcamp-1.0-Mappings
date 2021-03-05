@@ -9,6 +9,10 @@ const businessEventSubscriberentityJson = {
     businessEvent: "businessEvent?",
     ddEntity: "ddEntity?",
     serviceConsumer: "serviceConsumer?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -23,6 +27,10 @@ const businessEventSubscriberdtoJson = {
     businessEvent: "businessEvent?",
     ddEntity: "ddEntity?",
     serviceConsumer: "serviceConsumer?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -37,6 +45,10 @@ const businessEventSubscriberentityToDtoJson = {
     businessEvent: "businessEvent?",
     ddEntity: "ddEntity?",
     serviceConsumer: "serviceConsumer?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -51,6 +63,10 @@ const businessEventSubscriberdtoToEntityJson = {
     businessEvent: "businessEvent?",
     ddEntity: "ddEntity?",
     serviceConsumer: "serviceConsumer?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };

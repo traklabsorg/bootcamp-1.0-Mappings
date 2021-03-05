@@ -6,6 +6,10 @@ const channelGroupentityJson = {
   channel : "channel?",
   group : "group?",
   channelGroupRevokeUsers : "channelGroupRevokeUsers?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 //SocketId: "SocketId?",
   
 };
@@ -18,6 +22,10 @@ const channelGroupdtoJson = {
   channel : "channel?",
   group : "group?",
   channelGroupRevokeUsers : "channelGroupRevokeUsers?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 //SocketId: "SocketId?",
   
 };
@@ -30,6 +38,10 @@ const channelGroupentityToDtoJson = {
   channel : "channel?",
   group : "group?",
   channelGroupRevokeUsers : "channelGroupRevokeUsers?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 //SocketId: "SocketId?",
   
 };
@@ -42,6 +54,10 @@ const channelGroupdtoToEntityJson = {
   channel : "channel?",
   group : "group?",
   channelGroupRevokeUsers : "channelGroupRevokeUsers?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 //SocketId: "SocketId?",
   
 };

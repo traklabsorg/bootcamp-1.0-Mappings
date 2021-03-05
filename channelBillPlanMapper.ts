@@ -10,6 +10,10 @@ planId : "planId?",
 channel: "channel?",
 plan: "plan?",
 subscription: "subscription?",
+ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 //SocketId: "SocketId?",
   
 };
@@ -25,6 +29,10 @@ planId : "planId?",
 channel: "channel?",
 plan: "plan?",
 subscription: "subscription?",
+ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 //SocketId: "SocketId?",
   
 };
@@ -40,6 +48,10 @@ planId : "planId?",
 channel: "channel?",
 plan: "plan?",
 subscription: "subscription?",
+ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 //SocketId: "SocketId?",
   
 };
@@ -55,6 +67,10 @@ planId : "planId?",
 channel: "channel?",
 plan: "plan?",
 subscription: "subscription?",
+ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 //SocketId: "SocketId?",
   
 };

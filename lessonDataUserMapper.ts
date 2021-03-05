@@ -6,6 +6,10 @@ const lessonDataUserentityJson = {
   //channel: "channel?",
   lessonData: "lessonData?",
   user: "user?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -18,6 +22,10 @@ const lessonDataUserdtoJson = {
   //channel: "channel?",
   lessonData: "lessonData?",
   user: "user?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -30,6 +38,10 @@ const lessonDataUserentityToDtoJson = {
   //channel: "channel?",
   lessonData: "lessonData?",
   user: "user?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -42,6 +54,10 @@ const lessonDataUserdtoToEntityJson = {
   //channel: "channel?",
   lessonData: "lessonData?",
   user: "user?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };

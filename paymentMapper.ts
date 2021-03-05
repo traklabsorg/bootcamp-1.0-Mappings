@@ -12,6 +12,10 @@ const paymententityJson = {
   subscriptionOrder: "subscriptionOrder?",
   paymentCoupon: "paymentCoupon?",
   user: "user?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
   
 };
@@ -30,6 +34,10 @@ const paymentdtoJson = {
   subscriptionOrder: "subscriptionOrder?",
   paymentCoupon: "paymentCoupon?",
   user: "user?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
   
 };
@@ -48,6 +56,10 @@ const paymententityToDtoJson = {
   subscriptionOrder: "subscriptionOrder?",
   paymentCoupon: "paymentCoupon?",
   user: "user?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
   
 };
@@ -66,6 +78,10 @@ const paymentdtoToEntityJson = {
   subscriptionOrder: "subscriptionOrder?",
   paymentCoupon: "paymentCoupon?",
   user: "user?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
   
 };
