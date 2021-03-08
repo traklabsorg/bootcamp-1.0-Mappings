@@ -62,7 +62,32 @@ const channelGroupdtoToEntityJson = {
   
 };
 
+const channelGroupBasedOnChannelMapper = {
+  community_id : "communityId?",
+  group_id : "groupId?",
+  group_name : "groupName?",
+  channel_id : "channelId?",
+  channel_name : "channelName?",
+  label_name : "labelName?",
+  totalrecords : "totalRecords?"
+}
+
+const managedContentBasedOnChannelMapper = {
+  section_id : "sectionId?",
+  lesson_id : "lessonId?",
+  channel_title : "channeltitle?",
+  section_title : "sectionTitle?",
+  secion_or_course_url : "sectionOrCourseUrl",
+  user_image_url : "userImageUrl",
+  user_name : "userName",
+  section_type : "sectionType",
+  lesson_count : "lessonCount",
+  publication_type : "publicationType",
+  totalRecords : "totalRecords?"
+}
+
 module.exports.channelGroupentityJson = channelGroupentityJson;
 module.exports.channelGroupdtoJson = channelGroupdtoJson;
 module.exports.channelGroupentityToDtoJson = channelGroupentityToDtoJson;
 module.exports.channelGroupdtoToEntityJson = channelGroupdtoToEntityJson;
+module.exports.channelGroupBasedOnChannelMapper = channelGroupBasedOnChannelMapper;
