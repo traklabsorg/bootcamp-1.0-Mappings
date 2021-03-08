@@ -74,7 +74,21 @@ const channelUserdtoToEntityJson= {
   
 };
 
+
+const channelUserBasedOnChannelMapper = {
+  user_id : "userId?",
+  user_name : "userName?",
+  group_name : "groupName?",
+  channel_id : "channelId?",
+  channel_name : "channelName?",
+  role_names : "roleNames?",
+  type_of_association : "typeOfAssociation?",
+  label_name : "labelName?",
+  totalrecords : "totalRecords?"
+}
+
 module.exports.channelUserentityJson = channelUserentityJson;
 module.exports.channelUserdtoJson = channelUserdtoJson;
 module.exports.channelUserentityToDtoJson = channelUserentityToDtoJson;
 module.exports.channelUserdtoToEntityJson = channelUserdtoToEntityJson;
+module.exports.channelUserBasedOnChannelMapper = channelUserBasedOnChannelMapper;
