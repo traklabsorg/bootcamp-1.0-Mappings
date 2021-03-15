@@ -5,9 +5,7 @@ const liveContentUserentityJson = {
   userId: "userId?",
   user: "user?",
   liveContent: "liveContent?",
-  invitationType:"invitationType?",
-  //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?"
+  invitationType: "invitationType?",
 };
 
 const liveContentUserdtoJson = {
@@ -17,9 +15,7 @@ const liveContentUserdtoJson = {
   userId: "userId?",
   user: "user?",
   liveContent: "liveContent?",
-  invitationType:"invitationType?",
-  //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?"
+  invitationType: "invitationType?",
 };
 
 const liveContentUserentityToDtoJson = {
@@ -29,9 +25,7 @@ const liveContentUserentityToDtoJson = {
   userId: "userId?",
   user: "user?",
   liveContent: "liveContent?",
-  invitationType:"invitationType?",
-  //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?"
+  invitationType: "invitationType?",
 };
 
 const liveContentUserdtoToEntityJson = {
@@ -41,9 +35,7 @@ const liveContentUserdtoToEntityJson = {
   userId: "userId?",
   user: "user?",
   liveContent: "liveContent?",
-  invitationType:"invitationType?",
-  //SocketId: "SocketId?",
-  CommunityUrl: "CommunityUrl?"
+  invitationType: "invitationType?",
 };
 
 module.exports.liveContentUserentityJson = liveContentUserentityJson;
