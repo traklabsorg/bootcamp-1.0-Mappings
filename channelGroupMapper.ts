@@ -86,6 +86,21 @@ const managedContentBasedOnChannelMapper = {
   totalRecords : "totalRecords?"
 }
 
+const channelUsersByGroupMapper = {
+  user_id : "userId?", 
+  username : "userName?", 
+	groupname : "groupName?", 
+	channel_id : "channelId?", 
+	channel_name : "channelName?", 
+	role_names : "roleNames?", 
+	type_of_association : "typeOfAssociation?", 
+	label_name : "labelName?", 
+	totalrecords : "totalRecords?"
+
+}
+
+
+module.exports.channelUsersByGroupMapper = channelUsersByGroupMapper;
 module.exports.channelGroupentityJson = channelGroupentityJson;
 module.exports.channelGroupdtoJson = channelGroupdtoJson;
 module.exports.channelGroupentityToDtoJson = channelGroupentityToDtoJson;
