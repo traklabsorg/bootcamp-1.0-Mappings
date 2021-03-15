@@ -10,6 +10,10 @@ const channelUserentityJson = {
   
   channel : "channel?",
   channelUserAdditionalDetails : "channelUserAdditionalDetails?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   
 };
 
@@ -25,6 +29,10 @@ const channelUserdtoJson = {
   
   channel : "channel?",
   channelUserAdditionalDetails : "channelUserAdditionalDetails?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   
 };
 
@@ -40,6 +48,10 @@ const channelUserentityToDtoJson = {
   
   channel : "channel?",
   channelUserAdditionalDetails : "channelUserAdditionalDetails?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   
 };
 
@@ -55,10 +67,28 @@ const channelUserdtoToEntityJson= {
   
   channel : "channel?",
   channelUserAdditionalDetails : "channelUserAdditionalDetails?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   
 };
+
+
+const channelUserBasedOnChannelMapper = {
+  user_id : "userId?",
+  user_name : "userName?",
+  group_name : "groupName?",
+  channel_id : "channelId?",
+  channel_name : "channelName?",
+  role_names : "roleNames?",
+  type_of_association : "typeOfAssociation?",
+  label_name : "labelName?",
+  totalrecords : "totalRecords?"
+}
 
 module.exports.channelUserentityJson = channelUserentityJson;
 module.exports.channelUserdtoJson = channelUserdtoJson;
 module.exports.channelUserentityToDtoJson = channelUserentityToDtoJson;
 module.exports.channelUserdtoToEntityJson = channelUserdtoToEntityJson;
+module.exports.channelUserBasedOnChannelMapper = channelUserBasedOnChannelMapper;

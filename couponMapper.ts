@@ -10,6 +10,10 @@ const couponentityJson = {
     isActive: "isActive?",
     couponDetails: "couponDetails?",
     paymentCoupon: "paymentCoupon?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -25,6 +29,10 @@ const coupondtoJson = {
     isActive: "isActive?",
     couponDetails: "couponDetails?",
     paymentCoupon: "paymentCoupon?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -40,6 +48,10 @@ const couponentityToDtoJson = {
     isActive: "isActive?",
     couponDetails: "couponDetails?",
     paymentCoupon: "paymentCoupon?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -55,6 +67,10 @@ const coupondtoToEntityJson = {
     isActive: "isActive?",
     couponDetails: "couponDetails?",
     paymentCoupon: "paymentCoupon?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };

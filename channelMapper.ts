@@ -15,7 +15,11 @@ const channelentityJson = {
   channelGroup: "channelGroup?",
   //SocketId: "SocketId?",
     
-    channelUser:"channelUser?"
+    channelUser:"channelUser?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 };
 
 const channeldtoJson = {
@@ -34,7 +38,11 @@ const channeldtoJson = {
   channelGroup: "channelGroup?",
   //SocketId: "SocketId?",
     
-    channelUser:"channelUser?"
+    channelUser:"channelUser?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 };
 
 const channelentityToDtoJson = {
@@ -53,7 +61,11 @@ const channelentityToDtoJson = {
   channelGroup: "channelGroup?",
   //SocketId: "SocketId?",
     
-    channelUser:"channelUser?"
+    channelUser:"channelUser?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 };
 
 const channeldtoToEntityJson= {
@@ -72,7 +84,11 @@ const channeldtoToEntityJson= {
   channelGroup: "channelGroup?",
   //SocketId: "SocketId?",
     
-    channelUser:"channelUser?"
+    channelUser:"channelUser?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
 };
 
 module.exports.channelentityJson = channelentityJson;

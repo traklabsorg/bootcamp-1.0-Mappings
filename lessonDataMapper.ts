@@ -11,7 +11,10 @@ const lessonDataentityJson = {
   lessonDataReview: "lessonDataReview?",
   lesson: "lesson?",
   lessonDataUser:"lessonDataUser?",
-  
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -29,7 +32,10 @@ const lessonDatadtoJson = {
   lessonDataReview: "lessonDataReview?",
   lesson: "lesson?",
   lessonDataUser:"lessonDataUser?",
-  
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -47,7 +53,10 @@ const lessonDataentityToDtoJson = {
   lessonDataReview: "lessonDataReview?",
   lesson: "lesson?",
   lessonDataUser:"lessonDataUser?",
-  
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -65,7 +74,10 @@ const lessonDatadtoToEntityJson = {
   lessonDataReview: "lessonDataReview?",
   lesson: "lesson?",
   lessonDataUser:"lessonDataUser?",
-  
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };

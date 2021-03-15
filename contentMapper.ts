@@ -5,7 +5,10 @@ const contententityJson = {
   contentTemplateId : "contentTemplateId?",
   contentDetails : "contentDetails?",
   sectionId : "sectionId?",
-  
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   };
   
 const contentdtoJson = {
@@ -14,7 +17,10 @@ const contentdtoJson = {
   contentTemplateId : "contentTemplateId?",
   contentDetails : "contentDetails?",
   sectionId : "sectionId?",
-  
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   };
   
 const contententityToDtoJson = {
@@ -23,7 +29,10 @@ const contententityToDtoJson = {
   contentTemplateId : "contentTemplateId?",
   contentDetails : "contentDetails?",
   sectionId : "sectionId?",
-  
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   };
   
 const contentdtoToEntityJson = {
@@ -32,7 +41,10 @@ const contentdtoToEntityJson = {
   contentTemplateId : "contentTemplateId?",
   contentDetails : "contentDetails?",
   sectionId : "sectionId?",
-  
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   };
   
   module.exports.contententityJson = contententityJson;

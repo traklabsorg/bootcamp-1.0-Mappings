@@ -1,12 +1,11 @@
- 
 const communityentityJson = {
-  Id:"Id?",
+  Id: "Id?",
 
-  communityName : "communityName?",
-  communityAdminId : "communityAdminId?",
+  communityName: "communityName?",
+  communityAdminId: "communityAdminId?",
   address: "address?",
   paymentInfo: "paymentInfo?",
-  subscriptionStartDate : "subscriptionStartDate?",
+  subscriptionStartDate: "subscriptionStartDate?",
   subscriptionEndDate: "subscriptionEndDate?",
   userQuotas: "userQuotas?",
   communityAdditionalData: "communityAdditionalData?",
@@ -17,18 +16,22 @@ const communityentityJson = {
   group: "group?",
   channel: "channel?",
   CommunityUrl: "CommunityUrl?",
-  isActive:"isActive?"
-
+  communityUrl: "communityUrl?",
+  isActive: "isActive?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?",
 };
 
 const communitydtoJson = {
-  Id:"Id?",
+  Id: "Id?",
 
-  communityName : "communityName?",
-  communityAdminId : "communityAdminId?",
+  communityName: "communityName?",
+  communityAdminId: "communityAdminId?",
   address: "address?",
   paymentInfo: "paymentInfo?",
-  subscriptionStartDate : "subscriptionStartDate?",
+  subscriptionStartDate: "subscriptionStartDate?",
   subscriptionEndDate: "subscriptionEndDate?",
   userQuotas: "userQuotas?",
   communityAdditionalData: "communityAdditionalData?",
@@ -39,17 +42,22 @@ const communitydtoJson = {
   group: "group?",
   channel: "channel?",
   CommunityUrl: "CommunityUrl?",
-  isActive:"isActive?"
+  communityUrl: "communityUrl?",
+  isActive: "isActive?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?",
 };
 
 const communityentityToDtoJson = {
-  Id:"Id?",
+  Id: "Id?",
 
-  communityName : "communityName?",
-  communityAdminId : "communityAdminId?",
+  communityName: "communityName?",
+  communityAdminId: "communityAdminId?",
   address: "address?",
   paymentInfo: "paymentInfo?",
-  subscriptionStartDate : "subscriptionStartDate?",
+  subscriptionStartDate: "subscriptionStartDate?",
   subscriptionEndDate: "subscriptionEndDate?",
   userQuotas: "userQuotas?",
   communityAdditionalData: "communityAdditionalData?",
@@ -60,17 +68,22 @@ const communityentityToDtoJson = {
   group: "group?",
   channel: "channel?",
   CommunityUrl: "CommunityUrl?",
-  isActive:"isActive?"
+  communityUrl: "communityUrl?",
+  isActive: "isActive?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?",
 };
 
 const communitydtoToEntityJson = {
-  Id:"Id?",
+  Id: "Id?",
 
-  communityName : "communityName?",
-  communityAdminId : "communityAdminId?",
+  communityName: "communityName?",
+  communityAdminId: "communityAdminId?",
   address: "address?",
   paymentInfo: "paymentInfo?",
-  subscriptionStartDate : "subscriptionStartDate?",
+  subscriptionStartDate: "subscriptionStartDate?",
   subscriptionEndDate: "subscriptionEndDate?",
   userQuotas: "userQuotas?",
   communityAdditionalData: "communityAdditionalData?",
@@ -81,7 +94,12 @@ const communitydtoToEntityJson = {
   group: "group?",
   channel: "channel?",
   CommunityUrl: "CommunityUrl?",
-  isActive:"isActive?"
+  communityUrl: "communityUrl?",
+  isActive: "isActive?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?",
 };
 
 module.exports.communityentityJson = communityentityJson;
@@ -89,17 +107,13 @@ module.exports.communitydtoJson = communitydtoJson;
 module.exports.communityentityToDtoJson = communityentityToDtoJson;
 module.exports.communitydtoToEntityJson = communitydtoToEntityJson;
 // export const Maps {
-  
-  
-  
-  
 
-  // constructor() {
-  //   this.entityJson = 
-  //   this.dtoJson = 
-  //   this.entityToJson = 
-  //   this.dtoToEntityJson = 
+// constructor() {
+//   this.entityJson =
+//   this.dtoJson =
+//   this.entityToJson =
+//   this.dtoToEntityJson =
 
-  // }
+// }
 
 // }

@@ -7,6 +7,10 @@ const enrolledMeetingentityJson = {
     hostUsuserMeetingProviderMeetingerId: "hostUsuserMeetingProviderMeetingerId?",
     user: "user?",
     userMeetingProviderMeeting: "userMeetingProviderMeeting?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -19,6 +23,10 @@ const enrolledMeetingdtoJson = {
     hostUsuserMeetingProviderMeetingerId: "hostUsuserMeetingProviderMeetingerId?",
     user: "user?",
     userMeetingProviderMeeting: "userMeetingProviderMeeting?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -31,6 +39,10 @@ const enrolledMeetingentityToDtoJson = {
     hostUsuserMeetingProviderMeetingerId: "hostUsuserMeetingProviderMeetingerId?",
     user: "user?",
     userMeetingProviderMeeting: "userMeetingProviderMeeting?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -43,6 +55,10 @@ const enrolledMeetingdtoToEntityJson = {
     hostUsuserMeetingProviderMeetingerId: "hostUsuserMeetingProviderMeetingerId?",
     user: "user?",
     userMeetingProviderMeeting: "userMeetingProviderMeeting?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };

@@ -7,6 +7,10 @@ const userMeetingProvider_MeetingentityJson = {
   meetingType: "meetingType?",
   meetingProviderId : "meetingProviderId?",
   userMeetingProvider: "userMeetingProvider?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -19,6 +23,10 @@ const userMeetingProvider_MeetingdtoJson = {
   meetingType: "meetingType?",
   meetingProviderId : "meetingProviderId?",
   userMeetingProvider: "userMeetingProvider?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -31,6 +39,10 @@ const userMeetingProvider_MeetingentityToDtoJson = {
   meetingType: "meetingType?",
   meetingProviderId : "meetingProviderId?",
   userMeetingProvider: "userMeetingProvider?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };
@@ -43,6 +55,10 @@ const userMeetingProvider_MeetingdtoToEntityJson = {
   meetingType: "meetingType?",
   meetingProviderId : "meetingProviderId?",
   userMeetingProvider: "userMeetingProvider?",
+  ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
     
 };

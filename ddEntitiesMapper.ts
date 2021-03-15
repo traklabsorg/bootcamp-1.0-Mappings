@@ -5,6 +5,10 @@ const ddEntityentityJson = {
     entityDetails: "entityDetails?",
     businessEvent: "businessEvent?",
     businessEventSubscriber: "businessEventSubscriber?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -15,6 +19,10 @@ const ddEntitydtoJson = {
     entityDetails: "entityDetails?",
     businessEvent: "businessEvent?",
     businessEventSubscriber: "businessEventSubscriber?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -25,6 +33,10 @@ const ddEntityentityToDtoJson = {
     entityDetails: "entityDetails?",
     businessEvent: "businessEvent?",
     businessEventSubscriber: "businessEventSubscriber?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
@@ -35,6 +47,10 @@ const ddEntitydtoToEntityJson = {
     entityDetails: "entityDetails?",
     businessEvent: "businessEvent?",
     businessEventSubscriber: "businessEventSubscriber?",
+    ModifiedBy: "ModifiedBy?",
+  CreatedBy: "CreatedBy?",
+  CreationDate: "CreationDate?",
+  ModifiedDate: "ModifiedDate?"
     //SocketId: "SocketId?",
       
   };
