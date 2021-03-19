@@ -69,6 +69,9 @@ const channelGroupBasedOnChannelMapper = {
   channel_id : "channelId?",
   channel_name : "channelName?",
   label_name : "labelName?",
+  group_creation_date : "groupCreationDate?",
+  group_profile_image_url : "groupProfileImageUrl?",
+  group_cover_image_url : "groupCoverImageUrl?",
   totalrecords : "totalRecords?"
 }
 
