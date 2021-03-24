@@ -32,7 +32,7 @@ const channelBillPlandtoJson = {
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
   CreationDate: "CreationDate?",
-  ModifiedDate: "ModifiedDate?",
+  ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
 };
 
