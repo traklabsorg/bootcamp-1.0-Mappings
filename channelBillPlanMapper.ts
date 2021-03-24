@@ -1,78 +1,82 @@
 
 const channelBillPlanentityJson = {
-  Id:"Id?",
-  additionalDetails : "additionalDetails?",
-channelBillPlanDetails : "channelBillPlanDetails?",
-planStartDate : "planStartDate?",
-planEndDate : "planEndDate?",
-channelId : "channelId?",
-planId : "planId?",
-channel: "channel?",
-plan: "plan?",
-subscription: "subscription?",
-ModifiedBy: "ModifiedBy?",
+  Id: "Id?",
+  additionalDetails: "additionalDetails?",
+  channelBillPlanDetails: "channelBillPlanDetails?",
+  planStartDate: "planStartDate?",
+  planEndDate: "planEndDate?",
+  channelId: "channelId?",
+  planId: "planId?",
+  channel: "channel?",
+  plan: "plan?",
+  price: "price",
+  subscription: "subscription?",
+  ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
   CreationDate: "CreationDate?",
   ModifiedDate: "ModifiedDate?"
-//SocketId: "SocketId?",
-  
+  //SocketId: "SocketId?",
+
 };
 
 const channelBillPlandtoJson = {
-  Id:"Id?",
-  additionalDetails : "additionalDetails?",
-channelBillPlanDetails : "channelBillPlanDetails?",
-planStartDate : "planStartDate?",
-planEndDate : "planEndDate?",
-channelId : "channelId?",
-planId : "planId?",
-channel: "channel?",
-plan: "plan?",
-subscription: "subscription?",
-ModifiedBy: "ModifiedBy?",
+  Id: "Id?",
+  additionalDetails: "additionalDetails?",
+  channelBillPlanDetails: "channelBillPlanDetails?",
+  planStartDate: "planStartDate?",
+  planEndDate: "planEndDate?",
+  channelId: "channelId?",
+  planId: "planId?",
+  channel: "channel?",
+  plan: "plan?",
+  price: "price",
+  subscription: "subscription?",
+  ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
   CreationDate: "CreationDate?",
   ModifiedDate: "ModifiedDate?"
-//SocketId: "SocketId?",
-  
+  //SocketId: "SocketId?",
+
 };
 
 const channelBillPlanentityToDtoJson = {
-  Id:"Id?",
-  additionalDetails : "additionalDetails?",
-channelBillPlanDetails : "channelBillPlanDetails?",
-planStartDate : "planStartDate?",
-planEndDate : "planEndDate?",
-channelId : "channelId?",
-planId : "planId?",
-channel: "channel?",
-plan: "plan?",
-subscription: "subscription?",
-ModifiedBy: "ModifiedBy?",
+  Id: "Id?",
+  additionalDetails: "additionalDetails?",
+  channelBillPlanDetails: "channelBillPlanDetails?",
+  planStartDate: "planStartDate?",
+  planEndDate: "planEndDate?",
+  channelId: "channelId?",
+  planId: "planId?",
+  channel: "channel?",
+  plan: "plan?",
+  price: "price",
+  subscription: "subscription?",
+  ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
   CreationDate: "CreationDate?",
   ModifiedDate: "ModifiedDate?"
-//SocketId: "SocketId?",
-  
+  //SocketId: "SocketId?",
+
 };
 
 const channelBillPlandtoToEntityJson = {
-  Id:"Id?",
-  additionalDetails : "additionalDetails?",
-channelBillPlanDetails : "channelBillPlanDetails?",
-planStartDate : "planStartDate?",
-planEndDate : "planEndDate?",
-channelId : "channelId?",
-planId : "planId?",
-channel: "channel?",
-plan: "plan?",
-subscription: "subscription?",
-ModifiedBy: "ModifiedBy?",
+  Id: "Id?",
+  additionalDetails: "additionalDetails?",
+  channelBillPlanDetails: "channelBillPlanDetails?",
+  planStartDate: "planStartDate?",
+  planEndDate: "planEndDate?",
+  channelId: "channelId?",
+  planId: "planId?",
+  channel: "channel?",
+  plan: "plan?",
+  price: "price",
+  subscription: "subscription?",
+  ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
   CreationDate: "CreationDate?",
   ModifiedDate: "ModifiedDate?"
-//SocketId: "SocketId?",
-  
+  //SocketId: "SocketId?",
+
 };
 
 module.exports.channelBillPlanentityJson = channelBillPlanentityJson;
