@@ -91,6 +91,20 @@ const channeldtoToEntityJson= {
   ModifiedDate: "ModifiedDate?"
 };
 
+const channelDetailsReportMapper = {
+  user_id : "userId?",
+  group_name : "groupName?", 
+  user_name : "userName?", 
+  first_name : "firstName?",
+  last_name : "lastName?",
+  account_status : "accountStatus?",
+  channel_name : "channelName?",
+  channel_creation_timestamp : "channelCreationTimestamp?",
+	channel_status : "channelStatus?",
+	number_of_lessons : "numberOfLessons?",
+	number_of_courses : "numberOfCourses?"
+}
+
 module.exports.channelentityJson = channelentityJson;
 module.exports.channeldtoJson = channeldtoJson;
 module.exports.channelentityToDtoJson = channelentityToDtoJson;
