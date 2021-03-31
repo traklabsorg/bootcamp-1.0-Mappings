@@ -133,6 +133,23 @@ const userdtoToEntityJson = {
   ModifiedDate: "ModifiedDate?"
 };
 
+const userDetailsReportMapper = {
+  user_id : "userId?",
+  group_name : "groupName?", 
+  user_name : "userName?", 
+  first_name : "firstName?",
+  last_name : "lastName?",
+  account_status : "accountStatus?",
+  channel_name : "channelName?",
+  access_rights_level : "accessRightsLevel?",
+	account_creation_timestamp : "actionCreationTimestamp?",
+	number_of_joined_channels : "numberOfJoinedChannels?",
+	joined_channel_ids : "joinedChannelIds?",
+	joined_channel_names : "joinedChannelNames?",
+	last_login : "lastLogin?"
+}
+
+module.exports.userDetailsReportMapper = userDetailsReportMapper;
 module.exports.userentityJson = userentityJson;
 module.exports.userdtoJson = userdtoJson;
 module.exports.userentityToDtoJson = userentityToDtoJson;
