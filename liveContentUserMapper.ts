@@ -1,5 +1,4 @@
 const liveContentUserentityJson = {
-  Id: "Id?",
   additionalDetails: "additionalDetails?",
   liveContentId: "liveContentId?",
   userId: "userId?",
