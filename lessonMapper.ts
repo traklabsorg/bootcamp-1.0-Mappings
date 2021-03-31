@@ -99,6 +99,39 @@ const lessonBasedOnChannelMapper = {
   totalrecords : "totalRecords?"
 }
 
+const lessonInteractionReportMapper = {
+  user_id : "userId?",
+  group_name : "groupName?", 
+  user_name : "userName?", 
+  first_name : "firstName?",
+  last_name : "lastName?",
+  account_status : "accountStatus?",
+  channel_name : "channelName?",
+  lesson_id : "lessonId?",
+  publication_id : "publicationId?",
+  lesson_title : "lessonTitle?",
+  time_opened : "timeOpened?",
+  time_completed : "timeCompleted?"
+}
+
+const lessonInteractionOverviewMapper = {
+  user_id : "userId?",
+  group_name : "groupName?", 
+  user_name : "userName?", 
+  first_name : "firstName?",
+  last_name : "lastName?",
+  account_status : "accountStatus?",
+  channel_name : "channelName?",
+  lessons_started : "lessonsStarted?",
+  lessons_completed : "lessonsCompleted?",
+  lesson_id : "lessonId?",
+  total_lesson_points : "totalLessonPoints?",
+  total_lesson_points_covered : "totalLessonPointsCovered?",
+  total_records : "totalRecords?"
+}
+
+module.exports.lessonInteractionOverviewMapper = lessonInteractionOverviewMapper;
+module.exports.lessonInteractionReportMapper = lessonInteractionReportMapper;
 module.exports.lessonentityJson = lessonentityJson;
 module.exports.lessondtoJson = lessondtoJson;
 module.exports.lessonentityToDtoJson = lessonentityToDtoJson;
