@@ -1,15 +1,15 @@
 
 const userentityJson = {
-  Id:"Id?",
-  userName : "userName?",
+  Id: "Id?",
+  userName: "userName?",
   communityId: "communityId?",
-  userType : "userType?",
+  userType: "userType?",
   userDetails: "userDetails?",
   userEmail: "userEmail?",
   userImage: "userImage?",
   isActive: "isActive?",
   lastLogonDateTime: "lastLogonDateTime?",
-  userAdditionalDetails : "userAdditionalDetails?",
+  userAdditionalDetails: "userAdditionalDetails?",
   liveContentUser: "liveContentUser?",
   userMeetingProvider: "userMeetingProvider?",
   groupUser: "groupUser?",
@@ -18,12 +18,14 @@ const userentityJson = {
   lessonDataUser: "lessonDataUser?",
   community: "community?",
   liveContent: "liveContent?",
-  
+  paymentInfo: "paymentInfo?",
+
+
   //SocketId: "SocketId?",
-  
+
   externalUserId: "externalUserId?",
   externalTenantUserId: "externalTenantUserId?",
-  externalTenantUserAppId:"externalTenantUserAppId?",
+  externalTenantUserAppId: "externalTenantUserAppId?",
   channelUser: "channelUser?",
   sectionReview: "sectionReview?",
   payment: "payment?",
@@ -31,20 +33,20 @@ const userentityJson = {
   CreatedBy: "CreatedBy?",
   CreationDate: "CreationDate?",
   ModifiedDate: "ModifiedDate?"
-    
+
 };
 
 const userdtoJson = {
-  Id:"Id?",
-  userName : "userName?",
+  Id: "Id?",
+  userName: "userName?",
   communityId: "communityId?",
-  userType : "userType?",
+  userType: "userType?",
   userDetails: "userDetails?",
   userEmail: "userEmail?",
   userImage: "userImage?",
   isActive: "isActive?",
   lastLogonDateTime: "lastLogonDateTime?",
-  userAdditionalDetails : "userAdditionalDetails?",
+  userAdditionalDetails: "userAdditionalDetails?",
   liveContentUser: "liveContentUser?",
   userMeetingProvider: "userMeetingProvider?",
   groupUser: "groupUser?",
@@ -53,11 +55,13 @@ const userdtoJson = {
   lessonDataUser: "lessonDataUser?",
   community: "community?",
   liveContent: "liveContent?",
+  paymentInfo: "paymentInfo?",
+
   //SocketId: "SocketId?",
-  
+
   externalUserId: "externalUserId?",
   externalTenantUserId: "externalTenantUserId?",
-  externalTenantUserAppId:"externalTenantUserAppId?",
+  externalTenantUserAppId: "externalTenantUserAppId?",
   channelUser: "channelUser?",
   sectionReview: "sectionReview?",
   payment: "payment?",
@@ -68,16 +72,16 @@ const userdtoJson = {
 };
 
 const userentityToDtoJson = {
-  Id:"Id?",
-  userName : "userName?",
+  Id: "Id?",
+  userName: "userName?",
   communityId: "communityId?",
-  userType : "userType?",
+  userType: "userType?",
   userDetails: "userDetails?",
   userEmail: "userEmail?",
   userImage: "userImage?",
   isActive: "isActive?",
   lastLogonDateTime: "lastLogonDateTime?",
-  userAdditionalDetails : "userAdditionalDetails?",
+  userAdditionalDetails: "userAdditionalDetails?",
   liveContentUser: "liveContentUser?",
   userMeetingProvider: "userMeetingProvider?",
   groupUser: "groupUser?",
@@ -86,11 +90,13 @@ const userentityToDtoJson = {
   lessonDataUser: "lessonDataUser?",
   community: "community?",
   liveContent: "liveContent?",
+  paymentInfo: "paymentInfo?",
+
   //SocketId: "SocketId?",
-  
+
   externalUserId: "externalUserId?",
   externalTenantUserId: "externalTenantUserId?",
-  externalTenantUserAppId:"externalTenantUserAppId?",
+  externalTenantUserAppId: "externalTenantUserAppId?",
   channelUser: "channelUser?",
   sectionReview: "sectionReview?",
   payment: "payment?",
@@ -101,16 +107,16 @@ const userentityToDtoJson = {
 };
 
 const userdtoToEntityJson = {
-  Id:"Id?",
-  userName : "userName?",
+  Id: "Id?",
+  userName: "userName?",
   communityId: "communityId?",
-  userType : "userType?",
+  userType: "userType?",
   userDetails: "userDetails?",
   userEmail: "userEmail?",
   userImage: "userImage?",
   isActive: "isActive?",
   lastLogonDateTime: "lastLogonDateTime?",
-  userAdditionalDetails : "userAdditionalDetails?",
+  userAdditionalDetails: "userAdditionalDetails?",
   liveContentUser: "liveContentUser?",
   userMeetingProvider: "userMeetingProvider?",
   groupUser: "groupUser?",
@@ -119,11 +125,13 @@ const userdtoToEntityJson = {
   lessonDataUser: "lessonDataUser?",
   community: "community?",
   liveContent: "liveContent?",
+  paymentInfo: "paymentInfo?",
+
   //SocketId: "SocketId?",
-  
+
   externalUserId: "externalUserId?",
   externalTenantUserId: "externalTenantUserId?",
-  externalTenantUserAppId:"externalTenantUserAppId?",
+  externalTenantUserAppId: "externalTenantUserAppId?",
   channelUser: "channelUser?",
   sectionReview: "sectionReview?",
   payment: "payment?",
@@ -134,19 +142,19 @@ const userdtoToEntityJson = {
 };
 
 const userDetailsReportMapper = {
-  user_id : "userId?",
-  group_name : "groupName?", 
-  user_name : "userName?", 
-  first_name : "firstName?",
-  last_name : "lastName?",
-  account_status : "accountStatus?",
-  channel_name : "channelName?",
-  access_rights_level : "accessRightsLevel?",
-	account_creation_timestamp : "actionCreationTimestamp?",
-	number_of_joined_channels : "numberOfJoinedChannels?",
-	joined_channel_ids : "joinedChannelIds?",
-	joined_channel_names : "joinedChannelNames?",
-	last_login : "lastLogin?"
+  user_id: "userId?",
+  group_name: "groupName?",
+  user_name: "userName?",
+  first_name: "firstName?",
+  last_name: "lastName?",
+  account_status: "accountStatus?",
+  channel_name: "channelName?",
+  access_rights_level: "accessRightsLevel?",
+  account_creation_timestamp: "actionCreationTimestamp?",
+  number_of_joined_channels: "numberOfJoinedChannels?",
+  joined_channel_ids: "joinedChannelIds?",
+  joined_channel_names: "joinedChannelNames?",
+  last_login: "lastLogin?"
 }
 
 module.exports.userDetailsReportMapper = userDetailsReportMapper;
