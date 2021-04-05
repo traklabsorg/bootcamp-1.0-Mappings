@@ -107,6 +107,14 @@ const sectionentityToDtoJson = {
     time_published : "timePublished?"
   }
   
+  const topCoursesMapper = {
+    title : "title?",
+    no_of_views : "noOfViews?" , 
+    completion_rate : "completionRate?", 
+    total_records : "totalRecords?" 
+  }
+  
+  module.exports.topCoursesMapper = topCoursesMapper;
   module.exports.sectionInteractionReportMapper = sectionInteractionReportMapper;
   module.exports.sectionentityJson = sectionentityJson;
   module.exports.sectiondtoJson = sectiondtoJson;

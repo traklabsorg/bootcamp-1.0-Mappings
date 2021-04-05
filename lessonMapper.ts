@@ -145,6 +145,14 @@ const lessonPublicationReportMapper = {
   time_published : "timePublished?"
 }
 
+const topLessonMapper = {
+  title : "title?",
+  no_of_views : "noOfViews?" , 
+  completion_rate : "completionRate?", 
+  total_records : "totalRecords?" 
+}
+
+module.exports.topLessonMapper = topLessonMapper;
 module.exports.lessonPublicationReportMapper = lessonPublicationReportMapper;
 module.exports.lessonInteractionOverviewMapper = lessonInteractionOverviewMapper;
 module.exports.lessonInteractionReportMapper = lessonInteractionReportMapper;
