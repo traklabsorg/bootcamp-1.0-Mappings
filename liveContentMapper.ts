@@ -113,12 +113,20 @@ const webinarDetailsReportMapper = {
   last_name : "lastName?",
   account_status : "accountStatus?",
   scheduled_date_time: "scheduledDateTime?",
-	number_of_attendees: "numberOfAttendees",
+	number_of_attendees: "numberOfAttendees?",
 	webinar_type : "webinarType?"
+};
+
+const topWebinarsMapper = {
+  
+  title : "title?" ,
+  no_of_attendees : "noOfAttendees?", 
+  total_records : "totalRecords?" 
 };
 
 
 
+module.exports.topWebinarsMapper = topWebinarsMapper;
 module.exports.webinarDetailsReportMapper = webinarDetailsReportMapper;
 module.exports.liveContententityJson = liveContententityJson;
 module.exports.liveContentdtoJson = liveContentdtoJson;
