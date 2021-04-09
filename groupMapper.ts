@@ -1,78 +1,82 @@
 
 const groupentityJson = {
-  Id:"Id?",
-  groupName : "groupName?",
-  groupType : "groupType?",
-  groupDetails : "groupDetails?",
+  Id: "Id?",
+  groupName: "groupName?",
+  groupType: "groupType?",
+  groupDetails: "groupDetails?",
   groupPayerType: "groupPayerType?",
-  communityId:"communityId",
+  communityId: "communityId",
   isActive: "isActive?",
   channelGroup: "channelGroup?",
-  groupUser : "groupUser?",
-  community : "community?",
+  groupUser: "groupUser?",
+  communityCardId: "communityCardId?",
+  community: "community?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
   CreationDate: "CreationDate?",
   ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
-    
+
 };
 
 const groupdtoJson = {
-  Id:"Id?",
-  groupName : "groupName?",
-  groupType : "groupType?",
-  groupDetails : "groupDetails?",
+  Id: "Id?",
+  groupName: "groupName?",
+  groupType: "groupType?",
+  groupDetails: "groupDetails?",
   groupPayerType: "groupPayerType?",
-  communityId:"communityId",
+  communityId: "communityId",
   isActive: "isActive?",
   channelGroup: "channelGroup?",
-  groupUser : "groupUser?",
-  community : "community?",
+  groupUser: "groupUser?",
+  communityCardId: "communityCardId?",
+  community: "community?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
   CreationDate: "CreationDate?",
   ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
-    
+
 };
 
 const groupentityToDtoJson = {
-  Id:"Id?",
-  groupName : "groupName?",
-  groupType : "groupType?",
-  groupDetails : "groupDetails?",
+  Id: "Id?",
+  groupName: "groupName?",
+  groupType: "groupType?",
+  groupDetails: "groupDetails?",
   groupPayerType: "groupPayerType?",
-  communityId:"communityId",
+  communityId: "communityId",
   isActive: "isActive?",
   channelGroup: "channelGroup?",
-  groupUser : "groupUser?",
-  community : "community?",
+  groupUser: "groupUser?",
+  communityCardId: "communityCardId?",
+  community: "community?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
   CreationDate: "CreationDate?",
   ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
-    
+
 };
 
 const groupdtoToEntityJson = {
-  Id:"Id?",
-  groupName : "groupName?",
-  groupType : "groupType?",
-  groupDetails : "groupDetails?",
+  Id: "Id?",
+  groupName: "groupName?",
+  groupType: "groupType?",
+  groupDetails: "groupDetails?",
   groupPayerType: "groupPayerType?",
-  communityId:"communityId",
+  communityId: "communityId",
   isActive: "isActive?",
   channelGroup: "channelGroup?",
-  groupUser : "groupUser?",
-  community : "community?",
+  groupUser: "groupUser?",
+  communityCardId: "communityCardId?",
+  community: "community?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
   CreationDate: "CreationDate?",
   ModifiedDate: "ModifiedDate?"
   //SocketId: "SocketId?",
-    
+
 };
 
 module.exports.groupentityJson = groupentityJson;
