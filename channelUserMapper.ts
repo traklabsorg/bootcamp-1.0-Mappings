@@ -81,7 +81,7 @@ const channelUserBasedOnChannelMapper = {
   group_name : "groupName?",
   channel_id : "channelId?",
   channel_name : "channelName?",
-  role_names : "roleNames?",
+  role_ids : "roleIds?",
   type_of_association : "typeOfAssociation?",
   label_name : "labelName?",
   totalrecords : "totalRecords?"

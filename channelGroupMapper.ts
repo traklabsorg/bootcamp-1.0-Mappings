@@ -92,8 +92,8 @@ const managedContentBasedOnChannelMapper = {
 
 const channelUsersByGroupMapper = {
   user_id : "userId?", 
-  username : "userName?", 
-	groupname : "groupName?", 
+  user_name : "userName?", 
+	group_name : "groupName?", 
 	channel_id : "channelId?", 
 	channel_name : "channelName?", 
 	role_names : "roleNames?", 
