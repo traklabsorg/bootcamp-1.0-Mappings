@@ -9,7 +9,7 @@ const groupentityJson = {
   isActive: "isActive?",
   channelGroup: "channelGroup?",
   groupUser: "groupUser?",
-  communityCardId: "communityCardId?",
+  
   community: "community?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
@@ -29,7 +29,7 @@ const groupdtoJson = {
   isActive: "isActive?",
   channelGroup: "channelGroup?",
   groupUser: "groupUser?",
-  communityCardId: "communityCardId?",
+  
   community: "community?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
@@ -49,7 +49,7 @@ const groupentityToDtoJson = {
   isActive: "isActive?",
   channelGroup: "channelGroup?",
   groupUser: "groupUser?",
-  communityCardId: "communityCardId?",
+  
   community: "community?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
@@ -69,7 +69,7 @@ const groupdtoToEntityJson = {
   isActive: "isActive?",
   channelGroup: "channelGroup?",
   groupUser: "groupUser?",
-  communityCardId: "communityCardId?",
+  
   community: "community?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",

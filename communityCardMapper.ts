@@ -10,7 +10,7 @@ const communityCardentityJson = {
   cvv: "cvv?",
   additionalData: "additionalData?",
   community: "community?",
-  group: "group?",
+  isDefault:"isDefault",
   cardImage: "cardImage?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
@@ -30,7 +30,8 @@ const communityCarddtoJson = {
   cvv: "cvv?",
   additionalData: "additionalData?",
   community: "community?",
-  group: "group?",
+  isDefault:"isDefault",
+
   cardImage: "cardImage?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
@@ -49,7 +50,8 @@ const communityCardentityToDtoJson = {
   cvv: "cvv?",
   additionalData: "additionalData?",
   community: "community?",
-  group: "group?",
+  isDefault:"isDefault",
+
   cardImage: "cardImage?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
@@ -68,7 +70,8 @@ const communityCarddtoToEntityJson = {
   cvv: "cvv?",
   additionalData: "additionalData?",
   community: "community?",
-  group: "group?",
+isDefault:"isDefault",
+
   cardImage: "cardImage?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
