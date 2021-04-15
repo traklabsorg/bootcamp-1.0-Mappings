@@ -113,7 +113,19 @@ const sectionentityToDtoJson = {
     completion_rate : "completionRate?", 
     total_records : "totalRecords?" 
   }
+
+  const topCoursesDaywiseMapper = {
+    context_date : "contextDate?",
+    title : "title?", 
+    no_of_views : "noOfViews?", 
+    completion_rate : "completionRate?",
+    completion_numbers: "completedNumbers?",
+    opened_numbers : "openedNumbers?",
+    total_course_published : "totalCoursePublished?",
+    totalrecords : "totalrecords?"  
+  }
   
+  module.exports.topCoursesDaywiseMapper = topCoursesDaywiseMapper;
   module.exports.topCoursesMapper = topCoursesMapper;
   module.exports.sectionInteractionReportMapper = sectionInteractionReportMapper;
   module.exports.sectionentityJson = sectionentityJson;
