@@ -7,7 +7,7 @@ const channelentityJson = {
   channelDetails : "channelDetails?",
   communityId: "communityId?",
   channelSequenceId: "channelSequenceId?",
-
+  isCommunityChannel: "isCommunityChannel?",
   community: "community?",
   channelBillPlan: "channelBillPlan?",
   section: "section?",
@@ -32,6 +32,7 @@ const channeldtoJson = {
   channelSequenceId: "channelSequenceId?",
 
   community: "community?",
+  isCommunityChannel: "isCommunityChannel?",
   channelBillPlan: "channelBillPlan?",
   section: "section?",
   // lessonDataUsers: "lessonDataUsers?",
@@ -52,6 +53,7 @@ const channelentityToDtoJson = {
   isDraft: "isDraft?",
   channelDetails : "channelDetails?",
   communityId: "communityId?",
+  isCommunityChannel: "isCommunityChannel?",
   channelSequenceId: "channelSequenceId?",
 
   community: "community?",
@@ -78,6 +80,7 @@ const channeldtoToEntityJson= {
   channelSequenceId: "channelSequenceId?",
 
   community: "community?",
+  isCommunityChannel: "isCommunityChannel?",
   channelBillPlan: "channelBillPlan?",
   section: "section?",
   // lessonDataUsers: "lessonDataUsers?",
