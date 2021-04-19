@@ -152,6 +152,18 @@ const topLessonMapper = {
   total_records : "totalRecords?" 
 }
 
+const topLessonDaywiseMapper = {
+  context_date : "contextDate?",
+	title : "title?", 
+	no_of_views : "noOfViews?", 
+	completion_rate : "completionRate?",
+	completion_numbers: "completedNumbers?",
+  opened_numbers : "openedNumbers?",
+	total_lesson_published : "totalLessonPublished?",
+  totalrecords : "totalrecords?"  
+}
+
+module.exports.topLessonDaywiseMapper = topLessonDaywiseMapper;
 module.exports.topLessonMapper = topLessonMapper;
 module.exports.lessonPublicationReportMapper = lessonPublicationReportMapper;
 module.exports.lessonInteractionOverviewMapper = lessonInteractionOverviewMapper;
