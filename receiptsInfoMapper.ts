@@ -20,7 +20,8 @@ const receiptsInfoMapper = {
 	// stripe_fees : "stripeFees?",
 	fee_details : "feeDetails?",
 	currency : "currency?",
-	invoice_url : "invoiceUrl?"
+	invoice_url : "invoiceUrl?",
+	channel_image : "channelImage?"
   }
 
 
