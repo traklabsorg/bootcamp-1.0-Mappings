@@ -124,7 +124,21 @@ const sectionentityToDtoJson = {
     total_course_published : "totalCoursePublished?",
     totalrecords : "totalrecords?"  
   }
+
+  const sectionDailyEngagementMapper = {
+    hourValue: "hourValue?",
+    noOfUniqueAccesses: "noOfUniqueAccesses?",
+    totalrecords : "totalrecords?"  
+  }
+
+  const sectionWeeklyEngagementMapper = {
+    weekValueInString : "weekValueInString?",
+    noOfUniqueAccesses: "noOfUniqueAccesses?",
+    totalrecords : "totalrecords?"  
+  }
   
+  module.exports.sectionDailyEngagementMapper = sectionDailyEngagementMapper;
+  module.exports.sectionWeeklyEngagementMapper = sectionWeeklyEngagementMapper;
   module.exports.topCoursesDaywiseMapper = topCoursesDaywiseMapper;
   module.exports.topCoursesMapper = topCoursesMapper;
   module.exports.sectionInteractionReportMapper = sectionInteractionReportMapper;

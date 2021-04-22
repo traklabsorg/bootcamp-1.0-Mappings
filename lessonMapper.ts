@@ -163,6 +163,20 @@ const topLessonDaywiseMapper = {
   totalrecords : "totalrecords?"  
 }
 
+const lessonDailyEngagementMapper = {
+  hourValue: "hourValue?",
+  noOfUniqueAccesses: "noOfUniqueAccesses?",
+  totalrecords : "totalrecords?"  
+}
+
+const lessonWeeklyEngagementMapper = {
+  weekValueInString : "weekValueInString?",
+  noOfUniqueAccesses: "noOfUniqueAccesses?",
+  totalrecords : "totalrecords?"  
+}
+
+module.exports.lessonWeeklyEngagementMapper = lessonWeeklyEngagementMapper;
+module.exports.lessonDailyEngagementMapper = lessonDailyEngagementMapper;
 module.exports.topLessonDaywiseMapper = topLessonDaywiseMapper;
 module.exports.topLessonMapper = topLessonMapper;
 module.exports.lessonPublicationReportMapper = lessonPublicationReportMapper;
