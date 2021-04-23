@@ -120,6 +120,7 @@ const webinarDetailsReportMapper = {
 const topWebinarsMapper = {
   
   title : "title?" ,
+  coverImage : "coverImage?",
   no_of_attendees : "noOfAttendees?", 
   total_records : "totalRecords?" 
 };

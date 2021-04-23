@@ -147,6 +147,7 @@ const lessonPublicationReportMapper = {
 
 const topLessonMapper = {
   title : "title?",
+  coverImage : "coverImage?",
   no_of_views : "noOfViews?" , 
   completion_rate : "completionRate?", 
   total_records : "totalRecords?" 
