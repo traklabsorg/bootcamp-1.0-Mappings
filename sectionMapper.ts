@@ -109,10 +109,10 @@ const sectionentityToDtoJson = {
   
   const topCoursesMapper = {
     title : "title?",
-    coverImage : "coverImage?",
+    cover_image : "coverImage?",
     no_of_views : "noOfViews?" , 
     completion_rate : "completionRate?", 
-    total_records : "totalRecords?" 
+    totalrecords : "totalRecords?" 
   }
 
   const topCoursesDaywiseMapper = {
@@ -127,15 +127,15 @@ const sectionentityToDtoJson = {
   }
 
   const sectionDailyEngagementMapper = {
-    hourValue: "hourValue?",
-    noOfUniqueAccesses: "noOfUniqueAccesses?",
-    totalrecords : "totalrecords?"  
+    hour_value: "hourValue?",
+    no_of_unique_accesses: "noOfUniqueAccesses?",
+    totalrecords : "totalrecords?" 
   }
 
   const sectionWeeklyEngagementMapper = {
-    weekValueInString : "weekValueInString?",
-    noOfUniqueAccesses: "noOfUniqueAccesses?",
-    totalrecords : "totalrecords?"  
+    week_value_in_string : "weekValueInString?",
+    no_of_unique_accesses: "noOfUniqueAccesses?",
+    totalrecords : "totalrecords?"
   }
   
   module.exports.sectionDailyEngagementMapper = sectionDailyEngagementMapper;
