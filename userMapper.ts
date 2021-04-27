@@ -165,8 +165,9 @@ const profileDataMapper = {
   consumed_courses: "consumedCourses?",
   consumed_lessons: "consumedLessons?",
   consumed_webinars: "consumedWebinars?",
- // group_rank?: "groupRank?",
-  //totalPoints?: "totalPoints?",
+  group_rank: "groupRank?",
+  total_points: "totalPoints?",
+  total_member_in_group: "totalMemberInGroup?",
   channel_points_data: "channelPointsData?"
 }
 
