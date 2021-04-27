@@ -158,7 +158,7 @@ const topLessonDaywiseMapper = {
 	title : "title?", 
 	no_of_views : "noOfViews?", 
 	completion_rate : "completionRate?",
-	completion_numbers: "completedNumbers?",
+	completed_numbers: "completedNumbers?",
   opened_numbers : "openedNumbers?",
 	total_lesson_published : "totalLessonPublished?",
   totalrecords : "totalrecords?"  

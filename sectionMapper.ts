@@ -120,7 +120,7 @@ const sectionentityToDtoJson = {
     title : "title?", 
     no_of_views : "noOfViews?", 
     completion_rate : "completionRate?",
-    completion_numbers: "completedNumbers?",
+    completed_numbers: "completedNumbers?",
     opened_numbers : "openedNumbers?",
     total_course_published : "totalCoursePublished?",
     totalrecords : "totalrecords?"  
