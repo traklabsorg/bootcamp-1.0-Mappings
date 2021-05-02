@@ -120,13 +120,20 @@ const webinarDetailsReportMapper = {
 const topWebinarsMapper = {
   
   title : "title?" ,
-  coverImage : "coverImage?",
+  cover_image : "coverImage?",
   no_of_attendees : "noOfAttendees?", 
-  total_records : "totalRecords?" 
+  totalrecords : "totalRecords?" 
+};
+
+const topWebinarsDaywiseMapper = {
+  
+  context_date : "contextDate?" ,
+  no_of_webinars : "noOfWebinars?", 
+  totalrecords : "totalRecords?" 
 };
 
 
-
+module.exports.topWebinarsDaywiseMapper = topWebinarsDaywiseMapper;
 module.exports.topWebinarsMapper = topWebinarsMapper;
 module.exports.webinarDetailsReportMapper = webinarDetailsReportMapper;
 module.exports.liveContententityJson = liveContententityJson;
