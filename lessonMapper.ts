@@ -147,10 +147,10 @@ const lessonPublicationReportMapper = {
 
 const topLessonMapper = {
   title : "title?",
-  coverImage : "coverImage?",
+  cover_image : "coverImage?",
   no_of_views : "noOfViews?" , 
   completion_rate : "completionRate?", 
-  total_records : "totalRecords?" 
+  totalrecords : "totalRecords?" 
 }
 
 const topLessonDaywiseMapper = {
@@ -158,21 +158,21 @@ const topLessonDaywiseMapper = {
 	title : "title?", 
 	no_of_views : "noOfViews?", 
 	completion_rate : "completionRate?",
-	completion_numbers: "completedNumbers?",
+	completed_numbers: "completedNumbers?",
   opened_numbers : "openedNumbers?",
 	total_lesson_published : "totalLessonPublished?",
   totalrecords : "totalrecords?"  
 }
 
 const lessonDailyEngagementMapper = {
-  hourValue: "hourValue?",
-  noOfUniqueAccesses: "noOfUniqueAccesses?",
+  hour_value: "hourValue?",
+  no_of_unique_accesses: "noOfUniqueAccesses?",
   totalrecords : "totalrecords?"  
 }
 
 const lessonWeeklyEngagementMapper = {
-  weekValueInString : "weekValueInString?",
-  noOfUniqueAccesses: "noOfUniqueAccesses?",
+  week_value_in_string : "weekValueInString?",
+  no_of_unique_accesses: "noOfUniqueAccesses?",
   totalrecords : "totalrecords?"  
 }
 

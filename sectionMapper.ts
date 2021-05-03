@@ -9,6 +9,7 @@ const sectionentityJson = {
     channelId: "channelId?",
     lesson: "lesson?",
     sectionReview: "sectionReview?",
+    isHidden: "isHidden?",
     channel: "channel?",
     ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
@@ -28,6 +29,7 @@ const sectiondtoJson = {
     channelId: "channelId?",
     lesson: "lesson?",
     sectionReview: "sectionReview?",
+    isHidden: "isHidden?",
     channel: "channel?",
     ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
@@ -47,6 +49,7 @@ const sectionentityToDtoJson = {
     channelId: "channelId?",
     lesson: "lesson?",
     sectionReview: "sectionReview?",
+    isHidden: "isHidden?",
     channel: "channel?",
     ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
@@ -66,6 +69,7 @@ const sectionentityToDtoJson = {
     channelId: "channelId?",
     lesson: "lesson?",
     sectionReview: "sectionReview?",
+    isHidden: "isHidden?",
     channel: "channel?",
     ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
@@ -109,10 +113,10 @@ const sectionentityToDtoJson = {
   
   const topCoursesMapper = {
     title : "title?",
-    coverImage : "coverImage?",
+    cover_image : "coverImage?",
     no_of_views : "noOfViews?" , 
     completion_rate : "completionRate?", 
-    total_records : "totalRecords?" 
+    totalrecords : "totalRecords?" 
   }
 
   const topCoursesDaywiseMapper = {
@@ -120,22 +124,22 @@ const sectionentityToDtoJson = {
     title : "title?", 
     no_of_views : "noOfViews?", 
     completion_rate : "completionRate?",
-    completion_numbers: "completedNumbers?",
+    completed_numbers: "completedNumbers?",
     opened_numbers : "openedNumbers?",
     total_course_published : "totalCoursePublished?",
     totalrecords : "totalrecords?"  
   }
 
   const sectionDailyEngagementMapper = {
-    hourValue: "hourValue?",
-    noOfUniqueAccesses: "noOfUniqueAccesses?",
-    totalrecords : "totalrecords?"  
+    hour_value: "hourValue?",
+    no_of_unique_accesses: "noOfUniqueAccesses?",
+    totalrecords : "totalrecords?" 
   }
 
   const sectionWeeklyEngagementMapper = {
-    weekValueInString : "weekValueInString?",
-    noOfUniqueAccesses: "noOfUniqueAccesses?",
-    totalrecords : "totalrecords?"  
+    week_value_in_string : "weekValueInString?",
+    no_of_unique_accesses: "noOfUniqueAccesses?",
+    totalrecords : "totalrecords?"
   }
   
   module.exports.sectionDailyEngagementMapper = sectionDailyEngagementMapper;

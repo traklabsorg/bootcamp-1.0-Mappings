@@ -157,6 +157,21 @@ const userDetailsReportMapper = {
   last_login: "lastLogin?"
 }
 
+const profileDataMapper = {
+  user_id: "userId?",
+  published_courses: "publishedCourses?",
+  published_lessons: "publishedLessons?",
+  published_webinars: "publishedWebinars?",
+  consumed_courses: "consumedCourses?",
+  consumed_lessons: "consumedLessons?",
+  consumed_webinars: "consumedWebinars?",
+  group_rank: "groupRank?",
+  total_points: "totalPoints?",
+  total_member_in_group: "totalMemberInGroup?",
+  channel_points_data: "channelPointsData?"
+}
+
+module.exports.profileDataMapper = profileDataMapper;
 module.exports.userDetailsReportMapper = userDetailsReportMapper;
 module.exports.userentityJson = userentityJson;
 module.exports.userdtoJson = userdtoJson;
