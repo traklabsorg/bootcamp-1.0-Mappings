@@ -7,7 +7,8 @@ const liveContententityJson = {
   startDateTime: "startDateTime?",
   duration: "duration?",
   endDate: "endDate?",
-  recordingURL:"recordingURL?",
+  communityId: "communityId?",
+  recordingURL: "recordingURL?",
   externalMeetingProviderUserId: "externalMeetingProviderUserId?",
   meetingProviderId: "meetingProviderId?",
   userId: "userId?",
@@ -15,7 +16,7 @@ const liveContententityJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
-  liveContentUser:"liveContentUser?",
+  liveContentUser: "liveContentUser?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
   CreationDate: "CreationDate?",
@@ -34,7 +35,8 @@ const liveContentdtoJson = {
   startDateTime: "startDateTime?",
   duration: "duration?",
   endDate: "endDate?",
-  recordingURL:"recordingURL?",
+  communityId: "communityId?",
+  recordingURL: "recordingURL?",
   externalMeetingProviderUserId: "externalMeetingProviderUserId?",
   meetingProviderId: "meetingProviderId?",
   userId: "userId?",
@@ -42,7 +44,7 @@ const liveContentdtoJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
-  liveContentUser:"liveContentUser?",
+  liveContentUser: "liveContentUser?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
   CreationDate: "CreationDate?",
@@ -61,7 +63,8 @@ const liveContententityToDtoJson = {
   startDateTime: "startDateTime?",
   duration: "duration?",
   endDate: "endDate?",
-  recordingURL:"recordingURL?",
+  communityId: "communityId?",
+  recordingURL: "recordingURL?",
   externalMeetingProviderUserId: "externalMeetingProviderUserId?",
   meetingProviderId: "meetingProviderId?",
   userId: "userId?",
@@ -69,7 +72,7 @@ const liveContententityToDtoJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
-  liveContentUser:"liveContentUser?",
+  liveContentUser: "liveContentUser?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
   CreationDate: "CreationDate?",
@@ -88,7 +91,8 @@ const liveContentdtoToEntityJson = {
   startDateTime: "startDateTime?",
   duration: "duration?",
   endDate: "endDate?",
-  recordingURL:"recordingURL?",
+  communityId: "communityId?",
+  recordingURL: "recordingURL?",
   externalMeetingProviderUserId: "externalMeetingProviderUserId?",
   meetingProviderId: "meetingProviderId?",
   userId: "userId?",
@@ -96,7 +100,7 @@ const liveContentdtoToEntityJson = {
   user: "user?",
   hostUsers: "hostUsers?",
   meetingProvider: "meetingProvider?",
-  liveContentUser:"liveContentUser?",
+  liveContentUser: "liveContentUser?",
   ModifiedBy: "ModifiedBy?",
   CreatedBy: "CreatedBy?",
   CreationDate: "CreationDate?",
@@ -105,24 +109,24 @@ const liveContentdtoToEntityJson = {
 
 
 const webinarDetailsReportMapper = {
-  
-  user_id : "userId?",
-  group_name : "groupName?", 
-  user_name : "userName?", 
-  first_name : "firstName?",
-  last_name : "lastName?",
-  account_status : "accountStatus?",
+
+  user_id: "userId?",
+  group_name: "groupName?",
+  user_name: "userName?",
+  first_name: "firstName?",
+  last_name: "lastName?",
+  account_status: "accountStatus?",
   scheduled_date_time: "scheduledDateTime?",
-	number_of_attendees: "numberOfAttendees?",
-	webinar_type : "webinarType?"
+  number_of_attendees: "numberOfAttendees?",
+  webinar_type: "webinarType?"
 };
 
 const topWebinarsMapper = {
-  
-  title : "title?" ,
-  coverImage : "coverImage?",
-  no_of_attendees : "noOfAttendees?", 
-  total_records : "totalRecords?" 
+
+  title: "title?",
+  coverImage: "coverImage?",
+  no_of_attendees: "noOfAttendees?",
+  total_records: "totalRecords?"
 };
 
 
