@@ -78,6 +78,8 @@ const channelUserdtoToEntityJson= {
 const channelUserBasedOnChannelMapper = {
   user_id : "userId?",
   user_name : "userName?",
+  first_name : "firstName?",
+  last_name : "lastName?",
   group_name : "groupName?",
   channel_id : "channelId?",
   channel_name : "channelName?",
