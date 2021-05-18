@@ -108,7 +108,21 @@ const channelDetailsReportMapper = {
 	number_of_courses : "numberOfCourses?"
 }
 
+const channelLatestContentMapper = {
+  lesson_id : "lessonId?",
+	section_id : "sectionId?",
+	channel_title : "channelTitle?", 
+	section_title : "sectionTitle?", 
+	lesson_title : "lessonTitle?", 
+	user_id : "userId?", 
+	user_name : "userName?",
+	first_name : "firstName?",
+	last_name : "lastName?",
+	section_type : "sectionType?"
+}
+
 module.exports.channelentityJson = channelentityJson;
+module.exports.channelLatestContentMapper = channelLatestContentMapper;
 module.exports.channeldtoJson = channeldtoJson;
 module.exports.channelentityToDtoJson = channelentityToDtoJson;
 module.exports.channeldtoToEntityJson = channeldtoToEntityJson;
