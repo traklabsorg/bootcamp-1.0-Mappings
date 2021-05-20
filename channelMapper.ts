@@ -114,10 +114,13 @@ const channelLatestContentMapper = {
 	channel_title : "channelTitle?", 
 	section_title : "sectionTitle?", 
 	lesson_title : "lessonTitle?", 
-	user_id : "userId?", 
-	user_name : "userName?",
-	first_name : "firstName?",
-	last_name : "lastName?",
+  lesson_creator_user_id : "lessonCreatorUserId?",
+  lesson_creator_user_name : "lessonCreatorUserName?",
+  lesson_creator_image : "lessonCreatorImage?", 
+  lesson_cover_image : "lessonCoverImage?", 
+  section_creator_user_id : "sectionCreatorUserId?",
+  section_creator_user_name : "sectionCreatorUserName?",
+  section_creator_image : "sectionCreatorImage?",
 	section_type : "sectionType?"
 }
 
